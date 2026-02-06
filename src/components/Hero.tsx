@@ -112,7 +112,7 @@ export default function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5, delay: 1.2 }}
-        className="absolute bottom-10 flex flex-col items-center gap-2"
+        className="absolute bottom-10 hidden flex-col items-center gap-2 min-[900px]:flex"
       >
         <span className="text-[10px] uppercase tracking-[0.25em] text-foreground-muted">
           {t("Scroll to explore", "Nach unten scrollen")}
