@@ -2,7 +2,11 @@ import OpenAI from "openai";
 import { RESUME_CONTEXT } from "@/lib/resume-context";
 import { NextRequest } from "next/server";
 
-const openai = new OpenAI();
+let _openai: OpenAI | null = null;
+function getOpenAI() {
+  if (!_openai) _openai = new OpenAI();
+  return _openai;
+}
 
 // --- Rate limiter (in-memory, per IP) ---
 const RATE_LIMIT = 20;           // max requests per window
@@ -188,7 +192,7 @@ ${RESUME_CONTEXT}
       { role: "user", content: message },
     ];
 
-    const completion = await openai.chat.completions.create({
+    const completion = await getOpenAI().chat.completions.create({
       model: "gpt-4o",
       temperature: 0.3,
       max_tokens: mode === "fit-check" ? 1500 : 1024,
