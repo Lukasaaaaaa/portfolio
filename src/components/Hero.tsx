@@ -63,13 +63,8 @@ export default function Hero() {
           className="mb-4 text-lg text-accent md:text-xl"
         >
           {t(
-            "From my own startup through hypergrowth into the Mittelstand.",
-            "Vom eigenen Startup über Hypergrowth in den Mittelstand."
-          )}
-          <br />
-          {t(
-            "I help companies digitalize their processes.",
-            "Ich helfe Unternehmen, ihre Prozesse zu digitalisieren."
+            "I build software for German SMBs. Websites, SaaS, AI tools.",
+            "Ich baue Software für den deutschen Mittelstand. Websites, SaaS, KI-Tools."
           )}
         </motion.p>
 

@@ -10,7 +10,13 @@ export default function Skills() {
     {
       title: "Tools & Tech",
       skills: [
+        "Next.js",
+        "React",
+        "TypeScript",
         "Python",
+        "Supabase",
+        "Vercel",
+        "Playwright",
         "Airtable",
         "Zapier",
         "Shopify",

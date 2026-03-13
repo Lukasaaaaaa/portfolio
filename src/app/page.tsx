@@ -7,6 +7,7 @@ import CaseStudies from "@/components/CaseStudies";
 import Recommendations from "@/components/Recommendations";
 import Skills from "@/components/Skills";
 import AskAI from "@/components/AskAI";
+import Products from "@/components/Products";
 import FitCheck from "@/components/FitCheck";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -20,6 +21,7 @@ export default function Home() {
         <About />
         <Services />
         <Experience />
+        <Products />
         <FitCheck />
         <CaseStudies />
         <Recommendations />

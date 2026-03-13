@@ -59,8 +59,8 @@ export default function Services() {
       icon: Code2,
       title: t("Custom Code Solutions", "Individuelle Code-Lösungen"),
       description: t(
-        "Python, Streamlit, API integrations, when no-code isn't enough.",
-        "Python, Streamlit, API-Integrationen, wenn No-Code nicht ausreicht."
+        "Full-stack web applications. Built ertragwerk.de (investment analysis SaaS) and websitepolierer.de (agency platform) from scratch.",
+        "Full-Stack-Webanwendungen. ertragwerk.de (Investment-Analyse-SaaS) und websitepolierer.de (Agentur-Plattform) von Grund auf gebaut."
       ),
     },
   ];
