@@ -11,32 +11,36 @@ export default function Experience() {
     {
       company: t("Self-employed", "Selbstständig"),
       role: t(
-        "Digital Transformation Consulting & Startup Sparring",
-        "Beratung Digitale Transformation & Startup Sparring"
+        "Expansion Compliance & Startup Sparring",
+        "Expansion Compliance & Startup Sparring"
       ),
       location: "Berlin",
       period: t("Mar 2025 – Present", "Mär 2025 – Heute"),
       logo: "/logo-gruenzucker.png",
       logoAlt: "Grünzucker",
       description: t(
-        "Independent consultant bridging the gap between strategy and execution. Working directly with founders and leadership teams to build what's missing: from investor materials to operational infrastructure. Tool-agnostic: whatever gets results fastest.",
-        "Unabhängiger Berater an der Schnittstelle zwischen Strategie und Umsetzung. Direkte Zusammenarbeit mit Gründern und Führungsteams, um fehlende Bausteine aufzubauen: von Investorenmaterialien bis zur operativen Infrastruktur. Tool-agnostisch: was am schnellsten Ergebnisse liefert."
+        "Independent consultant with two parallel streams. Expansion compliance for multi-site operators scaling in Germany (change-of-use, building permits, acoustics, fire safety), and hands-on startup sparring for founders who need investor-ready materials and operating infrastructure.",
+        "Selbstständiger Berater mit zwei parallelen Streams. Expansion Compliance für Multi-Site-Betreiber, die in Deutschland skalieren (Nutzungsänderung, Baugenehmigung, Schall, Brandschutz), und Hands-on-Startup-Sparring für Gründer, die investoren-taugliche Materialien und operative Infrastruktur brauchen."
       ),
       points: [
+        t(
+          "Expansion Compliance: Pre-LOI site checks, lease redlines, end-to-end change-of-use management, partner orchestration with architects, acousticians, fire-safety engineers. Playbook carried over from 130 change-of-use cases at Gorillas.",
+          "Expansion Compliance: Pre-LOI-Standortchecks, Mietvertrags-Redlines, End-to-End-Nutzungsänderungs-Management, Orchestration von Architekten, Schallgutachtern und Brandschützern. Playbook aus 130 Nutzungsänderungen bei Gorillas übernommen."
+        ),
         t(
           "Current mandate (GRÜNZUCKER GmbH): Hands-on co-builder: website, pitch deck, investor relations, market validation, financial projection stress-testing. Partnerships with Fraunhofer in pipeline.",
           "Aktuelles Mandat (GRÜNZUCKER GmbH): Hands-on Co-Builder: Website, Pitch Deck, Investor Relations, Marktvalidierung, Stress-Testing der Finanzprognosen. Partnerschaften mit Fraunhofer in der Pipeline."
         ),
         t(
-          "Former mandates: LAP Coffee (location analysis), Everyfy (pitch decks & financial modeling), Halo Bagels (location analysis & commercial lease advisory).",
-          "Frühere Mandate: LAP Coffee (Standortanalyse), Everyfy (Pitch Decks & Finanzmodellierung), Halo Bagels (Standortanalyse & Gewerbeimmobilienberatung)."
+          "Former mandates: LAP Coffee (location analysis), Halo Bagels (location analysis & commercial lease advisory), Everyfy (pitch decks & financial modeling).",
+          "Frühere Mandate: LAP Coffee (Standortanalyse), Halo Bagels (Standortanalyse & Gewerbeimmobilienberatung), Everyfy (Pitch Decks & Finanzmodellierung)."
         ),
       ],
       tags: [
+        t("Expansion Compliance", "Expansion Compliance"),
+        t("Change of Use", "Nutzungsänderung"),
         t("Startup Sparring", "Startup Sparring"),
         "Pitch Decks",
-        t("Financial Modeling", "Finanzmodellierung"),
-        "Shopify",
       ],
     },
     {
@@ -122,8 +126,8 @@ export default function Experience() {
       ),
       points: [
         t(
-          "Managed building permits and fire safety compliance across ~100 store locations. Oversaw €2M buildout budget.",
-          "Baugenehmigungen und Brandschutz-Compliance über ~100 Filialstandorte verwaltet. €2M Ausbaubudget verantwortet."
+          "Led 130 change-of-use cases through the rollout from 20 to 150 stores. Owned building permits and fire safety compliance. Oversaw €2M buildout budget.",
+          "130 Nutzungsänderungen beim Rollout von 20 auf 150 Stores begleitet. Verantwortlich für Baugenehmigungen und Brandschutz-Compliance. €2M Ausbaubudget verantwortet."
         ),
         t(
           "Built Airtable live dashboard replacing Excel chaos. Single source of truth for legal and ops teams, eliminating miscommunication.",

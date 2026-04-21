@@ -15,18 +15,18 @@ export const RESUME_CONTEXT = `
 - Contact model: "Let's talk",no public pricing
 
 ## Positioning
-Headline: Generalist who acts fast and finds solutions. Adapts quickly, iterates relentlessly.
-Positioning: Tool-agnostic, AI-amplified digital transformation consultant. Code when needed, no-code when it fits,whatever works.
-Target audience: Corporates and startups needing digital transformation.
+Headline: Enabler and hands-on generalist. Acts fast, goes where the pain is, closes the gap, hands the work back to the team.
+Positioning: Two parallel streams. (1) Expansion compliance for multi-site operators scaling in Germany,change-of-use, building permits, acoustics, fire safety,the same playbook that made Gorillas' 20-to-150 store rollout possible. (2) Startup sparring and digital transformation for founders and Mittelstand companies,websites, pitch decks, Airtable automations, AI enablement.
+Target audience: Multi-site operators in fitness/sport, q-commerce, retail, service chains, PE-backed scale-ups in expansion phase. Plus early-stage founders and Mittelstand companies.
 Tone: Founder-edgy. Never vague. Everything concrete and specific.
-Value proposition: A mix of startup speed and structured, analytical thinking.
-Approach: Holistic,doesn't just look at the ticket, but the entire ecosystem. Where others maintain manual lists, builds scalable systems using No-Code tools combined with automation integrations and AI implementations.
-Differentiator: Practical hyper-growth experience (Gorillas/Getir) combined with academic depth in Business Information Systems.
-Career goal: Deep edge on corporate digital transformation. Actively enable companies to change,not just consult.
+Value proposition: Expansion compliance owner who has personally run 130 change-of-use cases. Plus startup-speed generalist who builds what's missing.
+Approach: Holistic,doesn't just look at the ticket, but the entire ecosystem. Owns the interface between real estate, legal, architects, acousticians, and building authorities. Where others maintain manual lists, builds scalable systems using No-Code tools combined with AI.
+Differentiator: Rare mix of German real estate / permit expertise (Gorillas: 130 change-of-use cases, €2M budget, 20-to-150 rollout) plus hands-on generalist execution and academic depth in Business Information Systems.
+Career goal: Deep edge on multi-site expansion compliance in Germany. Enable operators to scale without tripping over permits. Parallel: corporate digital transformation.
 
 ## Origin Story
 After his Bachelor's in Business Administration, Lukas founded Brasiventures,a CBD brand. Packaging, Shopify store, distribution to Berlin kiosks,all built solo. Learned what it means to take a product from zero to market. Every decision, every mistake, every win was on him.
-Then landed at Gorillas in the middle of hypergrowth. As Expansion Manager, responsible for building permits and fire safety across nearly 100 locations with a €2M+ budget. Turned Excel chaos into an Airtable dashboard that put Ops and Legal on the same data foundation. Grew into a role that didn't exist before,a problem nobody wanted to touch.
+Then landed at Gorillas in the middle of hypergrowth. As Expansion Manager, led 130 change-of-use cases through the rollout from 20 to 150 stores, owning building permits and fire safety with a €2M+ budget. Turned Excel chaos into an Airtable dashboard that put Ops and Legal on the same data foundation. Grew into a role that didn't exist before,a problem nobody wanted to touch.
 In renewable energy came the defining lesson. Built the right system,but nobody used it. The boss didn't understand it, so the team ignored it. Realized: digitalization in Germany doesn't fail because of technology. It fails because of culture. Knowledge silos, dependency on individuals, fear of change. The GPT workshops he ran afterward worked,because they met people where they were. Showed people what AI could do for them directly, within their daily tasks. Moved on from that chapter quickly.
 The digitalization wasteland in the German Mittelstand shaped him,and still keeps him up at night. That's why he wants to do it better, not just complain. Completed courses in Business Information Systems to qualify for the Master's, now at Uni Potsdam with focus on AI and digital transformation. Today works with a biotech founder on everything his company needs. Builds own products to understand what's possible with the tools he recommends to others.
 Core belief: It's about more than efficiency. Companies suffocate under their own structures. Knowledge disappears inside individual heads instead of living in the system. Changing that,enabling companies, not just advising them,that's what drives him.
@@ -39,21 +39,21 @@ Core belief: It's about more than efficiency. Companies suffocate under their ow
 - Available: Immediately
 
 ## Services
-1. **Digital Transformation Consulting**,End-to-end process optimization and digitalization for companies stuck on Excel, tribal knowledge, and manual workflows.
-2. **AI Education & Enablement**,Workshops, trend reports, and hands-on AI training. Teaching teams how to actually use AI,not just talk about it.
-3. **Startup Sparring**,Hands-on co-building for early-stage founders. Websites, pitch decks, investor relations, market validation,whatever needs to happen next.
-4. **No-Code / Low-Code Automation**,Airtable, Zapier, and custom API integrations to eliminate manual work and information silos.
-5. **Shopify Store Building**,Full e-commerce setup from store build to operational workflow.
-6. **Custom Code Solutions**,Python, Streamlit, API integrations,when no-code isn't enough.
+1. **Expansion Compliance**,Multi-site rollout compliance end-to-end: change-of-use (Nutzungsänderung), building permits, acoustics, fire safety. The layer that made Gorillas' 20-to-150 store rollout possible.
+2. **Pre-LOI Site Check**,Traffic-light verdict before the LOI is signed: B-plan, parking proof, acoustics, fire risk. Kills dead sites in ~10 working days.
+3. **Lease Redlines**,Compliance clauses that protect the tenant: withdrawal on missing permit, conversion rights, restoration, landlord cost allocation.
+4. **Digital Transformation Consulting**,End-to-end process optimization and digitalization for companies stuck on Excel, tribal knowledge, and manual workflows.
+5. **Startup Sparring**,Hands-on co-building for early-stage founders. Websites, pitch decks, investor relations, market validation.
+6. **No-Code / Low-Code Automation**,Airtable, Zapier, and custom API integrations to eliminate manual work and information silos.
 
 ## Work Experience
 
-### Self-employed,Startup Process Consulting & Digital Transformation (Mar 2025 – Present, Berlin)
-Transfer of knowledge from hyper-growth phases (Gorillas/Getir) to early-stage companies.
+### Self-employed,Expansion Compliance & Startup Sparring (Mar 2025 – Present, Berlin)
+Two parallel streams. (1) Expansion compliance for multi-site operators scaling in Germany,the same playbook from Gorillas (130 change-of-use cases, 20-to-150 store rollout). Pre-LOI site checks, lease redlines, end-to-end change-of-use management, partner orchestration (architects, acousticians, fire safety engineers). (2) Startup sparring,transfer of knowledge from hyper-growth phases (Gorillas/Getir) to early-stage founders.
 - Current mandate (GRÜNZUCKER GmbH): Hands-on co-builder. Website, pitch deck, investor relations, market validation, financial projection stress-testing. Biomass-to-sugar technology startup. Company is now investor-visible with full web presence and fundraising narrative. Partnerships with Fraunhofer and other companies in pipeline.
-- Former mandate: LAP Coffee,location analysis and recommendation.
+- Former mandate: LAP Coffee,location analysis and recommendation (compliance-adjacent).
+- Former mandate: Halo Bagels,location analysis and commercial lease recommendation (compliance-adjacent).
 - Former mandate: Everyfy (German Instacart model),advisory on pitch decks and financial modeling.
-- Former mandate: Halo Bagels,location analysis and commercial lease recommendation.
 
 ### BEC-Energie Consult GmbH,Project Developer (Feb 2024 – Apr 2025, Berlin)
 Renewable energy / German Mittelstand. Experienced firsthand the cultural resistance to digitalization in traditional German companies.
@@ -75,13 +75,13 @@ Results: Successfully wound down 45 properties. Maintained operational continuit
 
 ### Gorillas,Project Manager, Expansion (Jun 2021 – Dec 2022, Berlin)
 Hyper-growth q-commerce startup scaling from dozens to hundreds of dark stores. Part of the Real Estate & Expansion team managing the operational chaos of rapid store openings.
-- Managed building permits and fire safety compliance across ~100 store locations during hypergrowth. Oversaw €2M buildout budget.
+- Led 130 change-of-use cases during the 20-to-150 store rollout. Owned building permits and fire safety compliance. Oversaw €2M buildout budget.
 - Built Airtable live dashboard replacing Excel chaos,single source of truth for legal and ops teams, eliminating miscommunication.
 - Implemented dashboards, web-scraping algorithms, and introduced Airtable & Targomo for location analytics.
 - Stakeholder Management: Coordination on real estate and Q-commerce topics with politics, authorities, and landlords.
 - Became internal authority on German fire safety and building regulations.
 - Worked in a high-pressure, fast-moving environment where priorities shifted weekly. Developed resilience and extreme adaptability.
-Results: Kept stores open,directly protected company P&L. Eliminated miscommunication between ops and legal. Built single source of truth across ~100 locations.
+Results: Kept stores open,directly protected company P&L. Eliminated miscommunication between ops and legal. Built single source of truth across 130 change-of-use cases.
 
 ### Brasiventures,Founder & Business Development Lead (Nov 2020 – Jul 2023, side project)
 CBD D2C brand. Solo-built everything: product packaging, Shopify store, local retail distribution to Berlin kiosks. B2C and B2B sales.
@@ -100,7 +100,7 @@ Results: Six-figure revenue over three years. End-to-end business built from zer
 
 ### 1. From Excel Chaos to Live Dashboard – Gorillas / Getir
 Context: Gorillas was in the middle of hypergrowth. New locations opened faster than operations could keep up. Every location required change-of-use permits, fire safety approvals, and regulatory inspections. As Expansion Manager, grew into a role nobody had systematically addressed before.
-Problem: Nearly 100 locations, each with its own permit status. Everything ran on Excel. Legal and Ops worked with different versions, documents got lost, deadlines were missed. Stores on the verge of closure – not because business was bad, but because paperwork was missing.
+Problem: 130 change-of-use cases across the 20-to-150 rollout, each with its own permit status. Everything ran on Excel. Legal and Ops worked with different versions, documents got lost, deadlines were missed. Stores on the verge of closure – not because business was bad, but because paperwork was missing.
 Solution: Built an Airtable dashboard centralizing the entire permit process. Every location, every document, every status – in one place. Legal could access all documents in real time, Ops had visibility on upcoming deadlines. Became the internal reference on German building regulations and fire safety codes.
 Result: Stores stayed open. P&L directly protected. Miscommunication between Legal and Ops eliminated. A system that didn't exist before became the backbone of expansion.
 
@@ -116,23 +116,12 @@ Problem: Nothing existed. No product, no shop, no distribution, no brand. Everyt
 Solution: Everything. Packaging design, Shopify store, retail distribution strategy. Personally went to Berlin kiosks and corner shops. Every sales conversation, negotiation, return, and decision. B2C and B2B in parallel as a one-man operation.
 Result: Six-figure revenue over three years. The real value was the learning: how to bring a product to market, negotiate without a company name, manage sales, operations, and finances simultaneously. "My MBA on the street."
 
-### 4. Why the Tool Doesn't Matter – Renewable Energy Company (BEC-Energie)
-Context: Mid-sized renewable energy company. 18 employees. Projects ran on Excel, email, and individual knowledge. Ten-year veterans were irreplaceable – not because they were better, but because only they knew where things stood.
-Problem: Classic information asymmetry. No central system, no transparent project status, no documented processes. Every handover was a risk. Every vacation a bottleneck.
-Solution: Designed a relational Airtable database as a central project OS. Technically clean, but leadership didn't adopt it – so nobody did. Pivoted to GPT workshops that met people where they were. That landed because it was direct and personal.
-Result: Technology without buy-in is shelfware. The bottleneck is never the tool, but whether people are ready to work differently. This experience shapes every engagement today.
-
-### 5. AI Workshops in the Mittelstand
-Context: After the failed Airtable implementation, it was clear: introducing tools doesn't work if people don't experience the value themselves.
-Problem: Employees had heard of ChatGPT but had no idea what it concretely means for their daily work. Mix of skepticism, overwhelm, and "that's not for us."
-Solution: Hands-on workshops working directly on real tasks from participants' daily work. Drafting emails, summarizing reports, preparing data, accelerating research. Everyone worked with their own use case, not abstract examples.
-Result: Workshops worked where the Airtable project failed. People felt the value immediately on their own work. Several employees continued using the tools independently afterward.
-
-### 6. Real Estate Calculation Tool (In Progress)
-Context: Most people calculate real estate investments in overly complex Excel sheets or not at all.
-Problem: No accessible tool displaying essential metrics of a real estate investment quickly and understandably.
-Solution: Custom calculation tool covering purchase price, ancillary costs, financing structure, rental income, ongoing costs, cash flow projection. Focus on clarity – input in minutes, result immediately visible.
-Result: In progress.
+### 4. ertragwerk.de – German Real Estate Investment SaaS (Live)
+Context: Most German real estate investors either use overly complex Excel sheets or only see gross yield via simple online calculators. The parts that actually move the decision — linear vs. declining AfA per §7 EStG, splittingtarif, church tax, speculation tax inside the 10-year window, DSCR, IRR, 30-year projection — are usually missing.
+Problem: No accessible tool that computes the full picture — tax-accurate, scenario-tested, with a clear verdict. Professional software is expensive and enterprise-grade. Free tools are toy-grade.
+Solution: Built the SaaS from scratch. Next.js on Vercel EU, Supabase, Stripe. 5-step wizard, analysis in ~2 minutes. 15+ metrics (gross / net / equity yield, DSCR, cap rate, cash-on-cash, IRR, NPV, break-even). German tax exact: linear AfA 2%/2.5%/3%, declining AfA 5% (§7 Abs. 5a EStG, new builds from 2024), splittingtarif, KiSt, SolZ, speculation tax. 30-year projection. AI layer: SWOT per property, expert report, bank-talk PDF, negotiation strategy, foreclosure appraisal analysis. Scenario simulator (best/worst/custom). Investment Score 0-100 across 8 factors. Property types: apartment, house, MFH, holiday rental, garage, foreclosure.
+Pricing (live): €0 Einstieg / €19 Vermögensaufbau / €49 Portfolio / €99 Professional per month.
+Result: Live at ertragwerk.de. All pricing tiers active. Early user base. Current focus: SEO (free calculators as traffic magnets), conversion to paid. Not advisory — disclaimer per §34c GewO, §1 StBerG, §2 RDG.
 
 ## Skills (with proficiency levels for accurate fit assessment)
 
@@ -190,7 +179,7 @@ Pragmatic and efficiency-driven. Uses AI as a multiplier for SQL and Python. Has
 - Process Optimization (core,every role)
 - No-Code Automation (Airtable, Zapier,multiple implementations)
 - AI Implementation & Education (workshops, GPT training, trend reports)
-- Building Regulations & Permits (German fire safety, ~100 locations at Gorillas)
+- Building Regulations & Permits (German fire safety, 130 change-of-use cases at Gorillas, 20-to-150 rollout)
 - E-Commerce (Shopify,Brasiventures 6-figure, BEC-Energie bilingual site)
 - Investor Relations & Fundraising (Grünzucker, startup sparring)
 - Q-Commerce operations (2.5 years at Gorillas/Getir)
@@ -234,10 +223,10 @@ Next: Build reputation in German market. Shift from startups toward larger firms
 Long-term: Deep edge on corporate digital transformation. Actively enable companies to change,not just consult.
 
 ## Key Achievements
-- Kept ~100 stores open by building permit tracking system (Gorillas/Getir)
+- Kept the 20-to-150 store rollout on track by building a permit tracking system (Gorillas/Getir) — 130 change-of-use cases
 - Oversaw €2M buildout budget
 - 45 properties in DACH region successfully wound down (Post-Merger Gorillas/Getir)
-- Built single source of truth across ~100 locations for C-level decisions
+- Built single source of truth across 130 change-of-use cases for C-level decisions
 - Independently managed portfolio of 90 locations
 - Made biotech startup investor-visible from zero (Grünzucker),Fraunhofer partnerships in pipeline
 - Six-figure revenue as solo founder (Brasiventures)

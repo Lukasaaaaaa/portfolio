@@ -63,8 +63,8 @@ export default function Hero() {
           className="mb-4 text-lg text-accent md:text-xl"
         >
           {t(
-            "I advise and build for German SMBs. Websites, SaaS, AI tools.",
-            "Ich berate und baue für den deutschen Mittelstand. Websites, SaaS, KI-Tools."
+            "Expansion compliance, digital transformation, and startup sparring for German scale-ups and SMBs.",
+            "Expansion Compliance, Digitale Transformation und Startup Sparring für deutsche Scale-ups und Mittelstand."
           )}
         </motion.p>
 
@@ -75,8 +75,8 @@ export default function Hero() {
           className="mb-10 max-w-lg text-base leading-relaxed"
         >
           {t(
-            "I've built, scaled, and digitalized companies, from my own brand to hypergrowth startups to German Mittelstand. Along the way, I learned that technology only works when people are on board. Making that happen is what I do.",
-            "Ich habe Unternehmen aufgebaut, skaliert und digitalisiert, von der eigenen Marke über Hypergrowth-Startups bis zum deutschen Mittelstand. Dabei habe ich gelernt, dass Technologie nur funktioniert, wenn die Menschen mitziehen. Das zu ermöglichen ist das, was ich tue."
+            "I've built, scaled, and digitalized companies, from my own brand to hypergrowth startups to German Mittelstand. At Gorillas I led 130 stores through change-of-use and made the 20-to-150 rollout possible. Today I run that same playbook for other multi-site operators, and build software on the side.",
+            "Ich habe Unternehmen aufgebaut, skaliert und digitalisiert, von der eigenen Marke über Hypergrowth-Startups bis zum deutschen Mittelstand. Bei Gorillas habe ich 130 Nutzungsänderungen begleitet und den Rollout von 20 auf 150 Stores möglich gemacht. Heute fahre ich dasselbe Playbook für andere Multi-Site-Betreiber und baue nebenher Software."
           )}
         </motion.p>
 
@@ -87,7 +87,7 @@ export default function Hero() {
           className="flex flex-wrap gap-3"
         >
           <a
-            href="#contact"
+            href="mailto:luca@gurny.de?subject=Anfrage%20via%20lukasgurny.com"
             className="inline-flex items-center rounded-lg bg-accent px-5 py-2.5 text-sm font-medium text-white transition-all hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/25"
           >
             {t("Let's talk", "Kontakt aufnehmen")}

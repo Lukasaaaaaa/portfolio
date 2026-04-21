@@ -14,20 +14,20 @@ export default function CaseStudies() {
         "Vom Excel-Chaos zum Live-Dashboard"
       ),
       subtitle: t(
-        "100 locations, €2M budget, no system.",
-        "100 Standorte, €2M Budget, kein System."
+        "130 change-of-use cases, €2M budget, no system.",
+        "130 Nutzungsänderungen, €2M Budget, kein System."
       ),
       context: t(
         "Gorillas was in the middle of hypergrowth. New locations were opening faster than operations could keep up. Every location required change-of-use permits, fire safety approvals, and regulatory inspections. As Expansion Manager, I grew into this role – a topic nobody had systematically addressed before.",
         "Gorillas war mitten im Hypergrowth. Neue Standorte wurden schneller eröffnet als die Operationen hinterherkamen. Für jeden Standort brauchte es Nutzungsänderungsgenehmigungen, Brandschutzfreigaben und behördliche Abnahmen. Als Expansion Manager bin ich in diese Rolle reingewachsen, ein Thema, das vorher niemand systematisch angefasst hat."
       ),
       problem: t(
-        "Nearly 100 locations, each with its own permit status. Everything ran on Excel. Legal and Ops worked with different versions, documents got lost, deadlines were missed. Stores were on the verge of closure – not because business was bad, but because paperwork was missing.",
-        "Knapp 100 Standorte, jeder mit eigenem Genehmigungsstatus. Alles lief über Excel. Legal und Ops arbeiteten mit unterschiedlichen Versionen, Dokumente gingen verloren, Deadlines wurden verpasst. Filialen standen kurz vor der Schließung, nicht weil das Geschäft nicht lief, sondern weil Papierkram fehlte."
+        "130 change-of-use cases across the rollout from 20 to 150 stores, each with its own permit status. Everything ran on Excel. Legal and Ops worked with different versions, documents got lost, deadlines were missed. Stores were on the verge of closure – not because business was bad, but because paperwork was missing.",
+        "130 Nutzungsänderungen beim Rollout von 20 auf 150 Stores, jede mit eigenem Genehmigungsstatus. Alles lief über Excel. Legal und Ops arbeiteten mit unterschiedlichen Versionen, Dokumente gingen verloren, Deadlines wurden verpasst. Filialen standen kurz vor der Schließung, nicht weil das Geschäft nicht lief, sondern weil Papierkram fehlte."
       ),
       solution: t(
-        "I built an Airtable dashboard that centralized the entire permit process. Every location, every document, every status – in one place. Legal could access all documents in real time, Ops had visibility on upcoming deadlines. Fragmented Excel sheets became a single source of truth. In parallel, I dove so deep into German building regulations and fire safety codes that I became the internal reference. With nearly 100 applications, you learn fast.",
-        "Ich habe ein Airtable-Dashboard aufgebaut, das den gesamten Genehmigungsprozess zentralisiert hat. Jeder Standort, jedes Dokument, jeder Status, an einem Ort. Legal konnte in Echtzeit auf alle Unterlagen zugreifen, Ops hatte Überblick über anstehende Fristen. Aus fragmentierten Excel-Tabellen wurde eine Single Source of Truth. Parallel habe ich mich so tief in deutsches Baurecht und Brandschutzvorschriften eingearbeitet, dass ich zur internen Referenz wurde. Bei knapp 100 Anträgen lernt man schnell."
+        "I built an Airtable dashboard that centralized the entire permit process. Every location, every document, every status – in one place. Legal could access all documents in real time, Ops had visibility on upcoming deadlines. Fragmented Excel sheets became a single source of truth. In parallel, I dove so deep into German building regulations and fire safety codes that I became the internal reference. With 130 applications, you learn fast.",
+        "Ich habe ein Airtable-Dashboard aufgebaut, das den gesamten Genehmigungsprozess zentralisiert hat. Jeder Standort, jedes Dokument, jeder Status, an einem Ort. Legal konnte in Echtzeit auf alle Unterlagen zugreifen, Ops hatte Überblick über anstehende Fristen. Aus fragmentierten Excel-Tabellen wurde eine Single Source of Truth. Parallel habe ich mich so tief in deutsches Baurecht und Brandschutzvorschriften eingearbeitet, dass ich zur internen Referenz wurde. Bei 130 Anträgen lernt man schnell."
       ),
       result: t(
         "Stores stayed open. P&L was directly protected because closures due to missing permits were prevented. Miscommunication between Legal and Ops was eliminated. A system that didn't exist before suddenly became the backbone of expansion.",
@@ -93,98 +93,34 @@ export default function CaseStudies() {
       tags: ["Shopify", "E-Commerce", "D2C", t("Solo Founder", "Solo-Gründer")],
     },
     {
-      client: t("Renewable Energy Company", "Erneuerbare-Energien-Unternehmen"),
-      title: t(
-        "Why the Tool Doesn't Matter",
-        "Warum das Tool keine Rolle spielt"
-      ),
-      subtitle: t(
-        "And what I learned from it.",
-        "Und was ich daraus gelernt habe."
-      ),
-      context: t(
-        "A mid-sized company in the renewable energy sector. 18 employees. Projects ran on Excel, email, and the knowledge of individual people. Anyone who had been there for ten years was irreplaceable – not because they were better, but because only they knew where things stood.",
-        "Ein Mittelständler in der Erneuerbaren-Energie-Branche. 18 Mitarbeiter. Projekte liefen über Excel, E-Mail und das Wissen einzelner Personen. Wer zehn Jahre dabei war, war unersetzbar, nicht weil er besser war, sondern weil nur er wusste, wo die Dinge stehen."
-      ),
-      problem: t(
-        "Classic information asymmetry. No central system, no transparent project status, no documented processes. Every handover was a risk. Every vacation a bottleneck. The company was dependent on individual minds instead of functioning structures.",
-        "Klassische Informationsasymmetrie. Kein zentrales System, kein transparenter Projektstatus, keine dokumentierten Prozesse. Jede Übergabe war ein Risiko. Jeder Urlaub ein Engpass. Das Unternehmen war abhängig von einzelnen Köpfen statt von funktionierenden Strukturen."
-      ),
-      solution: t(
-        "I designed a relational Airtable database – a central project OS that was supposed to give everyone equal access to information. Technically, the solution was clean. But leadership didn't adopt it. And when the boss doesn't use it, nobody does. The system didn't fail because it was wrong, but because the cultural shift didn't happen. What worked afterwards: GPT workshops. No database, no dashboard – just showing people directly what AI means for their daily work. That landed because it met them where they were.",
-        "Ich habe eine relationale Airtable-Datenbank konzipiert, als zentrales Projekt-OS, das allen den gleichen Zugang zu Informationen geben sollte. Technisch war die Lösung sauber. Aber die Führung hat sie nicht angenommen. Und wenn der Chef es nicht nutzt, nutzt es niemand. Das System ist nicht gescheitert, weil es falsch war, sondern weil der kulturelle Shift nicht stattgefunden hat. Was danach funktioniert hat: GPT-Workshops. Keine Datenbank, kein Dashboard, sondern Menschen direkt zeigen, was KI für ihren Arbeitsalltag bedeutet. Das hat gelandet, weil es sie dort abgeholt hat, wo sie standen."
-      ),
-      result: t(
-        "Technology without buy-in is shelfware. The bottleneck is never the tool, but whether people are ready to work differently. Since then, I don't start with the solution. I start with understanding. This experience shapes every engagement I take on today.",
-        "Technologie ohne Buy-in ist Regalware. Der Engpass ist nie das Tool, sondern ob die Menschen bereit sind, anders zu arbeiten. Seitdem starte ich nicht mehr mit der Lösung. Ich starte mit dem Verständnis. Diese Erfahrung formt jeden Auftrag, den ich heute annehme."
-      ),
-      tags: [
-        "Change Management",
-        t("AI Workshops", "KI-Workshops"),
-        "Mittelstand",
-      ],
-    },
-    {
-      client: t("Mittelstand Company", "Mittelständisches Unternehmen"),
-      title: t(
-        "AI Workshops in the Mittelstand",
-        "KI-Workshops im Mittelstand"
-      ),
-      subtitle: t(
-        "Not talking about AI. Using AI.",
-        "Nicht über KI reden. KI benutzen."
-      ),
-      context: t(
-        "After the failed Airtable implementation at the renewable energy company, it was clear: introducing tools doesn't work if people don't experience the value themselves. So: different approach.",
-        "Nach der gescheiterten Airtable-Implementierung im Erneuerbaren-Energien-Unternehmen war klar: Tools einführen funktioniert nicht, wenn die Menschen den Nutzen nicht selbst erleben. Also anderer Ansatz."
-      ),
-      problem: t(
-        "Employees had heard of ChatGPT but had no idea what it concretely means for their daily work. The attitude was a mix of skepticism, overwhelm, and 'that's not for us'. No ill intent – just no touchpoints.",
-        "Mitarbeiter hatten von ChatGPT gehört, aber keine Vorstellung davon, was es konkret für ihre tägliche Arbeit bedeutet. Die Haltung war eine Mischung aus Skepsis, Überforderung und \"das ist nichts für uns\". Keine böse Absicht, einfach keine Berührungspunkte."
-      ),
-      solution: t(
-        "Designed and delivered hands-on workshops. No slides about the future of AI – instead, working directly on real tasks from participants' daily work. Drafting emails, summarizing reports, preparing data, accelerating research. Everyone worked with their own use case, not abstract examples.",
-        "Hands-on-Workshops konzipiert und durchgeführt. Keine Folien über die Zukunft der KI, sondern direkt an echten Aufgaben aus dem Arbeitsalltag der Teilnehmer gearbeitet. Mails formulieren, Berichte zusammenfassen, Daten aufbereiten, Recherche beschleunigen. Jeder hat mit seinem eigenen Use Case gearbeitet, nicht mit abstrakten Beispielen."
-      ),
-      result: t(
-        "The workshops worked where the Airtable project failed. The difference: people felt the value immediately – on their own work. No change management concept, but a direct experience. Several employees continued using the tools independently afterward.",
-        "Die Workshops haben funktioniert, wo das Airtable-Projekt gescheitert ist. Der Unterschied: Die Menschen haben den Nutzen sofort gespürt, an ihrer eigenen Arbeit. Kein Change-Management-Konzept, sondern ein direktes Erlebnis. Mehrere Mitarbeiter haben die Tools danach eigenständig weitergenutzt."
-      ),
-      tags: [
-        t("AI Education", "KI-Schulung"),
-        "GPT",
-        t("Workshops", "Workshops"),
-      ],
-    },
-    {
       client: t("Own Product", "Eigenentwicklung"),
-      title: t(
-        "Real Estate Calculation Tool",
-        "Immobilien-Kalkulationstool"
-      ),
+      title: "ertragwerk.de",
       subtitle: t(
-        "Investment decisions in minutes instead of days.",
-        "Investmententscheidungen in Minuten statt Tagen."
+        "German real estate investment analytics, end-to-end.",
+        "Deutsche Immobilien-Investment-Analyse, end-to-end."
       ),
       context: t(
-        "Calculating real estate investments isn't rocket science, but most people either do it in overly complex Excel sheets or not at all. Between purchase price, ancillary costs, financing, rental yield, and cash flow, you quickly lose track.",
-        "Immobilieninvestments berechnen ist kein Hexenwerk, aber die meisten Leute machen es entweder in überkomplexen Excel-Sheets oder gar nicht. Zwischen Kaufpreis, Nebenkosten, Finanzierung, Mietrendite und Cashflow verliert man schnell den Überblick."
+        "Most German real estate investors calculate returns in overly complex Excel sheets or not at all. Existing online calculators only show gross yield and ignore the parts that actually move the decision: linear vs. declining AfA per §7 EStG, joint-filing splittingtarif, church tax, speculation tax inside the 10-year window, DSCR, IRR, 30-year projection.",
+        "Die meisten deutschen Immobilieninvestoren rechnen in überkomplexen Excel-Sheets oder gar nicht. Online-Rechner zeigen nur Bruttorendite und ignorieren, was die Entscheidung kippt: lineare vs. degressive AfA nach §7 EStG, Splittingtarif, Kirchensteuer, Spekulationssteuer innerhalb der 10-Jahres-Frist, DSCR, IRR, 30-Jahres-Prognose."
       ),
       problem: t(
-        "No accessible tool that displays the essential metrics of a real estate investment quickly and understandably. Available options were either too simple or so complex that only professionals could use them.",
-        "Kein zugängliches Tool, das die wesentlichen Kennzahlen einer Immobilieninvestition schnell und verständlich darstellt. Die verfügbaren Optionen waren entweder zu simpel oder so komplex, dass sie nur Profis nutzbar waren."
+        "No accessible tool that computes the full picture — tax-accurate, scenario-tested, with a clear verdict. Professional software is expensive, enterprise-grade, and intimidating. Free tools are toy-grade.",
+        "Kein zugängliches Tool, das das Gesamtbild berechnet: steuerlich exakt, szenario-getestet, mit klarem Verdikt. Profi-Software ist teuer und abschreckend. Kostenlose Tools sind Spielzeug."
       ),
       solution: t(
-        "Developed a custom calculation tool covering the relevant parameters of a real estate investment: purchase price, ancillary costs, financing structure, expected rental income, ongoing costs, cash flow projection. Focus on clarity. Input in minutes, result immediately visible.",
-        "Ein eigenes Kalkulationstool entwickelt, das die relevanten Parameter einer Immobilieninvestition abbildet: Kaufpreis, Nebenkosten, Finanzierungsstruktur, erwartete Mieteinnahmen, laufende Kosten, Cashflow-Projektion. Fokus auf Klarheit. Eingabe in Minuten, Ergebnis sofort sichtbar."
+        "Built the SaaS from scratch. Next.js on Vercel EU, Supabase, Stripe. 5-step wizard to analysis in ~2 minutes. 15+ metrics: gross yield, net yield, equity yield, DSCR, cap rate, cash-on-cash, IRR, NPV, break-even. German tax exact: linear AfA 2%/2.5%/3%, declining AfA 5% (§7 Abs. 5a EStG for new builds from 2024), splittingtarif, KiSt, SolZ, speculation tax. 30-year projection with asset, cash flow, amortization, value and rent appreciation. AI layer: SWOT per property, expert report, bank-talk PDF, negotiation strategy, foreclosure appraisal analysis. Scenario simulator (best/worst/custom). Investment Score 0-100 across 8 factors. Four pricing tiers: €0 / €19 / €49 / €99 per month.",
+        "Die SaaS von Grund auf gebaut. Next.js auf Vercel EU, Supabase, Stripe. 5-Schritt-Wizard bis zur Analyse in ~2 Minuten. 15+ Kennzahlen: Brutto-, Netto-, Eigenkapitalrendite, DSCR, Cap Rate, Cash-on-Cash, IRR, NPV, Break-even. Steuer exakt nach deutschem Recht: lineare AfA 2%/2,5%/3%, degressive AfA 5% (§7 Abs. 5a EStG, Neubauten ab 2024), Splittingtarif, KiSt, SolZ, Spekulationssteuer. 30-Jahres-Prognose mit Vermögen, Cashflow, Tilgung, Wert- und Mietsteigerung. KI-Layer: SWOT pro Objekt, Experten-Report, Bankgespräch-PDF, Verhandlungsstrategien, Gutachten-Analyse für Zwangsversteigerungen. Szenario-Simulator (Best/Worst/Custom). Investment Score 0-100 über 8 Faktoren. Vier Pricing-Stufen: €0 / €19 / €49 / €99 pro Monat."
       ),
       result: t(
-        "(In progress – will be updated upon completion.)",
-        "(In Arbeit – wird nach Fertigstellung aktualisiert.)"
+        "Live at ertragwerk.de. All pricing tiers active. Early user base. Current focus: SEO (free calculators as traffic magnets), conversion to paid, feature depth. Not an advisory service — disclaimer per §34c GewO, §1 StBerG, §2 RDG.",
+        "Live unter ertragwerk.de. Alle Pricing-Stufen aktiv. Früher Userbase. Aktueller Fokus: SEO (kostenlose Rechner als Traffic-Magnet), Conversion zu Paid, Feature-Tiefe. Keine Beratung — Disclaimer nach §34c GewO, §1 StBerG, §2 RDG."
       ),
       tags: [
         t("Own Product", "Eigenentwicklung"),
-        t("Financial Modeling", "Finanzmodellierung"),
+        "SaaS",
+        "Next.js",
+        "Supabase",
+        "Stripe",
         t("Real Estate", "Immobilien"),
       ],
     },

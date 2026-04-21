@@ -104,7 +104,7 @@ ALWAYS respond in the same language as the job description. German job posting �
 
 ## Proficiency reference (use for accurate matching)
 
-**Strong fit domains:** Digital transformation, process optimization, no-code automation (Airtable, Zapier), startup operations, project management (PSM I, PRINCE2), stakeholder management, change management, e-commerce (Shopify), expansion/location analytics, post-merger integration, AI enablement workshops, investor relations, financial modeling.
+**Strong fit domains:** Expansion compliance (change-of-use / Nutzungsänderung, building permits, acoustics, fire safety, multi-site rollout — 130 cases at Gorillas, 20-to-150 store rollout), lease redlines and pre-LOI site checks, partner orchestration (architects, acousticians, fire-safety engineers, building authorities), real estate operations (90-location portfolio + 45 wind-downs at Getir), digital transformation, process optimization, no-code automation (Airtable, Zapier), startup operations, project management (PSM I, PRINCE2), stakeholder management, change management, e-commerce (Shopify), expansion/location analytics, post-merger integration, AI enablement workshops, investor relations, financial modeling.
 
 **Partial fit (transferable):** Data analysis (Excel/Power BI/SQL), Python scripting (AI-assisted), web scraping, Jira/Asana/Confluence, business development, fintech operations.
 

@@ -2,12 +2,12 @@
 
 import { motion } from "framer-motion";
 import {
+  Building2,
+  FileCheck,
+  FileText,
   Workflow,
-  Bot,
   Rocket,
   Blocks,
-  ShoppingBag,
-  Code2,
 } from "lucide-react";
 import { useLanguage } from "@/lib/language-context";
 
@@ -16,19 +16,35 @@ export default function Services() {
 
   const services = [
     {
+      icon: Building2,
+      title: t("Expansion Compliance", "Expansion Compliance"),
+      description: t(
+        "Multi-site rollout compliance end-to-end: change-of-use, building permits, acoustics, fire safety. The layer that made Gorillas' 20-to-150 rollout possible.",
+        "Multi-Site-Rollout-Compliance End-to-End: Nutzungsänderung, Bauantrag, Schall, Brandschutz. Der Layer, der den Gorillas-Rollout von 20 auf 150 möglich gemacht hat."
+      ),
+    },
+    {
+      icon: FileCheck,
+      title: t("Pre-LOI Site Check", "Pre-LOI-Standortcheck"),
+      description: t(
+        "Traffic-light verdict before you sign the LOI: B-plan, parking, acoustics, fire risk. Kills dead sites in 10 working days.",
+        "Ampel vor LOI-Unterschrift: B-Plan, Stellplatz, Schall, Brandschutz. Sortiert tote Standorte in 10 Werktagen aus."
+      ),
+    },
+    {
+      icon: FileText,
+      title: t("Lease Redlines", "Mietvertrags-Redlines"),
+      description: t(
+        "Compliance clauses that protect the tenant: withdrawal on missing permit, conversion rights, restoration, landlord cost allocation.",
+        "Compliance-Klauseln, die den Mieter schützen: Rücktritt bei fehlender Genehmigung, Umbaurecht, Rückbau, Vermieter-Kostentragung."
+      ),
+    },
+    {
       icon: Workflow,
       title: t("Digital Transformation", "Digitale Transformation"),
       description: t(
         "End-to-end process optimization for companies stuck on Excel, tribal knowledge, and manual workflows.",
         "Ganzheitliche Prozessoptimierung für Unternehmen, die an Excel, Wissensmonopolen und manuellen Workflows hängen."
-      ),
-    },
-    {
-      icon: Bot,
-      title: t("AI Education & Enablement", "KI-Schulung & Enablement"),
-      description: t(
-        "Workshops, trend reports, and hands-on AI training. Teaching teams how to actually use AI.",
-        "Workshops, Trendberichte und praxisnahe KI-Schulungen. Teams beibringen, wie man KI wirklich nutzt."
       ),
     },
     {
@@ -47,22 +63,6 @@ export default function Services() {
         "Airtable, Zapier und individuelle API-Integrationen zur Beseitigung manueller Arbeit und Informationssilos."
       ),
     },
-    {
-      icon: ShoppingBag,
-      title: t("Shopify Stores", "Shopify Shops"),
-      description: t(
-        "Full e-commerce setup from store build to operational workflow.",
-        "Kompletter E-Commerce-Aufbau vom Shop-Build bis zum operativen Workflow."
-      ),
-    },
-    {
-      icon: Code2,
-      title: t("Custom Code Solutions", "Individuelle Code-Lösungen"),
-      description: t(
-        "Full-stack web applications. Built ertragwerk.de (investment analysis SaaS) and websitepolierer.de (agency platform) from scratch.",
-        "Full-Stack-Webanwendungen. ertragwerk.de (Investment-Analyse-SaaS) und websitepolierer.de (Agentur-Plattform) von Grund auf gebaut."
-      ),
-    },
   ];
 
   return (
@@ -77,9 +77,15 @@ export default function Services() {
           <h2 className="mb-2 font-mono text-sm text-accent">
             {t("Services", "Leistungen")}
           </h2>
-          <h3 className="mb-14 text-2xl font-bold text-foreground-bright md:text-3xl">
+          <h3 className="mb-4 text-2xl font-bold text-foreground-bright md:text-3xl">
             {t("What I do", "Was ich mache")}
           </h3>
+          <p className="mb-14 max-w-2xl text-base text-foreground-muted">
+            {t(
+              "Enabler and hands-on generalist. I go where the pain is, close the gap, and leave the team able to run it without me.",
+              "Enabler und Hands-on-Generalist. Ich gehe dahin, wo es weh tut, schließe die Lücke und übergebe so, dass das Team es ohne mich weiterführen kann."
+            )}
+          </p>
         </motion.div>
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">

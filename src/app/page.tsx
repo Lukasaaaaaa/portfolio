@@ -19,14 +19,14 @@ export default function Home() {
       <main>
         <Hero />
         <About />
+        <AskAI />
         <Services />
+        <FitCheck />
         <Experience />
         <Products />
-        <FitCheck />
         <CaseStudies />
         <Recommendations />
         <Skills />
-        <AskAI />
         <Contact />
       </main>
       <Footer />

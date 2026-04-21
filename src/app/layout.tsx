@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Lukas Gurny, Digital Transformation Consultant",
+  title: "Lukas Gurny — Expansion Compliance & Digital Transformation, Berlin",
   description:
-    "Tool-agnostic, AI-amplified digital transformation consultant based in Berlin. Operations, startup sparring, and process optimization.",
+    "Freelance expansion compliance for multi-site rollouts in Germany (change-of-use, building permits, acoustics, fire safety) plus digital transformation, AI enablement, and custom SaaS. 130 change-of-use cases at Gorillas, 20-to-150 rollout.",
 };
 
 export default function RootLayout({
