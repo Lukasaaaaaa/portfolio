@@ -18,13 +18,13 @@ export default function Home() {
       <main>
         <Hero />
         <About />
-        <AskAI />
         <Services />
-        <FitCheck />
         <Experience />
         <CaseStudies />
         <Recommendations />
         <Skills />
+        <AskAI />
+        <FitCheck />
         <Contact />
       </main>
       <Footer />
