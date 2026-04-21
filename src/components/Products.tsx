@@ -24,22 +24,6 @@ export default function Products() {
       glow: "group-hover:border-accent/30 group-hover:shadow-[0_0_30px_-10px_rgba(139,92,246,0.15)]",
       tagColor: "text-accent",
     },
-    {
-      title: "Websitepolierer",
-      subtitle: t(
-        "Website agency for local businesses without an online presence",
-        "Website-Agentur für lokale Betriebe ohne Online-Präsenz"
-      ),
-      description: t(
-        "Automated lead generation via Google Maps scraping, scoring, and personalized outreach. Fixed-price websites for tradespeople, therapists, and local services.",
-        "Automatisierte Lead-Generierung über Google Maps Scraping, Scoring und personalisierte Ansprache. Festpreis-Websites für Handwerker, Therapeuten und lokale Dienstleister."
-      ),
-      url: "https://websitepolierer.de",
-      tags: ["Vercel", "Playwright", "Python", "Formspree"],
-      status: "Live",
-      glow: "group-hover:border-accent2/30 group-hover:shadow-[0_0_30px_-10px_rgba(6,182,212,0.15)]",
-      tagColor: "text-accent2",
-    },
   ];
 
   return (
@@ -52,11 +36,17 @@ export default function Products() {
           transition={{ duration: 0.5 }}
         >
           <h2 className="mb-2 font-mono text-sm text-accent">
-            {t("Products", "Produkte")}
+            {t("Product", "Produkt")}
           </h2>
-          <h3 className="mb-14 text-2xl font-bold text-foreground-bright md:text-3xl">
-            {t("Live products I built", "Live-Produkte die ich gebaut habe")}
+          <h3 className="mb-4 text-2xl font-bold text-foreground-bright md:text-3xl">
+            {t("A live product I built", "Ein Live-Produkt, das ich gebaut habe")}
           </h3>
+          <p className="mb-14 max-w-2xl text-base text-foreground-muted">
+            {t(
+              "Built and run on the side. Separate from consulting mandates, priced independently.",
+              "Nebenher gebaut und betrieben. Getrennt vom Beratungsangebot, unabhängig bepreist."
+            )}
+          </p>
         </motion.div>
 
         <div className="grid gap-5 sm:grid-cols-2">

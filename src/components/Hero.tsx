@@ -87,8 +87,8 @@ export default function Hero() {
           className="mb-10 max-w-lg text-base leading-relaxed"
         >
           {t(
-            "I've built, scaled, and digitalized companies, from my own brand to hypergrowth startups to German Mittelstand. At Gorillas I led 130 stores through change-of-use and made the 20-to-150 rollout possible. Today I run that same playbook for other multi-site operators, and build software on the side.",
-            "Ich habe Unternehmen aufgebaut, skaliert und digitalisiert, von der eigenen Marke über Hypergrowth-Startups bis zum deutschen Mittelstand. Bei Gorillas habe ich 130 Nutzungsänderungen begleitet und den Rollout von 20 auf 150 Stores möglich gemacht. Heute fahre ich dasselbe Playbook für andere Multi-Site-Betreiber und baue nebenher Software."
+            "I've built, scaled, and digitalized companies, from my own brand to hypergrowth startups to German Mittelstand. At Gorillas I led 130 stores through change-of-use and made the 20-to-150 rollout possible. Today I run that same playbook for other multi-site operators, and build products like ertragwerk.de to work hands-on with the tools I recommend.",
+            "Ich habe Unternehmen aufgebaut, skaliert und digitalisiert, von der eigenen Marke über Hypergrowth-Startups bis zum deutschen Mittelstand. Bei Gorillas habe ich 130 Nutzungsänderungen begleitet und den Rollout von 20 auf 150 Stores möglich gemacht. Heute fahre ich dasselbe Playbook für andere Multi-Site-Betreiber und baue Produkte wie ertragwerk.de, um hands-on mit den Werkzeugen zu arbeiten, die ich empfehle."
           )}
         </motion.p>
 

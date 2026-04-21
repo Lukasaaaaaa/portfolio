@@ -217,7 +217,7 @@ Pragmatic and efficiency-driven. Uses AI as a multiplier for SQL and Python. Has
 - Hogeschool Rotterdam,B.Sc. Business Administration (Jun 2015 – Apr 2016, transferred)
 
 ## Future Direction
-Now: Ship AI products to GitHub portfolio. Diverse services,Shopify builds, Airtable consulting, custom code. Startup sparring.
+Now: Grow the expansion compliance practice (max 3 parallel mandates), continue startup sparring (GRÜNZUCKER + spot mandates), ship ertragwerk.de to more German real estate investors.
 Next: Build reputation in German market. Shift from startups toward larger firms. AI education, trend reports.
 Long-term: Deep edge on corporate digital transformation. Actively enable companies to change,not just consult.
 

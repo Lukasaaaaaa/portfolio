@@ -14,54 +14,64 @@ import { useLanguage } from "@/lib/language-context";
 export default function Services() {
   const { t } = useLanguage();
 
-  const services = [
+  const clusters = [
     {
-      icon: Building2,
-      title: t("Expansion Compliance", "Expansion Compliance"),
-      description: t(
-        "Multi-site rollout compliance end-to-end: change-of-use, building permits, acoustics, fire safety. The layer that made Gorillas' 20-to-150 rollout possible.",
-        "Multi-Site-Rollout-Compliance End-to-End: Nutzungsänderung, Bauantrag, Schall, Brandschutz. Der Layer, der den Gorillas-Rollout von 20 auf 150 möglich gemacht hat."
-      ),
+      label: t("Expansion Compliance", "Expansion Compliance"),
+      services: [
+        {
+          icon: Building2,
+          title: t("Expansion Compliance", "Expansion Compliance"),
+          description: t(
+            "Multi-site rollout compliance end-to-end: change-of-use, building permits, acoustics, fire safety. The layer that made Gorillas' 20-to-150 rollout possible.",
+            "Multi-Site-Rollout-Compliance End-to-End: Nutzungsänderung, Bauantrag, Schall, Brandschutz. Der Layer, der den Gorillas-Rollout von 20 auf 150 möglich gemacht hat."
+          ),
+        },
+        {
+          icon: FileCheck,
+          title: t("Pre-LOI Site Check", "Pre-LOI-Standortcheck"),
+          description: t(
+            "Traffic-light verdict before you sign the LOI: B-plan, parking, acoustics, fire risk. Kills dead sites in 10 working days.",
+            "Ampel vor LOI-Unterschrift: B-Plan, Stellplatz, Schall, Brandschutz. Sortiert tote Standorte in 10 Werktagen aus."
+          ),
+        },
+        {
+          icon: FileText,
+          title: t("Lease Redlines", "Mietvertrags-Redlines"),
+          description: t(
+            "Compliance clauses that protect the tenant: withdrawal on missing permit, conversion rights, restoration, landlord cost allocation.",
+            "Compliance-Klauseln, die den Mieter schützen: Rücktritt bei fehlender Genehmigung, Umbaurecht, Rückbau, Vermieter-Kostentragung."
+          ),
+        },
+      ],
     },
     {
-      icon: FileCheck,
-      title: t("Pre-LOI Site Check", "Pre-LOI-Standortcheck"),
-      description: t(
-        "Traffic-light verdict before you sign the LOI: B-plan, parking, acoustics, fire risk. Kills dead sites in 10 working days.",
-        "Ampel vor LOI-Unterschrift: B-Plan, Stellplatz, Schall, Brandschutz. Sortiert tote Standorte in 10 Werktagen aus."
-      ),
-    },
-    {
-      icon: FileText,
-      title: t("Lease Redlines", "Mietvertrags-Redlines"),
-      description: t(
-        "Compliance clauses that protect the tenant: withdrawal on missing permit, conversion rights, restoration, landlord cost allocation.",
-        "Compliance-Klauseln, die den Mieter schützen: Rücktritt bei fehlender Genehmigung, Umbaurecht, Rückbau, Vermieter-Kostentragung."
-      ),
-    },
-    {
-      icon: Workflow,
-      title: t("Digital Transformation", "Digitale Transformation"),
-      description: t(
-        "End-to-end process optimization for companies stuck on Excel, tribal knowledge, and manual workflows.",
-        "Ganzheitliche Prozessoptimierung für Unternehmen, die an Excel, Wissensmonopolen und manuellen Workflows hängen."
-      ),
-    },
-    {
-      icon: Rocket,
-      title: t("Startup Sparring", "Startup Sparring"),
-      description: t(
-        "Hands-on co-building for founders. Websites, pitch decks, investor relations, market validation.",
-        "Hands-on Co-Building für Gründer. Websites, Pitch Decks, Investor Relations, Marktvalidierung."
-      ),
-    },
-    {
-      icon: Blocks,
-      title: "No-Code / Low-Code",
-      description: t(
-        "Airtable, Zapier, and custom API integrations to eliminate manual work and information silos.",
-        "Airtable, Zapier und individuelle API-Integrationen zur Beseitigung manueller Arbeit und Informationssilos."
-      ),
+      label: "Generalist & Startup",
+      services: [
+        {
+          icon: Workflow,
+          title: t("Digital Transformation", "Digitale Transformation"),
+          description: t(
+            "End-to-end process optimization for companies stuck on Excel, tribal knowledge, and manual workflows.",
+            "Ganzheitliche Prozessoptimierung für Unternehmen, die an Excel, Wissensmonopolen und manuellen Workflows hängen."
+          ),
+        },
+        {
+          icon: Rocket,
+          title: t("Startup Sparring", "Startup Sparring"),
+          description: t(
+            "Hands-on co-building for founders. Websites, pitch decks, investor relations, market validation.",
+            "Hands-on Co-Building für Gründer. Websites, Pitch Decks, Investor Relations, Marktvalidierung."
+          ),
+        },
+        {
+          icon: Blocks,
+          title: "No-Code / Low-Code",
+          description: t(
+            "Airtable, Zapier, and custom API integrations to eliminate manual work and information silos.",
+            "Airtable, Zapier und individuelle API-Integrationen zur Beseitigung manueller Arbeit und Informationssilos."
+          ),
+        },
+      ],
     },
   ];
 
@@ -88,31 +98,46 @@ export default function Services() {
           </p>
         </motion.div>
 
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {services.map((service, i) => {
-            const Icon = service.icon;
-            return (
-              <motion.div
-                key={service.title}
+        <div className="space-y-14">
+          {clusters.map((cluster) => (
+            <div key={cluster.label}>
+              <motion.h4
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-100px" }}
-                transition={{ duration: 0.4, delay: i * 0.06 }}
-                className="group rounded-xl border border-border bg-surface p-5 transition-all hover:border-border-bright"
+                transition={{ duration: 0.4 }}
+                className="mb-5 text-xs font-semibold uppercase tracking-widest text-foreground-muted"
               >
-                <Icon
-                  size={20}
-                  className="mb-3 text-accent transition-colors group-hover:text-accent-hover"
-                />
-                <h4 className="mb-1.5 text-sm font-semibold text-foreground-bright">
-                  {service.title}
-                </h4>
-                <p className="text-xs leading-relaxed text-foreground-muted">
-                  {service.description}
-                </p>
-              </motion.div>
-            );
-          })}
+                {cluster.label}
+              </motion.h4>
+              <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {cluster.services.map((service, i) => {
+                  const Icon = service.icon;
+                  return (
+                    <motion.div
+                      key={service.title}
+                      initial={{ opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: true, margin: "-100px" }}
+                      transition={{ duration: 0.4, delay: i * 0.06 }}
+                      className="group rounded-xl border border-border bg-surface p-5 transition-all hover:border-border-bright"
+                    >
+                      <Icon
+                        size={20}
+                        className="mb-3 text-accent transition-colors group-hover:text-accent-hover"
+                      />
+                      <h4 className="mb-1.5 text-sm font-semibold text-foreground-bright">
+                        {service.title}
+                      </h4>
+                      <p className="text-xs leading-relaxed text-foreground-muted">
+                        {service.description}
+                      </p>
+                    </motion.div>
+                  );
+                })}
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>
