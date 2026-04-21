@@ -60,11 +60,23 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.25 }}
-          className="mb-4 text-lg text-accent md:text-xl"
+          className="mb-2 text-lg text-accent md:text-xl"
         >
           {t(
-            "Expansion compliance, digital transformation, and startup sparring for German scale-ups and SMBs.",
-            "Expansion Compliance, Digitale Transformation und Startup Sparring für deutsche Scale-ups und Mittelstand."
+            "Digital transformation & startup sparring",
+            "Digitale Transformation & Startup Sparring"
+          )}
+        </motion.p>
+
+        <motion.p
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.3 }}
+          className="mb-4 text-base text-foreground-muted md:text-lg"
+        >
+          {t(
+            "for German scale-ups and SMBs.",
+            "für deutsche Scale-ups und Mittelstand."
           )}
         </motion.p>
 

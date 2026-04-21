@@ -340,8 +340,8 @@ export default function Experience() {
               </p>
               <p className="mt-2 text-xs text-foreground-muted">
                 {t(
-                  "Focus: Digital Transformation & AI · Starting Apr 2026",
-                  "Schwerpunkt: Digitale Transformation & KI · Ab Apr 2026"
+                  "Focus: Digital Transformation & AI · Apr 2026 – Apr 2028",
+                  "Schwerpunkt: Digitale Transformation & KI · Apr 2026 – Apr 2028"
                 )}
               </p>
             </div>
@@ -378,12 +378,12 @@ export default function Experience() {
                 WBS Akademie Berlin
               </h4>
               <p className="mt-1 text-sm text-accent2">
-                PSM I, PSM II, PRINCE 2
+                PSM I
               </p>
               <p className="mt-2 text-xs text-foreground-muted">
                 {t(
-                  "Dec 2023 – Apr 2024 · Agile Project Management",
-                  "Dez 2023 – Apr 2024 · Agiles Projektmanagement"
+                  "Nov 2023 – Feb 2024 · Agile Project Management",
+                  "Nov 2023 – Feb 2024 · Agiles Projektmanagement"
                 )}
               </p>
             </div>

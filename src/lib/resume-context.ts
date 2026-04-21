@@ -34,7 +34,7 @@ Core belief: It's about more than efficiency. Companies suffocate under their ow
 ## Current Status
 - Full-time student: B.Sc. Wirtschaftsinformatik (Business Information Systems), Universität Potsdam (since Apr 2025)
 - Self-employed startup consultant (since Mar 2025, ongoing)
-- Next step: M.Sc. Wirtschaftsinformatik mit Fokus auf KI und Business Digitalisierung at Universität Potsdam, starting April 2026
+- Next step: M.Sc. Wirtschaftsinformatik mit Fokus auf KI und Business Digitalisierung at Universität Potsdam, April 2026 – April 2028
 - Seeking: Werkstudent positions in Data Management, Business Automation, Operations
 - Available: Immediately
 
@@ -133,7 +133,7 @@ Python, Airtable, Zapier, Shopify, Streamlit, Claude Code, APIs
 - Excel (advanced formulas, financial modeling, data analysis,used across all roles)
 - Stakeholder Management (authorities, C-level, landlords, investors,Gorillas, consulting)
 - Process Optimization & Analysis (core skill,applied in every role)
-- Project Management (Agile/Scrum/Kanban,certified PSM I, PSM II, PRINCE 2)
+- Project Management (Agile/Scrum/Kanban,certified PSM I)
 - No-Code Tools & Automations (Zapier, Airtable automations, workflow design)
 - Shopify (built & managed stores for BEC-Energie and Brasiventures)
 - Change Management (learned the hard way,tools without buy-in are shelfware)
@@ -160,13 +160,13 @@ Python, Airtable, Zapier, Shopify, Streamlit, Claude Code, APIs
 - BPMN modeling (academic and practical use)
 
 ### Methods & Frameworks:
-Agile / SCRUM (PSM I certified), Adaptive methodology, Kanban, OKR, Lean Management, Design Thinking, Liberating Structures, PRINCE2
+Agile / SCRUM (PSM I certified), Adaptive methodology, Kanban, OKR, Lean Management, Design Thinking, Liberating Structures
 
 ### Core Strengths:
 Fast execution, rapid adaptation, iterative learning, change management, cross-functional communication, analytical thinking, structured work approach, persuasive stakeholder management, process documentation, interdisciplinary collaboration.
 
 ### Certifications:
-PSM I (Professional Scrum Master, 2024), PSM II, PRINCE 2, Agile Project Management, AI LinkedIn Learning Certificate
+PSM I (Professional Scrum Master, 2024), Agile Project Management, AI LinkedIn Learning Certificate
 
 ### Design Tools (from earlier work):
 Adobe InDesign, Photoshop, Illustrator
@@ -204,12 +204,12 @@ Pragmatic and efficiency-driven. Uses AI as a multiplier for SQL and Python. Has
   - Purpose: Academic bridge,acquiring missing computer science credits (ECTS) to qualify for the Master's program.
 
 ### Planned:
-- M.Sc. Wirtschaftsinformatik,Universität Potsdam (Focus: Digital Transformation & AI, starting Apr 2026)
+- M.Sc. Wirtschaftsinformatik,Universität Potsdam (Focus: Digital Transformation & AI, Apr 2026 – Apr 2028)
 - Also applied for Master@IBM dual study program
 
 ### Completed:
 - B.A. Business Administration (Grade: 2.3), SRH University Berlin (Sep 2017 – Sep 2020)
-- Agile Project Management,PSM I, PSM II, PRINCE 2, WBS Akademie Berlin (Dec 2023 – Apr 2024)
+- Agile Project Management,PSM I, WBS Akademie Berlin (Nov 2023 – Feb 2024)
 - International Baccalaureate (Bilingual), Berlin International School (2002 – 2015), 34 Points (≈ German grade 2.3)
   - Higher Level: Business and Management, Art, English
 
