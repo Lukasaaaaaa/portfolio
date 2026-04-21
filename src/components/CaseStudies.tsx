@@ -104,7 +104,7 @@ export default function CaseStudies() {
         "Die meisten deutschen Immobilieninvestoren rechnen in überkomplexen Excel-Sheets oder gar nicht. Online-Rechner zeigen nur Bruttorendite und ignorieren, was die Entscheidung kippt: lineare vs. degressive AfA nach §7 EStG, Splittingtarif, Kirchensteuer, Spekulationssteuer innerhalb der 10-Jahres-Frist, DSCR, IRR, 30-Jahres-Prognose."
       ),
       problem: t(
-        "No accessible tool that computes the full picture — tax-accurate, scenario-tested, with a clear verdict. Professional software is expensive, enterprise-grade, and intimidating. Free tools are toy-grade.",
+        "No accessible tool that computes the full picture: tax-accurate, scenario-tested, with a clear verdict. Professional software is expensive, enterprise-grade, and intimidating. Free tools are toy-grade.",
         "Kein zugängliches Tool, das das Gesamtbild berechnet: steuerlich exakt, szenario-getestet, mit klarem Verdikt. Profi-Software ist teuer und abschreckend. Kostenlose Tools sind Spielzeug."
       ),
       solution: t(
@@ -112,8 +112,8 @@ export default function CaseStudies() {
         "Die SaaS von Grund auf gebaut. Next.js auf Vercel EU, Supabase, Stripe. 5-Schritt-Wizard bis zur Analyse in ~2 Minuten. 15+ Kennzahlen: Brutto-, Netto-, Eigenkapitalrendite, DSCR, Cap Rate, Cash-on-Cash, IRR, NPV, Break-even. Steuer exakt nach deutschem Recht: lineare AfA 2%/2,5%/3%, degressive AfA 5% (§7 Abs. 5a EStG, Neubauten ab 2024), Splittingtarif, KiSt, SolZ, Spekulationssteuer. 30-Jahres-Prognose mit Vermögen, Cashflow, Tilgung, Wert- und Mietsteigerung. KI-Layer: SWOT pro Objekt, Experten-Report, Bankgespräch-PDF, Verhandlungsstrategien, Gutachten-Analyse für Zwangsversteigerungen. Szenario-Simulator (Best/Worst/Custom). Investment Score 0-100 über 8 Faktoren. Vier Pricing-Stufen: €0 / €19 / €49 / €99 pro Monat."
       ),
       result: t(
-        "Live at ertragwerk.de. All pricing tiers active. Early user base. Current focus: SEO (free calculators as traffic magnets), conversion to paid, feature depth. Not an advisory service — disclaimer per §34c GewO, §1 StBerG, §2 RDG.",
-        "Live unter ertragwerk.de. Alle Pricing-Stufen aktiv. Früher Userbase. Aktueller Fokus: SEO (kostenlose Rechner als Traffic-Magnet), Conversion zu Paid, Feature-Tiefe. Keine Beratung — Disclaimer nach §34c GewO, §1 StBerG, §2 RDG."
+        "Live at ertragwerk.de. All pricing tiers active. Early user base. Current focus: SEO (free calculators as traffic magnets), conversion to paid, feature depth. Not an advisory service. Disclaimer per §34c GewO, §1 StBerG, §2 RDG.",
+        "Live unter ertragwerk.de. Alle Pricing-Stufen aktiv. Früher Userbase. Aktueller Fokus: SEO (kostenlose Rechner als Traffic-Magnet), Conversion zu Paid, Feature-Tiefe. Keine Beratung. Disclaimer nach §34c GewO, §1 StBerG, §2 RDG."
       ),
       tags: [
         t("Own Product", "Eigenentwicklung"),

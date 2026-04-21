@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Lukas Gurny — Expansion Compliance & Digital Transformation, Berlin",
+  title: "Lukas Gurny | Expansion Compliance & Digital Transformation, Berlin",
   description:
     "Freelance expansion compliance for multi-site rollouts in Germany (change-of-use, building permits, acoustics, fire safety) plus digital transformation, AI enablement, and custom SaaS. 130 change-of-use cases at Gorillas, 20-to-150 rollout.",
 };

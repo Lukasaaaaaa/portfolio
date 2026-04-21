@@ -116,11 +116,11 @@ Solution: Everything. Packaging design, Shopify store, retail distribution strat
 Result: Six-figure revenue over three years. The real value was the learning: how to bring a product to market, negotiate without a company name, manage sales, operations, and finances simultaneously. "My MBA on the street."
 
 ### 4. ertragwerk.de – German Real Estate Investment SaaS (Live)
-Context: Most German real estate investors either use overly complex Excel sheets or only see gross yield via simple online calculators. The parts that actually move the decision — linear vs. declining AfA per §7 EStG, splittingtarif, church tax, speculation tax inside the 10-year window, DSCR, IRR, 30-year projection — are usually missing.
-Problem: No accessible tool that computes the full picture — tax-accurate, scenario-tested, with a clear verdict. Professional software is expensive and enterprise-grade. Free tools are toy-grade.
+Context: Most German real estate investors either use overly complex Excel sheets or only see gross yield via simple online calculators. The parts that actually move the decision are usually missing: linear vs. declining AfA per §7 EStG, splittingtarif, church tax, speculation tax inside the 10-year window, DSCR, IRR, 30-year projection.
+Problem: No accessible tool that computes the full picture: tax-accurate, scenario-tested, with a clear verdict. Professional software is expensive and enterprise-grade. Free tools are toy-grade.
 Solution: Built the SaaS from scratch. Next.js on Vercel EU, Supabase, Stripe. 5-step wizard, analysis in ~2 minutes. 15+ metrics (gross / net / equity yield, DSCR, cap rate, cash-on-cash, IRR, NPV, break-even). German tax exact: linear AfA 2%/2.5%/3%, declining AfA 5% (§7 Abs. 5a EStG, new builds from 2024), splittingtarif, KiSt, SolZ, speculation tax. 30-year projection. AI layer: SWOT per property, expert report, bank-talk PDF, negotiation strategy, foreclosure appraisal analysis. Scenario simulator (best/worst/custom). Investment Score 0-100 across 8 factors. Property types: apartment, house, MFH, holiday rental, garage, foreclosure.
 Pricing (live): €0 Einstieg / €19 Vermögensaufbau / €49 Portfolio / €99 Professional per month.
-Result: Live at ertragwerk.de. All pricing tiers active. Early user base. Current focus: SEO (free calculators as traffic magnets), conversion to paid. Not advisory — disclaimer per §34c GewO, §1 StBerG, §2 RDG.
+Result: Live at ertragwerk.de. All pricing tiers active. Early user base. Current focus: SEO (free calculators as traffic magnets), conversion to paid. Not advisory. Disclaimer per §34c GewO, §1 StBerG, §2 RDG.
 
 ## Skills (with proficiency levels for accurate fit assessment)
 
@@ -222,7 +222,7 @@ Next: Build reputation in German market. Shift from startups toward larger firms
 Long-term: Deep edge on corporate digital transformation. Actively enable companies to change,not just consult.
 
 ## Key Achievements
-- Kept the 20-to-150 store rollout on track by building a permit tracking system (Gorillas/Getir) — 130 change-of-use cases
+- Kept the 20-to-150 store rollout on track by building a permit tracking system (Gorillas/Getir), 130 change-of-use cases
 - Oversaw €2M buildout budget
 - 45 properties in DACH region successfully wound down (Post-Merger Gorillas/Getir)
 - Built single source of truth across 130 change-of-use cases for C-level decisions
