@@ -16,13 +16,13 @@ export const RESUME_CONTEXT = `
 
 ## Positioning
 Headline: Enabler and hands-on generalist. Acts fast, goes where the pain is, closes the gap, hands the work back to the team.
-Positioning: Two parallel streams. (1) Expansion compliance for multi-site operators scaling in Germany,change-of-use, building permits, acoustics, fire safety,the same playbook that made Gorillas' 20-to-150 store rollout possible. (2) Startup sparring and digital transformation for founders and Mittelstand companies,websites, pitch decks, Airtable automations, AI enablement.
+Positioning: Independent consultant with two parallel streams. Expansion compliance for multi-site operators scaling in Germany (change-of-use, building permits, acoustics, fire safety), and hands-on startup sparring for founders who need investor-ready materials and operating infrastructure.
 Target audience: Multi-site operators in fitness/sport, q-commerce, retail, service chains, PE-backed scale-ups in expansion phase. Plus early-stage founders and Mittelstand companies.
 Tone: Founder-edgy. Never vague. Everything concrete and specific.
-Value proposition: Expansion compliance owner who has personally run 130 change-of-use cases. Plus startup-speed generalist who builds what's missing.
+Value proposition: Two equal streams,(1) expansion compliance owner who has personally run 130 change-of-use cases at Gorillas, and (2) hands-on startup sparring partner who ships investor-ready materials and operating infrastructure for founders.
 Approach: Holistic,doesn't just look at the ticket, but the entire ecosystem. Owns the interface between real estate, legal, architects, acousticians, and building authorities. Where others maintain manual lists, builds scalable systems using No-Code tools combined with AI.
 Differentiator: Rare mix of German real estate / permit expertise (Gorillas: 130 change-of-use cases, €2M budget, 20-to-150 rollout) plus hands-on generalist execution and academic depth in Business Information Systems.
-Career goal: Deep edge on multi-site expansion compliance in Germany. Enable operators to scale without tripping over permits. Parallel: corporate digital transformation.
+Career goal: Two parallel edges,multi-site expansion compliance in Germany, and hands-on startup sparring / digital transformation for founders and Mittelstand.
 
 ## Origin Story
 After his Bachelor's in Business Administration, Lukas founded Brasiventures,a CBD brand. Packaging, Shopify store, distribution to Berlin kiosks,all built solo. Learned what it means to take a product from zero to market. Every decision, every mistake, every win was on him.
@@ -49,11 +49,10 @@ Core belief: It's about more than efficiency. Companies suffocate under their ow
 ## Work Experience
 
 ### Self-employed,Expansion Compliance & Startup Sparring (Mar 2025 – Present, Berlin)
-Two parallel streams. (1) Expansion compliance for multi-site operators scaling in Germany,the same playbook from Gorillas (130 change-of-use cases, 20-to-150 store rollout). Pre-LOI site checks, lease redlines, end-to-end change-of-use management, partner orchestration (architects, acousticians, fire safety engineers). (2) Startup sparring,transfer of knowledge from hyper-growth phases (Gorillas/Getir) to early-stage founders.
-- Current mandate (GRÜNZUCKER GmbH): Hands-on co-builder. Website, pitch deck, investor relations, market validation, financial projection stress-testing. Biomass-to-sugar technology startup. Company is now investor-visible with full web presence and fundraising narrative. Partnerships with Fraunhofer and other companies in pipeline.
-- Former mandate: LAP Coffee,location analysis and recommendation (compliance-adjacent).
-- Former mandate: Halo Bagels,location analysis and commercial lease recommendation (compliance-adjacent).
-- Former mandate: Everyfy (German Instacart model),advisory on pitch decks and financial modeling.
+Independent consultant with two parallel streams. Expansion compliance for multi-site operators scaling in Germany (change-of-use, building permits, acoustics, fire safety), and hands-on startup sparring for founders who need investor-ready materials and operating infrastructure.
+- Expansion Compliance: Pre-LOI site checks, lease redlines, end-to-end change-of-use management, partner orchestration with architects, acousticians, fire-safety engineers. Playbook carried over from 130 change-of-use cases at Gorillas.
+- Current mandate (GRÜNZUCKER GmbH): Hands-on co-builder,website, pitch deck, investor relations, market validation, financial projection stress-testing. Partnerships with Fraunhofer in pipeline.
+- Former mandates: LAP Coffee (location analysis), Halo Bagels (location analysis & commercial lease advisory), Everyfy (pitch decks & financial modeling).
 
 ### BEC-Energie Consult GmbH,Project Developer (Feb 2024 – Apr 2025, Berlin)
 Renewable energy / German Mittelstand. Experienced firsthand the cultural resistance to digitalization in traditional German companies.
