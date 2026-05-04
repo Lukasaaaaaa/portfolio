@@ -87,7 +87,9 @@ export default function Hero() {
           className="flex flex-wrap gap-3"
         >
           <a
-            href="#experience"
+            href="/Lebenslauf_Lukas_Gurny.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center rounded-lg border border-border bg-surface px-5 py-2.5 text-sm font-medium text-foreground-bright transition-all hover:border-border-bright"
           >
             {t("View CV", "Lebenslauf ansehen")}
