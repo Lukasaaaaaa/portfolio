@@ -1,10 +1,10 @@
 "use client";
 
-import { Sparkles, ClipboardCheck } from "lucide-react";
+import { ClipboardCheck } from "lucide-react";
 import { useLanguage } from "@/lib/language-context";
 
 export default function Navigation() {
-  const { lang, setLang, t } = useLanguage();
+  const { lang, setLang } = useLanguage();
 
   return (
     <nav className="fixed top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur-md">
@@ -42,13 +42,6 @@ export default function Navigation() {
             </button>
           </div>
 
-          <a
-            href="#ai-about"
-            className="inline-flex items-center gap-2 rounded-lg bg-accent px-4 py-1.5 text-xs font-medium text-white transition-all hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/25"
-          >
-            <Sparkles size={12} />
-            {t("Ask AI", "KI fragen")}
-          </a>
           <a
             href="#fit-check"
             className="inline-flex items-center gap-2 rounded-lg bg-accent px-4 py-1.5 text-xs font-medium text-white transition-all hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/25"

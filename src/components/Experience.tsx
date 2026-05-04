@@ -11,137 +11,116 @@ export default function Experience() {
     {
       company: t("Self-employed", "Selbstständig"),
       role: t(
-        "Expansion Compliance & Startup Sparring",
-        "Expansion Compliance & Startup Sparring"
+        "Operations Consulting & Agentic Product Building",
+        "Operations Consulting & Agentic Product Building"
       ),
       location: "Berlin",
       period: t("Mar 2025 – Present", "Mär 2025 – Heute"),
       logo: "/logo-gruenzucker.png",
       logoAlt: "Grünzucker",
       description: t(
-        "Independent consultant with two parallel streams. Expansion compliance for multi-site operators scaling in Germany (change-of-use, building permits, acoustics, fire safety), and hands-on startup sparring for founders who need investor-ready materials and operating infrastructure.",
-        "Selbstständiger Berater mit zwei parallelen Streams. Expansion Compliance für Multi-Site-Betreiber, die in Deutschland skalieren (Nutzungsänderung, Baugenehmigung, Schall, Brandschutz), und Hands-on-Startup-Sparring für Gründer, die investoren-taugliche Materialien und operative Infrastruktur brauchen."
+        "Three parallel streams: multi-site operations for retail, F&B, and fitness operators scaling in Germany; agentic product building of own products; and co-builder mandates for pre-seed to seed founders.",
+        "Selbstständiger Operator mit drei parallelen Streams: Multi-Site Operations für Retail-, F&B- und Fitness-Operatoren in Skalierung, Agentic Product Building eigener Produkte und Co-Builder-Mandate für Pre-Seed- bis Seed-Founder."
       ),
       points: [
         t(
-          "Expansion Compliance: Pre-LOI site checks, lease redlines, end-to-end change-of-use management, partner orchestration with architects, acousticians, fire-safety engineers. Playbook carried over from 130 change-of-use cases at Gorillas.",
-          "Expansion Compliance: Pre-LOI-Standortchecks, Mietvertrags-Redlines, End-to-End-Nutzungsänderungs-Management, Orchestration von Architekten, Schallgutachtern und Brandschützern. Playbook aus 130 Nutzungsänderungen bei Gorillas übernommen."
+          "Multi-Site Operations: Pre-LOI site checks, lease redlines, end-to-end use-permit conversions. Coordinating architects, acoustics consultants, and fire safety engineers. Playbook from 130 conversions at Gorillas.",
+          "Multi-Site Operations: Pre-LOI Site-Checks, Mietvertrags-Redlines, end-to-end Nutzungsänderungen. Steuerung von Architekten, Schallgutachtern und Brandschutz-Ingenieuren. Playbook aus 130 Nutzungsänderungen bei Gorillas."
         ),
         t(
-          "Current mandate (GRÜNZUCKER GmbH): Hands-on co-builder: website, pitch deck, investor relations, market validation, financial projection stress-testing. Partnerships with Fraunhofer in pipeline.",
-          "Aktuelles Mandat (GRÜNZUCKER GmbH): Hands-on Co-Builder: Website, Pitch Deck, Investor Relations, Marktvalidierung, Stress-Testing der Finanzprognosen. Partnerschaften mit Fraunhofer in der Pipeline."
+          "Startup Sparring: Co-builder mandates for pre-seed to seed: pitch decks, investor strategy, TAM/SAM/SOM validation, financial models, GTM.",
+          "Startup-Sparring: Co-Builder-Mandate für Pre-Seed bis Seed: Pitch Decks, Investorenstrategie, TAM/SAM/SOM-Validierung, Finanzmodelle, Go-to-Market."
         ),
         t(
-          "Former mandates: LAP Coffee (location analysis), Halo Bagels (location analysis & commercial lease advisory), Everyfy (pitch decks & financial modeling).",
-          "Frühere Mandate: LAP Coffee (Standortanalyse), Halo Bagels (Standortanalyse & Gewerbeimmobilienberatung), Everyfy (Pitch Decks & Finanzmodellierung)."
+          "Selected mandates: GRÜNZUCKER GmbH (biotech, Fraunhofer pipeline partnership), LAP Coffee (site analysis), Halo Bagels (site plus commercial lease advisory), Everyfy (pitch deck and financial model).",
+          "Mandate (Auswahl): GRÜNZUCKER GmbH (Biotech, Fraunhofer-Pipeline-Partnerschaft), LAP Coffee (Standortanalyse), Halo Bagels (Standort plus gewerbliche Mietvertrags-Beratung), Everyfy (Pitch Deck und Finanzmodell)."
         ),
       ],
       tags: [
-        t("Expansion Compliance", "Expansion Compliance"),
-        t("Change of Use", "Nutzungsänderung"),
-        t("Startup Sparring", "Startup Sparring"),
+        "Multi-Site",
+        "Agentic Engineering",
         "Pitch Decks",
+        "Investor Relations",
       ],
     },
     {
       company: "BEC-Energie Consult GmbH",
-      role: t("Project Developer", "Projektentwickler"),
+      role: t(
+        "Project Developer, Renewable Energy (DE / PL / FR)",
+        "Projektentwickler, Erneuerbare Energien (DE / PL / FR)"
+      ),
       location: "Berlin",
-      period: "Feb 2024 – Apr 2025",
+      period: t("Mar 2024 – Mar 2025", "Mär 2024 – Mär 2025"),
       logo: "/logo-bec-energie.png",
       logoAlt: "BEC-Energie",
       description: t(
-        "Renewable energy company in the classic German Mittelstand. Small team, long-tenured employees, deeply analog processes. This is where I learned that building the right tool means nothing if the culture isn't ready for it.",
-        "Erneuerbare-Energien-Unternehmen im klassischen deutschen Mittelstand. Kleines Team, langjährige Mitarbeiter, tief analoge Prozesse. Hier habe ich gelernt, dass das richtige Tool nichts bedeutet, wenn die Kultur nicht bereit dafür ist."
+        "Renewable energy in classic German Mittelstand: small team, long-tenured employees, deeply analog processes. Cross-border project development across three markets.",
+        "Erneuerbare Energien im klassischen deutschen Mittelstand: kleines Team, langjährige Mitarbeiter, tief analoge Prozesse. Cross-Border Projektentwicklung über drei Märkte."
       ),
       points: [
         t(
-          "Built Airtable database reducing alignment overhead by ~30%. Created bilingual website (DE/FR) on Shopify.",
-          "Airtable-Datenbank gebaut, die Abstimmungsaufwand um ~30% reduzierte. Zweisprachige Website (DE/FR) auf Shopify erstellt."
+          "Acquired new project sites for wind and solar parks across three markets (Germany, Poland, France).",
+          "Akquisition neuer Projektstandorte für Wind- und Solarparks über drei Märkte (Deutschland, Polen, Frankreich)."
         ),
         t(
-          "Led GPT workshops that succeeded where tooling alone failed, meeting employees where they were instead of forcing adoption.",
-          "GPT-Workshops geleitet, die dort Erfolg hatten, wo Tools allein scheiterten. Mitarbeiter dort abgeholt, wo sie standen, statt Adoption zu erzwingen."
+          "Built sales channel for PV garden installations using BECU patent substructure: positioning, channels, marketing material.",
+          "Vertriebsaufbau für PV-Gartenanlagen mit der BECU-Patent-Unterkonstruktion: Positionierung, Vertriebskanäle, Werbematerial."
         ),
         t(
-          "Core lesson: technology without buy-in is shelfware. Pivoted from implementation-first to change-management-first approach.",
-          "Kernlektion: Technologie ohne Buy-in ist Regalware. Pivot von Implementierung-zuerst zu Change-Management-zuerst."
+          "Built Airtable database for project coordination, reducing coordination overhead by ~30%. Designed and maintained bilingual company website (DE/FR) on Shopify.",
+          "Airtable-Datenbank für Projektkoordination aufgebaut, Abstimmungsaufwand um etwa 30 Prozent reduziert. Zweisprachige Unternehmenswebsite (DE/FR) auf Shopify konzipiert und gepflegt."
+        ),
+        t(
+          "Designed and ran AI workshops for management and operational teams. Established adoption of ChatGPT and Claude in sales and project coordination, where prior tool rollouts had failed without enablement.",
+          "KI-Workshops für Geschäftsführung und operative Teams konzipiert und durchgeführt. Adoption von ChatGPT und Claude in Vertrieb und Projektkoordination etabliert, wo vorherige Tool-Einführungen ohne Begleitung gescheitert waren."
         ),
       ],
       tags: [
-        "Airtable",
-        "Shopify",
-        "Change Management",
+        t("Renewable Energy", "Erneuerbare Energien"),
+        "Cross-Border",
         t("AI Workshops", "KI-Workshops"),
+        "Airtable",
       ],
     },
     {
-      company: "Getir",
+      company: t(
+        "Gorillas Technologies GmbH (acquired by Getir)",
+        "Gorillas Technologies GmbH (acquired by Getir)"
+      ),
       role: t(
-        "Project Manager, Post-Merger Integration",
-        "Projektmanager, Post-Merger Integration"
+        "Real Estate Project Manager (Hyper-Growth & Post-Merger Integration)",
+        "Real Estate Project Manager (Hyper-Growth & Post-Merger Integration)"
       ),
       location: "Berlin",
-      period: t("Dec 2022 – Nov 2023", "Dez 2022 – Nov 2023"),
-      logo: "/logo-getir.png",
-      logoAlt: "Getir",
-      description: t(
-        "After Getir acquired Gorillas, the focus shifted from growth to consolidation. Led the structured wind-down of the DACH real estate portfolio: managing landlord negotiations, contract terminations, and financial settlements under pressure and tight timelines.",
-        "Nach der Übernahme von Gorillas durch Getir verlagerte sich der Fokus von Wachstum auf Konsolidierung. Strukturierte Abwicklung des DACH-Immobilienportfolios geleitet: Vermieterverhandlungen, Vertragsauflösungen und finanzielle Abwicklungen unter Druck und engen Fristen."
-      ),
-      points: [
-        t(
-          "Led wind-down of 45 properties across DACH region, coordinating legal, finance, and operations across three countries.",
-          "Abwicklung von 45 Standorten in der DACH-Region geleitet. Koordination von Legal, Finance und Operations über drei Länder."
-        ),
-        t(
-          "Managed portfolio of 90 locations with end-to-end responsibility for negotiations, contracts, and payments.",
-          "Portfolio von 90 Standorten mit End-to-End-Verantwortung für Verhandlungen, Verträge und Zahlungen verwaltet."
-        ),
-        t(
-          "Navigated complex stakeholder landscape: landlords, legal counsel, C-level, and cross-functional teams across multiple time zones.",
-          "Navigation einer komplexen Stakeholder-Landschaft: Vermieter, Rechtsberater, C-Level und funktionsübergreifende Teams über mehrere Zeitzonen."
-        ),
-      ],
-      tags: [
-        "Post-Merger",
-        t("Real Estate", "Immobilien"),
-        t("Stakeholder Mgmt", "Stakeholder Mgmt"),
-        "DACH",
-      ],
-    },
-    {
-      company: "Gorillas",
-      role: t(
-        "Project Manager, Expansion",
-        "Projektmanager, Expansion"
-      ),
-      location: "Berlin",
-      period: "Jun 2021 – Dec 2022",
+      period: t("Jul 2021 – Aug 2023", "Juli 2021 – Aug 2023"),
       logo: "/logo-gorillas.png",
       logoAlt: "Gorillas",
       description: t(
-        "Hyper-growth q-commerce startup scaling from dozens to hundreds of dark stores. Joined the Real Estate & Expansion team to manage the operational chaos of opening stores at breakneck speed: building permits, fire safety, landlord negotiations, all at once.",
-        "Hyper-Growth Q-Commerce-Startup, das von Dutzenden auf Hunderte von Dark Stores skalierte. Teil des Real Estate & Expansion Teams, um das operative Chaos der rasanten Filialeröffnungen zu managen: Baugenehmigungen, Brandschutz, Vermieterverhandlungen, alles gleichzeitig."
+        "Two phases under one role: hyper-growth scaling, then post-merger consolidation after Getir acquisition.",
+        "Zwei Phasen in einer Rolle: Hyper-Growth-Skalierung, dann Post-Merger-Konsolidierung nach Übernahme durch Getir."
       ),
       points: [
         t(
-          "Led 130 change-of-use cases through the rollout from 20 to 150 stores. Owned building permits and fire safety compliance. Oversaw €2M buildout budget.",
-          "130 Nutzungsänderungen beim Rollout von 20 auf 150 Stores begleitet. Verantwortlich für Baugenehmigungen und Brandschutz-Compliance. €2M Ausbaubudget verantwortet."
+          "Hyper-Growth Scaling (2021–2022): Operationally led scale-up from 20 to 150 stores across DACH. €2M buildout budget. Owned 130 use-permit conversions, building permits, and fire safety compliance across 16 German federal states.",
+          "Hyper-Growth-Skalierung (2021–2022): Skalierung von 20 auf 150 Stores in der DACH-Region operativ verantwortet. €2M Buildout-Budget. Verantwortlich für 130 Nutzungsänderungen, Bauanträge und Brandschutz in 16 Bundesländern."
         ),
         t(
-          "Built Airtable live dashboard replacing Excel chaos. Single source of truth for legal and ops teams, eliminating miscommunication.",
-          "Airtable-Live-Dashboard gebaut, das Excel-Chaos ersetzte. Single Source of Truth für Legal- und Ops-Teams, Fehlkommunikation eliminiert."
+          "Post-Merger Integration (2022–2023): Led the wind-down of 90+ properties in DACH after Getir acquisition. Built tracker for team coordination and C-level progress monitoring.",
+          "Post-Merger Integration (2022–2023): Leitung des Projekts zum Abstoß von über 90 Immobilien in der DACH-Region nach Übernahme durch Getir. Aufbau eines Trackers für Teamsteuerung und C-Level-Fortschrittsmonitoring."
         ),
         t(
-          "Worked in a high-pressure, fast-moving environment where priorities shifted weekly. Developed resilience and extreme adaptability.",
-          "Arbeit in einem Hochdruck-Umfeld mit wöchentlich wechselnden Prioritäten. Resilienz und extreme Anpassungsfähigkeit entwickelt."
+          "Portfolio Optimization: Built data rooms and C-level reporting for the real-estate portfolio. Data-driven optimization across store performance, cost, and regulatory compliance.",
+          "Portfolio-Optimierung: Datenräume und C-Level-Reportings für das Immobilienportfolio aufgebaut. Optimierung nach Filialen-Performance, Kosten und regulatorischer Konformität mittels Daten."
+        ),
+        t(
+          "Stakeholder Management: Interface with building authorities, lawyers, landlords, and policymakers. Cross-functional across Legal, Real Estate, Operations, and Finance.",
+          "Stakeholder-Steuerung: Schnittstelle zu Bauämtern, Anwälten, Vermietern und Politik. Cross-funktional zwischen Legal, Real Estate, Operations und Finance."
         ),
       ],
       tags: [
-        "Airtable",
-        t("Compliance", "Compliance"),
-        t("Process Design", "Prozessdesign"),
+        "Hyper-Growth",
+        "Post-Merger",
+        "Multi-Site",
         "€2M Budget",
       ],
     },
@@ -149,32 +128,32 @@ export default function Experience() {
       company: "Brasiventures",
       role: t("Founder, CBD D2C Brand", "Gründer, CBD D2C-Marke"),
       location: "Berlin",
-      period: "Nov 2020 – Jul 2023",
+      period: t("Nov 2020 – Jul 2023", "Nov 2020 – Juli 2023"),
       logo: "/logo-brasiventures.png",
       logoAlt: "Brasiventures",
       description: t(
-        "Built a direct-to-consumer CBD brand from scratch as a solo founder. Every aspect of the business (product sourcing, packaging design, Shopify store, retail distribution, accounting) was my responsibility. Proof that I can build and ship end-to-end.",
-        "Eine Direct-to-Consumer CBD-Marke als Solo-Gründer von Grund auf aufgebaut. Jeder Aspekt des Geschäfts (Produktbeschaffung, Verpackungsdesign, Shopify-Store, Einzelhandelsdistribution, Buchhaltung) war meine Verantwortung. Beweis, dass ich End-to-End bauen und liefern kann."
+        "Solo-built a D2C brand from scratch: product development, packaging, Shopify store, distribution to Berlin kiosks and specialty retail.",
+        "Solo-Aufbau einer D2C-Marke von Null: Produktentwicklung, Verpackung, Shopify-Store, Distribution an Berliner Kioske und Fachhandel."
       ),
       points: [
         t(
-          "Solo-built everything: product packaging, Shopify store, local retail distribution to Berlin kiosks and specialty stores.",
-          "Alles solo aufgebaut: Produktverpackung, Shopify-Store, lokale Einzelhandelsdistribution an Berliner Kioske und Spezialgeschäfte."
+          "Solo-built a D2C brand from scratch: product development, packaging, Shopify store, distribution to Berlin kiosks and specialty retail.",
+          "Solo-Aufbau einer D2C-Marke von Null: Produktentwicklung, Verpackung, Shopify-Store, Distribution an Berliner Kioske und Fachhandel."
         ),
         t(
-          "Scaled to 6-figure revenue over 3 years. End-to-end business built from zero as sole operator.",
-          "Auf 6-stelligen Umsatz in 3 Jahren skaliert. End-to-End-Geschäft als Einzelunternehmer von null aufgebaut."
+          "Six-figure revenue across three years as sole operator.",
+          "Sechsstelliger Umsatz über drei Jahre als alleiniger Operator."
         ),
         t(
-          "Hands-on experience in supply chain, regulatory compliance, D2C marketing, and retail negotiations.",
-          "Praktische Erfahrung in Supply Chain, regulatorischer Compliance, D2C-Marketing und Einzelhandelsverhandlungen."
+          "Practical experience across supply chain, regulatory compliance, D2C marketing, and retail negotiation.",
+          "Praxis in Supply Chain, regulatorischer Compliance, D2C-Marketing und Einzelhandelsverhandlung."
         ),
       ],
       tags: [
-        "Shopify",
-        "E-Commerce",
+        "Founder",
         "D2C",
-        t("Solo Founder", "Solo-Gründer"),
+        "Shopify",
+        t("Solo Operation", "Solo-Operation"),
       ],
     },
     {
@@ -188,28 +167,24 @@ export default function Experience() {
       logo: "/logo-solarisbank.png",
       logoAlt: "Solarisbank",
       description: t(
-        "Banking-as-a-Service fintech powering embedded finance for companies like Samsung and Trade Republic. First exposure to a high-scale tech environment. Learned how operations work at the intersection of finance, compliance, and technology.",
-        "Banking-as-a-Service Fintech, das Embedded Finance für Unternehmen wie Samsung und Trade Republic ermöglicht. Erste Erfahrung in einem hochskalierten Tech-Umfeld. Gelernt, wie Operations an der Schnittstelle von Finanzen, Compliance und Technologie funktionieren."
+        "Banking-as-a-Service fintech. Operations at the intersection of finance, compliance, and technology.",
+        "Banking-as-a-Service Fintech. Operations an der Schnittstelle von Finanzen, Compliance und Technologie."
       ),
       points: [
         t(
-          "Supported complex payment transaction processing and clearing operations in a regulated environment.",
-          "Unterstützung komplexer Zahlungstransaktionsverarbeitung und Clearing-Operationen in einem regulierten Umfeld."
+          "Supported complex payment transactions and clearing operations in a regulated banking-as-a-service environment.",
+          "Komplexe Zahlungstransaktionen und Clearing-Prozesse in reguliertem BaaS-Umfeld unterstützt."
         ),
         t(
-          "Contributed to internal IT process and workflow improvements across cross-functional stakeholder groups.",
-          "Beitrag zu internen IT-Prozess- und Workflow-Verbesserungen über funktionsübergreifende Stakeholder-Gruppen."
-        ),
-        t(
-          "Gained foundational understanding of fintech operations, BaFin compliance, and B2B platform business models.",
-          "Grundlegendes Verständnis von Fintech-Operations, BaFin-Compliance und B2B-Plattform-Geschäftsmodellen erworben."
+          "Contributed to internal IT process and workflow improvements with cross-functional stakeholders.",
+          "Mitarbeit an internen IT-Prozess- und Workflow-Verbesserungen mit cross-funktionalen Stakeholdern."
         ),
       ],
       tags: [
         "Fintech",
         "Payments",
+        "BaaS",
         "Compliance",
-        "B2B Platform",
       ],
     },
   ];
@@ -336,13 +311,13 @@ export default function Experience() {
                 Universität Potsdam
               </h4>
               <p className="mt-1 text-sm text-accent">
-                M.Sc. Wirtschaftsinformatik
+                {t(
+                  "M.Sc. Information Systems & Digital Transformation",
+                  "M.Sc. Wirtschaftsinformatik & Digitale Transformation"
+                )}
               </p>
               <p className="mt-2 text-xs text-foreground-muted">
-                {t(
-                  "Focus: Digital Transformation & AI · Apr 2026 – Apr 2028",
-                  "Schwerpunkt: Digitale Transformation & KI · Apr 2026 – Apr 2028"
-                )}
+                04/2026 – 04/2028
               </p>
             </div>
             <div className="rounded-xl border border-border bg-surface p-6">
@@ -350,26 +325,35 @@ export default function Experience() {
                 Universität Potsdam
               </h4>
               <p className="mt-1 text-sm text-accent">
-                B.Sc. Wirtschaftsinformatik
+                {t(
+                  "Bachelor modules in Information Systems",
+                  "Bachelor-Module Wirtschaftsinformatik"
+                )}
               </p>
               <p className="mt-2 text-xs text-foreground-muted">
                 {t(
-                  "Apr 2025 – Present · Bridge to Master's",
-                  "Apr 2025 – Heute · Brücke zum Master"
+                  "04/2025 – 03/2026 · Master's bridge",
+                  "04/2025 – 03/2026 · Brücke zum Master"
+                )}
+              </p>
+              <p className="mt-2 text-xs leading-relaxed text-foreground-muted">
+                {t(
+                  "Completed: AI-based Application Systems (2.3), Bachelor Seminar Information Systems & Digital Government (2.3), IoT / Industrial Internet (2.3), Application Systems in Industry, Trade and Administration (2.7).",
+                  "Abgeschlossen: KI-basierte Anwendungssysteme (2,3), Bachelorseminar Wirtschaftsinformatik & Digital Government (2,3), Internet of Things / Industrial Internet (2,3), Anwendungssysteme in Industrie, Handel und Verwaltung (2,7)."
                 )}
               </p>
             </div>
             <div className="rounded-xl border border-border bg-surface p-6">
               <h4 className="text-base font-semibold text-foreground-bright">
-                SRH University Berlin
+                {t("SRH University Berlin", "SRH Hochschule Berlin")}
               </h4>
               <p className="mt-1 text-sm text-accent2">
-                B.A. Business Administration
+                {t("B.A. Business Administration", "B.A. Betriebswirtschaftslehre")}
               </p>
               <p className="mt-2 text-xs text-foreground-muted">
                 {t(
-                  "Sep 2017 – Sep 2020 · Grade: 2.3",
-                  "Sep 2017 – Sep 2020 · Note: 2,3"
+                  "09/2017 – 09/2020 · Grade 2.3",
+                  "09/2017 – 09/2020 · Note 2,3"
                 )}
               </p>
             </div>
@@ -378,13 +362,13 @@ export default function Experience() {
                 WBS Akademie Berlin
               </h4>
               <p className="mt-1 text-sm text-accent2">
-                PSM I
+                {t(
+                  "Professional Scrum Master I (PSM I)",
+                  "Professional Scrum Master I (PSM I)"
+                )}
               </p>
               <p className="mt-2 text-xs text-foreground-muted">
-                {t(
-                  "Nov 2023 – Feb 2024 · Agile Project Management",
-                  "Nov 2023 – Feb 2024 · Agiles Projektmanagement"
-                )}
+                11/2023 – 02/2024
               </p>
             </div>
           </div>

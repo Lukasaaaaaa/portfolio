@@ -10,131 +10,128 @@ export default function CaseStudies() {
     {
       client: "Gorillas / Getir",
       title: t(
-        "From Excel Chaos to Live Dashboard",
-        "Vom Excel-Chaos zum Live-Dashboard"
+        "From Excel chaos to single source of truth",
+        "Vom Excel-Chaos zur Single Source of Truth"
       ),
       subtitle: t(
-        "130 change-of-use cases, €2M budget, no system.",
-        "130 Nutzungsänderungen, €2M Budget, kein System."
+        "130 use-permit conversions, €2M budget, 16 federal states.",
+        "130 Nutzungsänderungen, €2M Budget, 16 Bundesländer."
       ),
       context: t(
-        "Gorillas was in the middle of hypergrowth. New locations were opening faster than operations could keep up. Every location required change-of-use permits, fire safety approvals, and regulatory inspections. As Expansion Manager, I grew into this role – a topic nobody had systematically addressed before.",
-        "Gorillas war mitten im Hypergrowth. Neue Standorte wurden schneller eröffnet als die Operationen hinterherkamen. Für jeden Standort brauchte es Nutzungsänderungsgenehmigungen, Brandschutzfreigaben und behördliche Abnahmen. Als Expansion Manager bin ich in diese Rolle reingewachsen, ein Thema, das vorher niemand systematisch angefasst hat."
+        "Gorillas in mid hyper-growth: stores opening faster than operations could keep up. I grew into a role no one had systematically owned before.",
+        "Gorillas mitten im Hyper-Growth, Stores eröffneten schneller als die Operationen hinterherkamen. Ich bin in eine Rolle reingewachsen, die vorher niemand systematisch verantwortet hatte."
       ),
-      problem: t(
-        "130 change-of-use cases across the rollout from 20 to 150 stores, each with its own permit status. Everything ran on Excel. Legal and Ops worked with different versions, documents got lost, deadlines were missed. Stores were on the verge of closure – not because business was bad, but because paperwork was missing.",
-        "130 Nutzungsänderungen beim Rollout von 20 auf 150 Stores, jede mit eigenem Genehmigungsstatus. Alles lief über Excel. Legal und Ops arbeiteten mit unterschiedlichen Versionen, Dokumente gingen verloren, Deadlines wurden verpasst. Filialen standen kurz vor der Schließung, nicht weil das Geschäft nicht lief, sondern weil Papierkram fehlte."
-      ),
+      problem: null,
       solution: t(
-        "I built an Airtable dashboard that centralized the entire permit process. Every location, every document, every status – in one place. Legal could access all documents in real time, Ops had visibility on upcoming deadlines. Fragmented Excel sheets became a single source of truth. In parallel, I dove so deep into German building regulations and fire safety codes that I became the internal reference. With 130 applications, you learn fast.",
-        "Ich habe ein Airtable-Dashboard aufgebaut, das den gesamten Genehmigungsprozess zentralisiert hat. Jeder Standort, jedes Dokument, jeder Status, an einem Ort. Legal konnte in Echtzeit auf alle Unterlagen zugreifen, Ops hatte Überblick über anstehende Fristen. Aus fragmentierten Excel-Tabellen wurde eine Single Source of Truth. Parallel habe ich mich so tief in deutsches Baurecht und Brandschutzvorschriften eingearbeitet, dass ich zur internen Referenz wurde. Bei 130 Anträgen lernt man schnell."
+        "Built an Airtable live dashboard centralizing all 130 use-permit conversions into a single source of truth. Legal, Real Estate, and Ops worked off the same data for the first time. In parallel, I built up enough depth in German building code and fire safety law to become the internal reference across 16 federal states.",
+        "Ich habe ein Airtable-Live-Dashboard aufgebaut, das alle 130 Nutzungsänderungen in einer Single Source of Truth zentralisiert hat. Legal, Real Estate und Ops arbeiteten erstmals auf derselben Datenbasis. Parallel habe ich mich tief genug in Bauordnung und Brandschutz-Recht eingearbeitet, um interne Referenz für 16 Bundesländer zu sein."
       ),
       result: t(
-        "Stores stayed open. P&L was directly protected because closures due to missing permits were prevented. Miscommunication between Legal and Ops was eliminated. A system that didn't exist before suddenly became the backbone of expansion.",
-        "Filialen blieben offen. Die P&L war direkt geschützt, weil Schließungen durch fehlende Genehmigungen verhindert wurden. Die Fehlkommunikation zwischen Legal und Ops war eliminiert. Ein System, das vorher nicht existierte, war plötzlich das Rückgrat der Expansion."
+        "Stores stayed open, P&L protected, miscommunication eliminated. Fragmented Excel sheets turned into the operational backbone of expansion.",
+        "Filialen blieben offen, P&L geschützt, Fehlkommunikation eliminiert. Aus fragmentierten Excel-Sheets wurde das operative Rückgrat der Expansion."
       ),
-      tags: ["Airtable", t("Process Design", "Prozessdesign"), "Compliance"],
+      tags: ["Airtable", t("Compliance", "Compliance"), t("Process Design", "Prozessdesign")],
     },
     {
       client: "GRÜNZUCKER GmbH",
       title: t(
-        "From Deep Expertise to Investor-Visible",
-        "Von tiefem Fachwissen zu investoren-sichtbar"
+        "From deep tech to investor-ready",
+        "Von tiefem Fachwissen zu Investor-Ready"
       ),
-      subtitle: t("The complete build.", "Der komplette Aufbau."),
+      subtitle: t(
+        "Co-builder mandate.",
+        "Co-Builder-Mandat."
+      ),
       context: t(
-        "GRÜNZUCKER is a biotech startup converting biomass into sugar. The founder had years of technical expertise but not a single document that would explain to an investor why it matters.",
-        "GRÜNZUCKER ist ein Biotech-Startup, das Biomasse in Zucker umwandelt. Der Gründer hatte jahrelange technische Expertise, aber kein einziges Dokument, das einem Investor erklärt hätte, warum das relevant ist."
+        "Biotech startup converting biomass to sugar. Deep technical expertise, but not a single asset that explained to an investor why it mattered.",
+        "Biotech-Startup, das Biomasse in Zucker umwandelt. Tiefe technische Expertise, aber kein einziges Material, das einem Investor erklärt hätte, warum das relevant ist."
       ),
-      problem: t(
-        "No website. No working pitch deck. No fundraising strategy. No validated market model. The company was invisible to investors – not because the technology was bad, but because it wasn't compellingly presented anywhere.",
-        "Keine Website. Kein Pitch Deck, das funktioniert. Keine Fundraising-Strategie. Kein validiertes Marktmodell. Das Unternehmen war für Investoren unsichtbar, nicht weil die Technologie schlecht war, sondern weil sie nirgendwo überzeugend dargestellt wurde."
-      ),
+      problem: null,
       solution: t(
-        "Everything that was needed. Built the website. Structured the pitch deck from scratch – not the technology as hero, but the market problem as entry point. Calculated and validated TAM/SAM/SOM model. Critically examined and stress-tested financial projections. Developed investor relations strategy: who gets approached, how, in what order. This isn't a consultant mandate. I sit at the table and build alongside.",
-        "Alles, was gebraucht wurde. Website aufgebaut. Pitch Deck von Grund auf strukturiert, nicht die Technologie als Held, sondern das Marktproblem als Einstieg. TAM/SAM/SOM-Modell durchgerechnet und validiert. Finanzprognosen kritisch hinterfragt und belastbar gemacht. Investor-Relations-Strategie entwickelt: Wer wird angesprochen, wie, in welcher Reihenfolge. Das ist kein Berater-Mandat. Ich sitze mit am Tisch und baue mit."
+        "Co-builder mandate: built the website. Structured the pitch deck around market problem first, technology second. Calculated and validated TAM/SAM/SOM. Stress-tested the financial model. Built investor relations strategy.",
+        "Co-Builder-Mandat: Website aufgebaut. Pitch Deck strukturiert (Marktproblem als Einstieg, nicht Technologie als Held). TAM/SAM/SOM durchgerechnet und validiert. Finanzprognosen stress-getestet. Investor-Relations-Strategie entwickelt."
       ),
       result: t(
-        "The company is now investor-visible. There's a professional web presence, a fundraising narrative that stands, and a pipeline of partnerships including the Fraunhofer Institute. A founder with good technology became a startup on the radar.",
-        "Das Unternehmen ist jetzt investoren-sichtbar. Es gibt eine professionelle Web-Präsenz, ein Fundraising-Narrativ das steht, und eine Pipeline mit Partnerschaften, unter anderem mit dem Fraunhofer-Institut. Aus einem Gründer mit guter Technologie wurde ein Startup, das man auf dem Radar hat."
+        "Investor-visible: professional web presence, defensible fundraising narrative, pipeline partnerships including Fraunhofer.",
+        "Investor-sichtbar mit professioneller Web-Präsenz, belastbarem Fundraising-Narrativ und Pipeline-Partnerschaften, unter anderem mit Fraunhofer."
       ),
       tags: [
         "Startup Sparring",
-        t("Financial Modeling", "Finanzmodellierung"),
         "Pitch Decks",
+        t("Financial Modeling", "Finanzmodellierung"),
       ],
     },
     {
-      client: "Brasiventures",
+      client: "BauPilot",
       title: t(
-        "From Zero to Own Brand",
-        "Von Null zur eigenen Marke"
+        "RAG platform for German planning law",
+        "RAG-Plattform für deutsches Baurecht"
       ),
       subtitle: t(
-        "Everything solo, everything at once.",
-        "Alles selbst, alles gleichzeitig."
+        "B2B SaaS. Solo founder.",
+        "B2B SaaS. Solo Founder."
       ),
       context: t(
-        "Early 20s, no team, no budget, no network. The idea: build a CBD brand and sell it in Berlin. Not as a side project, but as a full-time business.",
-        "Anfang 20, kein Team, kein Budget, kein Netzwerk. Die Idee: eine CBD-Marke aufbauen und in Berlin verkaufen. Nicht als Nebenprojekt, sondern als Vollzeit-Unternehmen."
+        "Answers planning-law questions on any German cadastral parcel. Combines vectorised XPlanung and ALKIS geometries, scraped OParl council documents, federal building code (BauGB/BauNVO), 16 state building codes, and administrative court rulings.",
+        "Beantwortet baurechtliche Fragen zu jeder deutschen Flurstück-ID. Kombiniert vektorisierte XPlanung- und ALKIS-Geometrien, gescrapte OParl-Ratsdokumente, BauGB/BauNVO plus 16 Landesbauordnungen sowie Verwaltungsgerichtsurteile."
       ),
       problem: t(
-        "There was nothing. No product, no shop, no distribution, no brand. Everything had to be built by a single person – from product development to branding to logistics. And CBD wasn't an easy market: regulatory gray area, shunned by banks, restricted by platforms.",
-        "Es gab nichts. Kein Produkt, keinen Shop, keinen Vertrieb, keine Marke. Alles musste von einer einzelnen Person aufgebaut werden, von der Produktentwicklung über das Branding bis zur Logistik. Und CBD war kein einfacher Markt: regulatorisch grau, von Banken gemieden, von Plattformen eingeschränkt."
+        "Python, PostgreSQL/PostGIS, Supabase, vector embeddings/RAG, 50+ source-specific OSINT scrapers across all 16 federal states, RAGAS evaluation, Hetzner production deployment. Self-hosted, no third-party dependencies for embeddings or inference in the hot path.",
+        "Python, PostgreSQL/PostGIS, Supabase, Vektor-Embeddings/RAG, 50+ quellenspezifische OSINT-Scraper über alle 16 Bundesländer, RAGAS-Evaluierung, Hetzner-Produktiv-Deployment. Self-hosted, ohne Drittanbieter-Abhängigkeiten für Embeddings oder Inference im Hot Path."
       ),
       solution: t(
-        "Everything. Developed packaging design. Built and optimized Shopify store. Created retail distribution strategy and then personally went to Berlin kiosks and corner shops to get the product in. Every sales conversation, every negotiation, every return, every decision went through me. B2C and B2B in parallel, as a one-man operation.",
-        "Alles. Verpackungsdesign entwickelt. Shopify-Store aufgebaut und optimiert. Vertriebsstrategie für den stationären Handel erarbeitet und dann selbst in Berliner Kioske und Spätis gegangen, um das Produkt reinzubekommen. Jedes Verkaufsgespräch, jede Verhandlung, jede Retoure, jede Entscheidung lief über mich. B2C und B2B parallel, als One-Man-Operation."
+        "Solo founder. Product strategy, data architecture, system design, go-to-market. Engineering with Claude Code and agentic workflows. Buyers: property developers, architecture firms, construction-law counsel.",
+        "Solo Founder. Produkt-Strategie, Datenarchitektur, System-Design, Go-to-Market. Engineering mit Claude Code und agentic Workflows. Zielgruppen: Projektentwickler, Architekturbüros, Baurechts-Kanzleien."
       ),
-      result: t(
-        "Six-figure revenue over three years. But the real value wasn't the number – it was what I learned. How to bring a product to market. How negotiations work when you don't have a company name behind you. How to manage sales, operations, and finances simultaneously because there's nobody else. Brasiventures was my MBA on the street.",
-        "Sechsstelliger Umsatz über drei Jahre. Aber der eigentliche Wert war nicht die Zahl, sondern was ich dabei gelernt habe. Wie man ein Produkt auf die Straße bringt. Wie Verhandlungen laufen, wenn man keinen Firmennamen hinter sich hat. Wie man Vertrieb, Operations und Finanzen gleichzeitig managed, weil es niemand anderen gibt. Brasiventures war mein MBA auf der Straße."
-      ),
-      tags: ["Shopify", "E-Commerce", "D2C", t("Solo Founder", "Solo-Gründer")],
+      result: null,
+      tags: [
+        "B2B SaaS",
+        "RAG",
+        "PostGIS",
+        t("Solo Founder", "Solo Founder"),
+      ],
     },
     {
-      client: t("Own Product", "Eigenentwicklung"),
-      title: "ertragwerk.de",
+      client: "ertragwerk.de",
+      title: t(
+        "Open tool platform for German real-estate investors",
+        "Open-Tool-Plattform für Immobilien-Investoren"
+      ),
       subtitle: t(
-        "German real estate investment analytics, end-to-end.",
-        "Deutsche Immobilien-Investment-Analyse, end-to-end."
+        "Solo founder. Live.",
+        "Solo Founder. Live."
       ),
       context: t(
-        "Most German real estate investors calculate returns in overly complex Excel sheets or not at all. Existing online calculators only show gross yield and ignore the parts that actually move the decision: linear vs. declining AfA per §7 EStG, joint-filing splittingtarif, church tax, speculation tax inside the 10-year window, DSCR, IRR, 30-year projection.",
-        "Die meisten deutschen Immobilieninvestoren rechnen in überkomplexen Excel-Sheets oder gar nicht. Online-Rechner zeigen nur Bruttorendite und ignorieren, was die Entscheidung kippt: lineare vs. degressive AfA nach §7 EStG, Splittingtarif, Kirchensteuer, Spekulationssteuer innerhalb der 10-Jahres-Frist, DSCR, IRR, 30-Jahres-Prognose."
+        "Six free calculators (gross/equity yield, depreciation, IRR, DSCR, Excel check), 31 city pages with current market data, live mortgage rates from ECB data, 30-year forecast. Full German tax logic per §7, §32a, §23, §3 Nr. 72 EStG.",
+        "Sechs kostenlose Rechner (Brutto-, EK-Rendite, AfA, IRR, DSCR, Excel-Check), 31 Städte-Seiten mit aktuellen Marktdaten, Live-Bauzinsen aus EZB-Daten, 30-Jahres-Forecast. Voll-deutsche Steuerlogik nach §7, §32a, §23, §3 Nr. 72 EStG."
       ),
       problem: t(
-        "No accessible tool that computes the full picture: tax-accurate, scenario-tested, with a clear verdict. Professional software is expensive, enterprise-grade, and intimidating. Free tools are toy-grade.",
-        "Kein zugängliches Tool, das das Gesamtbild berechnet: steuerlich exakt, szenario-getestet, mit klarem Verdikt. Profi-Software ist teuer und abschreckend. Kostenlose Tools sind Spielzeug."
+        "Vercel EU, Supabase EU. Growth via SEO content: glossary, blog, and weekly newsletter on mortgage rates and market updates.",
+        "Vercel EU, Supabase EU. Wachstum über SEO-Content: Glossar, Blog und wöchentlicher Newsletter zu Bauzinsen und Marktupdates."
       ),
       solution: t(
-        "Built the SaaS from scratch. Next.js on Vercel EU, Supabase, Stripe. 5-step wizard to analysis in ~2 minutes. 15+ metrics: gross yield, net yield, equity yield, DSCR, cap rate, cash-on-cash, IRR, NPV, break-even. German tax exact: linear AfA 2%/2.5%/3%, declining AfA 5% (§7 Abs. 5a EStG for new builds from 2024), splittingtarif, KiSt, SolZ, speculation tax. 30-year projection with asset, cash flow, amortization, value and rent appreciation. AI layer: SWOT per property, expert report, bank-talk PDF, negotiation strategy, foreclosure appraisal analysis. Scenario simulator (best/worst/custom). Investment Score 0-100 across 8 factors. Four pricing tiers: €0 / €19 / €49 / €99 per month.",
-        "Die SaaS von Grund auf gebaut. Next.js auf Vercel EU, Supabase, Stripe. 5-Schritt-Wizard bis zur Analyse in ~2 Minuten. 15+ Kennzahlen: Brutto-, Netto-, Eigenkapitalrendite, DSCR, Cap Rate, Cash-on-Cash, IRR, NPV, Break-even. Steuer exakt nach deutschem Recht: lineare AfA 2%/2,5%/3%, degressive AfA 5% (§7 Abs. 5a EStG, Neubauten ab 2024), Splittingtarif, KiSt, SolZ, Spekulationssteuer. 30-Jahres-Prognose mit Vermögen, Cashflow, Tilgung, Wert- und Mietsteigerung. KI-Layer: SWOT pro Objekt, Experten-Report, Bankgespräch-PDF, Verhandlungsstrategien, Gutachten-Analyse für Zwangsversteigerungen. Szenario-Simulator (Best/Worst/Custom). Investment Score 0-100 über 8 Faktoren. Vier Pricing-Stufen: €0 / €19 / €49 / €99 pro Monat."
+        "Solo founder. Product strategy, data architecture, GTM. Engineering with Claude Code and agentic workflows.",
+        "Solo Founder. Produkt-Strategie, Datenarchitektur, Go-to-Market. Engineering mit Claude Code und agentic Workflows."
       ),
-      result: t(
-        "Live at ertragwerk.de. All pricing tiers active. Early user base. Current focus: SEO (free calculators as traffic magnets), conversion to paid, feature depth. Not an advisory service. Disclaimer per §34c GewO, §1 StBerG, §2 RDG.",
-        "Live unter ertragwerk.de. Alle Pricing-Stufen aktiv. Früher Userbase. Aktueller Fokus: SEO (kostenlose Rechner als Traffic-Magnet), Conversion zu Paid, Feature-Tiefe. Keine Beratung. Disclaimer nach §34c GewO, §1 StBerG, §2 RDG."
-      ),
+      result: null,
       tags: [
-        t("Own Product", "Eigenentwicklung"),
-        "SaaS",
-        "Next.js",
-        "Supabase",
-        "Stripe",
         t("Real Estate", "Immobilien"),
+        "SEO",
+        "Newsletter",
+        t("Tax Logic", "Steuerlogik"),
       ],
     },
   ];
 
   const sectionLabels = {
-    context: { en: "Context", de: "Kontext", color: "text-foreground-muted" },
-    problem: { en: "Problem", de: "Problem", color: "text-red-400/80" },
+    context: { en: "What", de: "Was", color: "text-foreground-muted" },
+    problem: { en: "Stack & Infrastructure", de: "Stack & Infrastruktur", color: "text-accent2/80" },
     solution: {
-      en: "What I Did",
-      de: "Was ich gemacht habe",
+      en: "Action / Role",
+      de: "Aktion / Rolle",
       color: "text-accent/80",
     },
-    result: { en: "Result", de: "Ergebnis", color: "text-emerald-400/80" },
+    result: { en: "Outcome", de: "Ergebnis", color: "text-emerald-400/80" },
   };
 
   return (
@@ -147,11 +144,11 @@ export default function CaseStudies() {
           transition={{ duration: 0.5 }}
         >
           <h2 className="mb-2 font-mono text-sm text-accent">
-            {t("Case Studies", "Fallstudien")}
+            {t("Case Studies", "Case Studies")}
           </h2>
           <h3 className="mb-14 text-2xl font-bold text-foreground-bright md:text-3xl">
             {t(
-              "Real problems, real results",
+              "Real problems, real outcomes",
               "Echte Probleme, echte Ergebnisse"
             )}
           </h3>
@@ -187,22 +184,24 @@ export default function CaseStudies() {
                     ["solution", cs.solution],
                     ["result", cs.result],
                   ] as const
-                ).map(([key, text]) => {
-                  const label =
-                    sectionLabels[key as keyof typeof sectionLabels];
-                  return (
-                    <div key={key} className="px-6 py-4">
-                      <p
-                        className={`mb-1.5 text-[10px] font-semibold uppercase tracking-widest ${label.color}`}
-                      >
-                        {t(label.en, label.de)}
-                      </p>
-                      <p className="text-sm leading-relaxed text-foreground">
-                        {text}
-                      </p>
-                    </div>
-                  );
-                })}
+                )
+                  .filter(([, text]) => text)
+                  .map(([key, text]) => {
+                    const label =
+                      sectionLabels[key as keyof typeof sectionLabels];
+                    return (
+                      <div key={key} className="px-6 py-4">
+                        <p
+                          className={`mb-1.5 text-[10px] font-semibold uppercase tracking-widest ${label.color}`}
+                        >
+                          {t(label.en, label.de)}
+                        </p>
+                        <p className="text-sm leading-relaxed text-foreground">
+                          {text}
+                        </p>
+                      </div>
+                    );
+                  })}
               </div>
 
               {/* Tags */}

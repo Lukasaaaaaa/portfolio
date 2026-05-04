@@ -47,12 +47,12 @@ export default function Contact() {
             {t("Contact", "Kontakt")}
           </h2>
           <h3 className="mb-4 text-2xl font-bold text-foreground-bright md:text-3xl">
-            {t("Let's connect", "Vernetzen wir uns")}
+            {t("Let's talk.", "Sprechen wir.")}
           </h3>
           <p className="mb-10 max-w-md text-base">
             {t(
-              "I'm always open to discussing operational challenges, startup consulting, or interesting collaboration opportunities.",
-              "Ich bin immer offen für Gespräche über operative Herausforderungen, Startup-Beratung oder interessante Kooperationsmöglichkeiten."
+              "Open to mandates in multi-site operations, senior product/strategy roles, and co-builder engagements with pre-seed to seed startups.",
+              "Offen für Mandate in Multi-Site Operations, Senior Product/Strategy Rollen und Co-Builder-Engagements bei Pre-Seed- bis Seed-Startups."
             )}
           </p>
         </motion.div>

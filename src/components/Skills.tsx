@@ -8,63 +8,64 @@ export default function Skills() {
 
   const skillCategories = [
     {
-      title: "Tools & Tech",
+      title: "Agentic Engineering",
       skills: [
-        "Next.js",
-        "React",
-        "TypeScript",
-        "Python",
-        "Supabase",
-        "Vercel",
-        "Playwright",
+        "Claude Code",
+        "Cursor",
+        t("MCP servers", "MCP-Server"),
+        t("Spec-driven development", "Spec-driven Development"),
+        t("Multi-agent orchestration", "Multi-Agent-Orchestrierung"),
+        "Prompt Engineering",
+      ],
+    },
+    {
+      title: t("No-Code & Low-Code", "No-Code & Low-Code"),
+      skills: [
         "Airtable",
         "Zapier",
+        "Make",
         "Shopify",
-        "Streamlit",
-        "Claude Code",
-        "APIs",
-        "Excel",
+        t("API integrations", "API-Integrationen"),
+      ],
+    },
+    {
+      title: t("Data & Analysis", "Daten & Analyse"),
+      skills: [
+        t("Excel (advanced)", "Excel (fortgeschritten)"),
+        t("SQL (basics)", "SQL (Grundkenntnisse)"),
+        t("Power BI (basics)", "Power BI (Grundkenntnisse)"),
+        t("Power Automate (basics)", "Power Automate (Grundkenntnisse)"),
       ],
     },
     {
       title: t("Methods", "Methoden"),
       skills: [
         "Scrum (PSM I)",
-        "PRINCE 2",
-        "Kanban",
+        t("Agile project management", "Agiles Projektmanagement"),
+        "BPMN",
         "OKR",
         "Lean",
         "Design Thinking",
-        t("Phase-Gate Rollout", "Phase-Gate-Rollout"),
-        t("Due Diligence (120 pts)", "Due Diligence (120 Punkte)"),
       ],
     },
     {
-      title: t("Domains", "Domänen"),
+      title: t("Operational Focus", "Operative Schwerpunkte"),
       skills: [
-        t("Expansion Compliance", "Expansion Compliance"),
-        t("Change of Use", "Nutzungsänderung"),
-        t("Building Permits", "Bauantrag"),
-        "VStättVO",
-        "TA Lärm",
-        t("Fire Safety", "Brandschutz"),
-        t("Acoustics Reports", "Schallgutachten"),
-        t("Parking Proof", "Stellplatznachweis"),
-        t("Multi-Site Rollout", "Multi-Site-Rollout"),
-        t("Digital Transformation", "Digitale Transformation"),
-        t("Process Optimization", "Prozessoptimierung"),
-        t("AI Enablement", "KI-Enablement"),
-        "Change Management",
-        "E-Commerce",
-        "Investor Relations",
+        t("Multi-site scaling in hyper-growth", "Multi-Site-Skalierung in Hyper-Growth"),
+        t("Operations Excellence", "Operations Excellence"),
+        t("Digital Transformation", "Digital Transformation"),
+        t("Mid-market change management", "Change Management im Mittelstand"),
+        t("Agentic AI in operational workflows", "Agentic AI in operativen Workflows"),
+        t("Post-merger integration", "Post-Merger Integration"),
+        t("Stakeholder management", "Stakeholder-Management"),
       ],
     },
     {
       title: t("Languages", "Sprachen"),
       skills: [
-        t("German (native)", "Deutsch (Muttersprache)"),
-        t("English (bilingual)", "Englisch (bilingual)"),
-        t("French (basic)", "Französisch (Grundkenntnisse)"),
+        t("German (native, C2)", "Deutsch (Muttersprache, C2)"),
+        t("English (full professional, C1)", "Englisch (verhandlungssicher, C1)"),
+        t("French (A2)", "Französisch (A2)"),
       ],
     },
   ];
@@ -79,7 +80,7 @@ export default function Skills() {
           transition={{ duration: 0.5 }}
         >
           <h2 className="mb-2 font-mono text-sm text-accent">
-            {t("Skills", "Fähigkeiten")}
+            {t("Skills", "Skills")}
           </h2>
           <h3 className="mb-14 text-2xl font-bold text-foreground-bright md:text-3xl">
             {t("What I work with", "Womit ich arbeite")}
@@ -120,32 +121,40 @@ export default function Skills() {
           className="mt-20 border-t border-border pt-14"
         >
           <h4 className="mb-8 text-xs font-semibold uppercase tracking-widest text-foreground-muted">
-            {t("Beyond work", "Neben der Arbeit")}
+            {t("Sport", "Sport")}
           </h4>
-          <div className="grid gap-4 sm:grid-cols-3">
+          <div className="grid gap-4 sm:grid-cols-4">
             {[
+              {
+                emoji: "⛳",
+                title: "Golf",
+                desc: t(
+                  "Handicap 5. Team player at GC Motzen, German Golf Association.",
+                  "Handicap 5. Mannschaftsspieler im GC Motzen, DGV."
+                ),
+              },
+              {
+                emoji: "🥾",
+                title: "Mammutmarsch",
+                desc: t(
+                  "Finisher: 100 km in 24 hours.",
+                  "Absolviert: 100 km in 24 Stunden."
+                ),
+              },
               {
                 emoji: "🎣",
                 title: t("Fishing", "Angeln"),
                 desc: t(
-                  "Record: 81 cm pike. Lessons in patience and focus.",
-                  "Rekord: 81 cm Hecht. Lektionen in Geduld und Fokus."
-                ),
-              },
-              {
-                emoji: "♟️",
-                title: t("Chess & Strategy", "Schach & Strategie"),
-                desc: t(
-                  "Pattern recognition and long-term thinking.",
-                  "Mustererkennung und langfristiges Denken."
+                  "Patience and focus.",
+                  "Geduld und Fokus."
                 ),
               },
               {
                 emoji: "🍳",
                 title: t("Cooking", "Kochen"),
                 desc: t(
-                  "Process optimization with immediate delicious results.",
-                  "Prozessoptimierung mit sofort leckeren Ergebnissen."
+                  "Process optimization with edible results.",
+                  "Prozessoptimierung mit essbarem Ergebnis."
                 ),
               },
             ].map((item) => (

@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Lukas Gurny | Expansion Compliance & Digital Transformation, Berlin",
+  title: "Lukas Gurny | Senior Operator · Multi-Site Scaling · Agentic Engineering",
   description:
-    "Freelance expansion compliance for multi-site rollouts in Germany (change-of-use, building permits, acoustics, fire safety) plus digital transformation, AI enablement, and custom SaaS. 130 change-of-use cases at Gorillas, 20-to-150 rollout.",
+    "Senior Operator and Product/Strategy Lead in Berlin. Ex-Gorillas: 20 to 150 stores, 130 use-permit conversions, €2M buildout budget. Today building products and operational systems with AI agents as workforce. Two products live: ertragwerk.de and BauPilot.",
 };
 
 export default function RootLayout({
@@ -25,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="de">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

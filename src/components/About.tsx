@@ -20,8 +20,8 @@ export default function About() {
           </h2>
           <h3 className="mb-8 text-2xl font-bold text-foreground-bright md:text-3xl">
             {t(
-              "Enabling companies, not just advising them",
-              "Unternehmen befähigen, nicht nur beraten"
+              "Operations substance plus agentic engineering",
+              "Operations-Substanz plus Agentic Engineering"
             )}
           </h3>
         </motion.div>
@@ -36,36 +36,22 @@ export default function About() {
           <div className="space-y-5 text-base leading-relaxed">
             <p>
               {t(
-                "I'm Lukas, based in Berlin. After my Bachelor's in Business Administration, I founded Brasiventures, a CBD brand. Packaging, Shopify store, distribution to Berlin kiosks, all built by myself. That's where I learned what it means to take a product from zero to market. Every decision, every mistake, every win was on me.",
-                "Ich bin Lukas aus Berlin. Nach meinem Bachelor in BWL habe ich Brasiventures gegründet, eine CBD-Marke. Verpackung, Shopify-Store, Vertrieb an Berliner Kioske, alles selbst aufgebaut. Dort habe ich gelernt, was es heißt, ein Produkt von Null auf die Straße zu bringen. Jede Entscheidung, jeder Fehler, jeder Erfolg ging direkt auf mein Konto."
+                "Senior Operator and Product/Strategy Lead based in Berlin. At Gorillas I led the scale-up from 20 to 150 stores with €2M buildout budget across 16 German federal states. 130 use-permit conversions and 90+ properties in post-merger wind-down after Getir acquisition.",
+                "Senior Operator und Product/Strategy Lead in Berlin. Bei Gorillas operativ verantwortlich für die Skalierung von 20 auf 150 Standorte mit €2M Buildout-Budget über 16 Bundesländer. 130 Nutzungsänderungen, 90+ Liegenschaften im Post-Merger-Wind-Down nach Übernahme durch Getir."
               )}
             </p>
 
             <p>
               {t(
-                "Then I landed at Gorillas right in the middle of hypergrowth. As Expansion Manager, I led 130 change-of-use cases through the rollout from 20 to 150 stores, owning building permits and fire safety with a budget of over 2 million euros. What started as an Excel spreadsheet, I turned into an Airtable dashboard that put Ops and Legal on the same data foundation for the first time. I grew into a role that didn't exist before, into a problem nobody wanted to touch.",
-                "Danach bin ich bei Gorillas mitten im Hypergrowth gelandet. Als Expansion Manager habe ich 130 Nutzungsänderungen beim Rollout von 20 auf 150 Stores begleitet, verantwortlich für Baugenehmigungen und Brandschutz mit einem Budget von über 2 Millionen Euro. Was als Excel-Tabelle anfing, habe ich in ein Airtable-Dashboard überführt, das Ops und Legal erstmals auf die gleiche Datenbasis gebracht hat. Ich bin dort reingewachsen, in eine Rolle, die es vorher nicht gab, in ein Thema, das keiner anfassen wollte."
+                "Today I combine that operations substance with agentic engineering (Claude Code, Cursor, MCP). I make product decisions, define architecture, and ship with AI agents as workforce. Two products live: ertragwerk.de and BauPilot.",
+                "Heute kombiniere ich diese Operations-Substanz mit Agentic Engineering (Claude Code, Cursor, MCP). Ich treffe Produkt-Entscheidungen, definiere Architektur und liefere mit AI-Agenten als Workforce. Zwei eigene Produkte live: ertragwerk.de und BauPilot."
               )}
             </p>
 
             <p>
               {t(
-                "In the renewable energy industry came the lesson that changed everything. I built the right system, but nobody used it. The boss didn't understand it, so the team ignored it. That's when I realized: digitalization in Germany doesn't fail because of technology. It fails because of culture. Knowledge silos, dependency on individuals, fear of change. The GPT workshops I ran afterward actually worked, because they met people where they were. I showed people what AI could do for them directly, within their spectrum of daily tasks. Still, I moved on from that chapter quickly.",
-                "In der Erneuerbaren-Energie-Branche kam dann die Lektion, die alles verändert hat. Ich habe das richtige System gebaut, aber niemand hat es genutzt. Der Chef hat es nicht verstanden, also hat das Team es ignoriert. Da habe ich begriffen: Digitalisierung scheitert in Deutschland nicht an der Technologie. Sie scheitert an der Kultur. An Wissenssilos, an Abhängigkeiten von Einzelpersonen, an der Angst vor Veränderung. Die GPT-Workshops, die ich danach gegeben habe, haben funktioniert, weil sie die Menschen dort abgeholt haben, wo sie standen. Ich habe Menschen gezeigt, was KI für sie machen kann, direkt und in ihrem Spektrum an Alltagstätigkeiten. Nichtsdestotrotz habe ich diese Station schnell wieder verlassen."
-              )}
-            </p>
-
-            <p>
-              {t(
-                "The digitalization wasteland in the German Mittelstand has shaped me and still keeps me up at night. That's why I want to do it better, not just complain. I completed courses in Business Information Systems to qualify for the Master's program, which I'm now doing at the University of Potsdam with a focus on AI and digital transformation. Today I work with a biotech founder on everything his company needs, website, pitch deck, investor relations, market validation. And I build my own products because I want to understand what's possible with the tools I recommend to others.",
-                "Die Digitalisierungswüste im deutschen Mittelstand hat mich geprägt und bereitet mir immer noch schlaflose Nächte. Deswegen will ich es besser machen, nicht nur nörgeln. Ich habe Kurse in Wirtschaftsinformatik nachgeholt, um den Master beginnen zu können, den ich jetzt an der Uni Potsdam mache, mit Fokus auf KI und digitale Transformation. Heute arbeite ich mit einem Biotech-Gründer an allem, was sein Unternehmen braucht: Website, Pitch Deck, Investor Relations, Marktvalidierung. Und ich baue eigene Produkte, weil ich verstehen will, was mit den Werkzeugen möglich ist, die ich anderen empfehle."
-              )}
-            </p>
-
-            <p>
-              {t(
-                "For me, it's about more than efficiency. I've seen companies suffocate under their own structures. Knowledge disappearing inside individual heads instead of living in the system. Changing that, enabling companies, not just advising them, that's what I get up for in the morning.",
-                "Mir geht es dabei um mehr als Effizienz. Ich habe gesehen, wie Unternehmen an ihren eigenen Strukturen ersticken. Wie Wissen in einzelnen Köpfen verschwindet statt im System zu leben. Das zu ändern, Unternehmen befähigen, nicht nur beraten, das ist, wofür ich morgens aufstehe."
+                "M.Sc. in Information Systems & Digital Transformation at University of Potsdam. Single-digit handicap golfer at GC Motzen, German Golf Association.",
+                "Master Wirtschaftsinformatik & Digitale Transformation an der Universität Potsdam. Mannschaftsspieler im GC Motzen (Handicap 5)."
               )}
             </p>
           </div>

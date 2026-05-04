@@ -60,23 +60,11 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.25 }}
-          className="mb-2 text-lg text-accent md:text-xl"
+          className="mb-4 text-lg text-accent md:text-xl"
         >
           {t(
-            "Digital transformation & startup sparring",
-            "Digitale Transformation & Startup Sparring"
-          )}
-        </motion.p>
-
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.3 }}
-          className="mb-4 text-base text-foreground-muted md:text-lg"
-        >
-          {t(
-            "for German scale-ups and SMBs.",
-            "für deutsche Scale-ups und Mittelstand."
+            "Senior Operator · Multi-Site Scaling · Agentic Engineering",
+            "Senior Operator · Multi-Site Skalierung · Agentic Engineering"
           )}
         </motion.p>
 
@@ -87,8 +75,8 @@ export default function Hero() {
           className="mb-10 max-w-lg text-base leading-relaxed"
         >
           {t(
-            "I've built, scaled, and digitalized companies, from my own brand to hypergrowth startups to German Mittelstand. At Gorillas I led 130 stores through change-of-use and made the 20-to-150 rollout possible. Today I run that same playbook for other multi-site operators, and build products like ertragwerk.de to work hands-on with the tools I recommend.",
-            "Ich habe Unternehmen aufgebaut, skaliert und digitalisiert, von der eigenen Marke über Hypergrowth-Startups bis zum deutschen Mittelstand. Bei Gorillas habe ich 130 Nutzungsänderungen begleitet und den Rollout von 20 auf 150 Stores möglich gemacht. Heute fahre ich dasselbe Playbook für andere Multi-Site-Betreiber und baue Produkte wie ertragwerk.de, um hands-on mit den Werkzeugen zu arbeiten, die ich empfehle."
+            "Ex-Gorillas. 20 to 150 stores. Today I build products and operational systems with AI agents as workforce.",
+            "Ex-Gorillas. 20 auf 150 Standorte. Heute baue ich Produkte und operative Systeme mit AI-Agenten als Workforce."
           )}
         </motion.p>
 
@@ -99,16 +87,16 @@ export default function Hero() {
           className="flex flex-wrap gap-3"
         >
           <a
-            href="mailto:luca@gurny.de?subject=Anfrage%20via%20lukasgurny.com"
-            className="inline-flex items-center rounded-lg bg-accent px-5 py-2.5 text-sm font-medium text-white transition-all hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/25"
+            href="#experience"
+            className="inline-flex items-center rounded-lg border border-border bg-surface px-5 py-2.5 text-sm font-medium text-foreground-bright transition-all hover:border-border-bright"
           >
-            {t("Let's talk", "Kontakt aufnehmen")}
+            {t("View CV", "Lebenslauf ansehen")}
           </a>
           <a
-            href="#ai-about"
-            className="inline-flex items-center gap-2 rounded-lg bg-accent px-5 py-2.5 text-sm font-medium text-white transition-all hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/25"
+            href="mailto:luca@gurny.de?subject=Mandat-Anfrage%20via%20lukasgurny.com"
+            className="inline-flex items-center rounded-lg bg-accent px-5 py-2.5 text-sm font-medium text-white transition-all hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/25"
           >
-            {t("Ask AI about me", "KI über mich fragen")}
+            {t("Hire me", "Mandat anfragen")}
           </a>
         </motion.div>
       </div>
