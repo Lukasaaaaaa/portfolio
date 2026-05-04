@@ -319,6 +319,12 @@ export default function Experience() {
               <p className="mt-2 text-xs text-foreground-muted">
                 04/2026 – 04/2028
               </p>
+              <p className="mt-2 text-xs leading-relaxed text-foreground-muted">
+                {t(
+                  "Focuses: Digital Government, Knowledge Management, Enterprise Architecture, AI-supported applications.",
+                  "Schwerpunkte: Digital Government, Wissensmanagement, Enterprise Architecture, AI-gestützte Anwendungen."
+                )}
+              </p>
             </div>
             <div className="rounded-xl border border-border bg-surface p-6">
               <h4 className="text-base font-semibold text-foreground-bright">

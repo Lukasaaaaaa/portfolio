@@ -130,7 +130,7 @@ Golf (Handicap 5, team player at GC Motzen, German Golf Association). Mammutmars
 ## Education
 
 ### Current
-- M.Sc. Wirtschaftsinformatik & Digitale Transformation, Universität Potsdam, 04/2026 – 04/2028.
+- M.Sc. Wirtschaftsinformatik & Digitale Transformation, Universität Potsdam, 04/2026 – 04/2028. Focuses: Digital Government, Knowledge Management, Enterprise Architecture, AI-supported applications.
 
 ### Completed bridge to Master
 - Bachelor modules in Information Systems, Universität Potsdam, 04/2025 – 03/2026. Completed: AI-based Application Systems (2.3), Bachelor Seminar Information Systems & Digital Government (2.3), Internet of Things / Industrial Internet (2.3), Application Systems in Industry, Trade and Administration (2.7).
