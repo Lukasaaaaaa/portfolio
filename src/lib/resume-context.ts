@@ -15,15 +15,15 @@ export const RESUME_CONTEXT = `
 - Contact model: "Mandat anfragen" / "Hire me" via mailto. No public pricing.
 
 ## Positioning
-Headline: Senior Operator and Product/Strategy Lead. Multi-Site Scaling. Agentic Engineering.
-Positioning: Operations substance from Gorillas hyper-growth and post-merger integration combined with agentic engineering as the new delivery model. Lukas makes product decisions, defines architecture, and ships via Claude Code, Cursor, and MCP with AI agents as workforce. He does not write production code by hand. Two products live: ertragwerk.de and BauPilot.
-Three tracks, one thread (operations substance plus agentic engineering):
-1. Multi-Site Operations,Pre-LOI site checks, lease redlines, end-to-end use-permit conversions for retail, F&B, and fitness operators scaling in Germany. Coordinates architects, acoustics consultants, fire-safety engineers. Playbook from 130 conversions at Gorillas.
-2. Agentic Product Building,End-to-end product delivery with Claude Code, Cursor, MCP. Concept, architecture, system design, deployment.
-3. Startup Sparring,Hands-on co-builder mandates for pre-seed to seed founders: pitch decks, investor strategy, TAM/SAM/SOM, financial models, GTM.
-Target audience: Multi-site operators in retail, F&B, fitness, q-commerce; PE-backed scale-ups in expansion phase; German Mittelstand; pre-seed to seed founders.
+Headline: Product & Strategy | Agentic Engineering. Senior Product & Strategy Operator with hyper-growth track record.
+Positioning: Operations substance from Gorillas hyper-growth and post-merger integration combined with agentic engineering as the delivery model. Lukas makes product decisions, defines architecture, and ships via Claude Code, Cursor, and MCP with AI agents as workforce. He does not write production code by hand. Two products live: BauPilot and ertragwerk.de.
+Two streams on the website (multi-site operations is proof in the CV, not a service):
+1. Senior Product & Strategy,For scale-ups that need a senior operator on day rate or retainer: product strategy, architecture decisions, roadmap sharpening, GTM validation, ops audits, reporting for management/investors. Hyper-growth proof from 26 months at Gorillas/Getir, 130 use-permit conversions, €2M budget across 16 federal states.
+2. Co-Builder for Founders,Hands-on co-builder for pre-seed to seed: pitch deck (market problem first, not technology), financial model stress-tested for investor questions, TAM/SAM/SOM with sources, investor relations + outreach sequence, website. Day rate or equity component for long mandates.
+Cross-cutting tool: Agentic Engineering with Claude Code, Cursor, MCP servers. Belegt durch eigene Produkte (BauPilot in 2 Monaten, ertragwerk.de in 1 Monat).
+Target audience: Series A–C scale-ups, pre-seed to seed founders, German Mittelstand seeking digital/AI enablement. Multi-site operators in retail/F&B/fitness possible via the multi-site track record but not lead service.
 Tone: Direct, sharp, Berlin founder energy. Never vague. Specifics, numbers, outcomes.
-Differentiator: Senior operator with measurable hyper-growth and post-merger track record (€2M buildout budget, 130 use-permit conversions, 90+ properties wind-down) who now ships software products solo via agentic engineering.
+Differentiator: Senior operator with measurable hyper-growth and post-merger track record who ships software products solo via agentic engineering.
 
 ## Origin Story
 After his B.A. in Business Administration, Lukas founded Brasiventures, a CBD D2C brand. Solo-built the entire business: product, packaging, Shopify store, distribution to Berlin kiosks. Six-figure revenue over three years.
@@ -38,17 +38,20 @@ Today Lukas runs three parallel streams: multi-site operations consulting, agent
 - Available: Selectively, max 3 parallel mandates
 
 ## Services
-1. **Multi-Site Operations**,Pre-LOI site checks, lease redlines, end-to-end use-permit conversions for retail, F&B, fitness operators scaling in Germany. Coordinates architects, acoustics consultants, and fire-safety engineers. Playbook from 130 conversions at Gorillas.
-2. **Agentic Product Building**,End-to-end product delivery with Claude Code, Cursor, MCP. Concept, architecture, system design, deployment. No production code written by hand.
-3. **Startup Sparring**,Hands-on co-builder mandates for pre-seed to seed founders: pitch decks, investor strategy, TAM/SAM/SOM validation, financial models, go-to-market.
+1. **Senior Product & Strategy**,For scale-ups that need a senior operator on demand. Product and strategy reviews with a clear recommendation. Roadmap and prioritization sharpening for founders and Heads of Product. Operations audits with concrete execution plans. Reporting for management and investors. Pricing: day rate or monthly retainer.
+2. **Co-Builder for Founders**,For pre-seed and seed founders who need an operator at the table, not a consultant from outside. Pitch deck that starts from the market problem, not the technology. Financial model stress-tested against investor questions. TAM/SAM/SOM validation with sources. Investor-relations strategy including outreach sequence. Website (no credibility without one). Pricing: day rate or equity component for long-term mandates.
+3. **Cross-cutting tool: Agentic Engineering**,Not a separate service but how both streams are delivered. Claude Code, Cursor, MCP servers as workforce. Belegt durch zwei eigene Produkte: BauPilot (PostGIS stack, 50+ OSINT scrapers, RAG pipeline on Hetzner, built solo in 2 months); ertragwerk.de (6 calculators, 31 city pages, full German tax logic, built solo in 1 month). For mandates this means investor materials, data pipelines, internal tools, and process systems get produced at a speed not possible without agentic engineering.
+
+Note: Multi-site operations is no longer a sold service. It remains visible as track record under Experience (Gorillas/Getir 130 use-permit conversions, €2M budget, 16 federal states). Don't pitch it; cite it as proof.
 
 ## Work Experience
 
-### Self-Employed,Operations Consulting & Agentic Product Building (Mar 2025 – Present, Berlin)
-Three parallel streams: multi-site operations for retail, F&B, and fitness operators scaling in Germany; agentic product building of own products; co-builder mandates for pre-seed to seed founders.
-- Multi-Site Operations: Pre-LOI site checks, lease redlines, end-to-end use-permit conversions. Coordinates architects, acoustics consultants, fire-safety engineers. Playbook from 130 conversions at Gorillas.
-- Startup Sparring: Co-builder mandates for pre-seed to seed: pitch decks, investor strategy, TAM/SAM/SOM validation, financial models, GTM.
-- Selected mandates: GRÜNZUCKER GmbH (biotech, Fraunhofer pipeline partnership), LAP Coffee (site analysis), Halo Bagels (site analysis and commercial lease advisory), Everyfy (pitch deck and financial model).
+### Self-Employed,Senior Product & Strategy + Co-Builder for Founders (Mar 2025 – Present, Berlin)
+Two parallel streams delivered with agentic engineering as the tool.
+- Senior Product & Strategy: Day rate / retainer mandates for scale-ups needing senior operator capacity for product, strategy, or operations. Product reviews, roadmap sharpening, ops audits, reporting for management and investors.
+- Co-Builder for Founders: Hands-on co-builder mandates for pre-seed to seed: pitch deck, financial model, TAM/SAM/SOM validation, investor relations, website.
+- Selected mandates: GRÜNZUCKER GmbH (biotech, co-builder, Fraunhofer pipeline partnership), LAP Coffee (site analysis), Halo Bagels (site analysis and commercial lease advisory), Everyfy (pitch deck and financial model).
+- Own products built via agentic engineering: BauPilot (RAG platform for German planning law, B2B SaaS, solo in 2 months); ertragwerk.de (open tool platform for German real estate investors, solo in 1 month).
 
 ### BEC-Energie Consult GmbH,Project Developer, Renewable Energy DE/PL/FR (Mar 2024 – Mar 2025, Berlin)
 Renewable energy in classic German Mittelstand: small team, long-tenured employees, deeply analog processes. Cross-border project development across three markets.

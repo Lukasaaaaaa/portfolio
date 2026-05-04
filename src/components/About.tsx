@@ -20,8 +20,8 @@ export default function About() {
           </h2>
           <h3 className="mb-8 text-2xl font-bold text-foreground-bright md:text-3xl">
             {t(
-              "Operations substance plus agentic engineering",
-              "Operations-Substanz plus Agentic Engineering"
+              "Operator with hyper-growth substance and agentic engineering as the tool",
+              "Operator mit Hyper-Growth-Substanz und Agentic-Engineering-Werkzeug"
             )}
           </h3>
         </motion.div>
@@ -36,22 +36,22 @@ export default function About() {
           <div className="space-y-5 text-base leading-relaxed">
             <p>
               {t(
-                "Senior Operator and Product/Strategy Lead based in Berlin. At Gorillas I led the scale-up from 20 to 150 stores with €2M buildout budget across 16 German federal states. 130 use-permit conversions and 90+ properties in post-merger wind-down after Getir acquisition.",
-                "Senior Operator und Product/Strategy Lead in Berlin. Bei Gorillas operativ verantwortlich für die Skalierung von 20 auf 150 Standorte mit €2M Buildout-Budget über 16 Bundesländer. 130 Nutzungsänderungen, 90+ Liegenschaften im Post-Merger-Wind-Down nach Übernahme durch Getir."
+                "I'm Lukas Gurny, born 1995 in Berlin. I built my own D2C brand, operationally led one of Europe's fastest q-commerce rollouts at Gorillas, and learned in German energy-transition Mittelstand that every technical solution fails on culture if no one takes adoption seriously. At Gorillas it was 20 to 150 stores in under 18 months, €2 million buildout budget, and 16 federal states. After the Getir acquisition, I led the wind-down of 90+ properties and built the data and reporting structures the C-level used to steer the process.",
+                "Ich bin Lukas Gurny, geboren 1995 in Berlin. Ich habe eine eigene D2C-Marke aufgebaut, bei Gorillas einen der schnellsten Q-Commerce-Rollouts Europas operativ verantwortet und im deutschen Energiewende-Mittelstand gelernt, dass jede technische Lösung an Kultur scheitert, wenn niemand Adoption ernst nimmt. Bei Gorillas waren es 20 auf 150 Stores in unter 18 Monaten, €2 Millionen Buildout-Budget und 16 Bundesländer. Nach der Übernahme durch Getir habe ich den Wind-Down von 90+ Liegenschaften geleitet und die Daten- und Reporting-Strukturen gebaut, mit denen das C-Level den Prozess gesteuert hat."
               )}
             </p>
 
             <p>
               {t(
-                "Today I combine that operations substance with agentic engineering (Claude Code, Cursor, MCP). I make product decisions, define architecture, and ship with AI agents as workforce. Two products live: ertragwerk.de and BauPilot.",
-                "Heute kombiniere ich diese Operations-Substanz mit Agentic Engineering (Claude Code, Cursor, MCP). Ich treffe Produkt-Entscheidungen, definiere Architektur und liefere mit AI-Agenten als Workforce. Zwei eigene Produkte live: ertragwerk.de und BauPilot."
+                "In 2025 my toolkit changed fundamentally. With Claude Code, Cursor, and MCP servers I now ship products and strategy outputs that previously required an engineering or strategy team. I don't write production code myself — my strength isn't typing, it's product decisions, architecture choice, system design, and go-to-market. The agent writes the code. I make the decisions the agent can't. Two products went live this way: BauPilot, a RAG platform for German planning law with self-hosted vector store on Hetzner and 50+ OSINT scrapers across all 16 federal states; and ertragwerk.de, an open tool platform for German real estate investors with full German tax logic and live ECB mortgage rates.",
+                "2025 hat sich mein Werkzeugkasten grundlegend geändert. Mit Claude Code, Cursor und MCP-Servern liefere ich heute Produkte und Strategie-Outputs aus, für die früher ein Engineering- oder Strategy-Team nötig gewesen wäre. Ich schreibe keinen Production-Code selbst, meine Stärke ist nicht das Tippen, sondern Produkt-Entscheidungen, Architektur-Wahl, System-Design und Go-to-Market. Den Code schreibt der Agent. Ich treffe die Entscheidungen, die der Agent nicht treffen kann. Zwei Produkte sind dadurch live entstanden: BauPilot, eine RAG-Plattform für deutsches Baurecht mit Self-hosted Vector Store auf Hetzner und 50+ OSINT-Scrapern über alle 16 Bundesländer; und ertragwerk.de, eine Open-Tool-Plattform für deutsche Immobilien-Investoren mit voll-deutscher Steuerlogik und EZB-Live-Bauzinsen."
               )}
             </p>
 
             <p>
               {t(
-                "M.Sc. in Information Systems & Digital Transformation at University of Potsdam. Single-digit handicap golfer at GC Motzen, German Golf Association.",
-                "Master Wirtschaftsinformatik & Digitale Transformation an der Universität Potsdam. Mannschaftsspieler im GC Motzen (Handicap 5)."
+                "I work in two clearly separated streams. Senior Product & Strategy mandates for scale-ups that need to make decisions and ship faster than an internal team can be built. And co-builder mandates for pre-seed to seed founders who need an operator who tackles pitch deck, financial model, investor relations, and market validation simultaneously, not as an outside consultant but at the table. In parallel I'm doing the M.Sc. in Information Systems & Digital Transformation at the University of Potsdam with focuses on Digital Government, Knowledge Management, Enterprise Architecture, and AI-supported applications. Team player at GC Motzen with handicap 5.",
+                "Ich arbeite in zwei klar getrennten Streams. Senior Product & Strategy Mandate für Scale-ups, die schneller Entscheidungen treffen und ausliefern müssen, als ein internes Team aufgebaut werden kann. Und Co-Builder-Mandate für Pre-Seed- bis Seed-Founder, die einen Operator brauchen, der Pitch Deck, Finanzmodell, Investor Relations und Marktvalidierung gleichzeitig anpackt, nicht als Berater von außen, sondern mit am Tisch. Parallel mache ich den Master in Wirtschaftsinformatik & Digitale Transformation an der Universität Potsdam mit Schwerpunkten Digital Government, Wissensmanagement, Enterprise Architecture und AI-gestützte Anwendungen. Mannschaftsspieler im GC Motzen mit Handicap 5."
               )}
             </p>
           </div>

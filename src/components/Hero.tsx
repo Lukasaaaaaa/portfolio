@@ -43,7 +43,7 @@ export default function Hero() {
           className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-surface px-4 py-1.5"
         >
           <span className="text-xs text-foreground-muted">
-            {t("Available for projects", "Verfügbar für Projekte")} &middot; Berlin
+            {t("Available for mandates", "Verfügbar für Mandate")} &middot; Berlin
           </span>
         </motion.div>
 
@@ -53,18 +53,18 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.15 }}
           className="mb-6 text-5xl font-bold leading-[1.1] tracking-tight text-foreground-bright md:text-7xl"
         >
-          Lukas Gurny
+          Product & Strategy <span className="text-foreground-muted">|</span> Agentic Engineering
         </motion.h1>
 
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.25 }}
-          className="mb-4 text-lg text-accent md:text-xl"
+          className="mb-6 text-lg text-accent md:text-xl"
         >
           {t(
-            "Senior Operator · Multi-Site Scaling · Agentic Engineering",
-            "Senior Operator · Multi-Site Skalierung · Agentic Engineering"
+            "Berlin. Ex-Gorillas. Scaled 20 to 150 stores across DACH. Today I deliver products and strategy with AI agents as workforce.",
+            "Berlin. Ex-Gorillas. 20 auf 150 Stores in DACH skaliert. Heute liefere ich Produkte und Strategie mit AI-Agenten als Workforce."
           )}
         </motion.p>
 
@@ -72,11 +72,11 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.35 }}
-          className="mb-10 max-w-lg text-base leading-relaxed"
+          className="mb-10 max-w-xl text-base leading-relaxed"
         >
           {t(
-            "Ex-Gorillas. 20 to 150 stores. Today I build products and operational systems with AI agents as workforce.",
-            "Ex-Gorillas. 20 auf 150 Standorte. Heute baue ich Produkte und operative Systeme mit AI-Agenten als Workforce."
+            "Three use cases. Scale-ups that need a senior operator for product, strategy, or operations. Pre-seed to seed founders looking for a co-builder for pitch, financial model, and investor relations. Or a complete B2B SaaS that ships to production in two months via agentic engineering.",
+            "Drei Anwendungsfälle. Scale-ups, die einen Senior Operator für Produkt, Strategie oder Operations brauchen. Pre-Seed- bis Seed-Founder, die einen Co-Builder für Pitch, Finanzmodell und Investor Relations suchen. Oder ein vollständiges B2B-SaaS, das mit Agentic Engineering in zwei Monaten in Produktion geht."
           )}
         </motion.p>
 
@@ -92,13 +92,13 @@ export default function Hero() {
             rel="noopener noreferrer"
             className="inline-flex items-center rounded-lg border border-border bg-surface px-5 py-2.5 text-sm font-medium text-foreground-bright transition-all hover:border-border-bright"
           >
-            {t("View CV", "Lebenslauf ansehen")}
+            {t("Download CV", "Lebenslauf herunterladen")}
           </a>
           <a
-            href="mailto:luca@gurny.de?subject=Mandat-Anfrage%20via%20lukasgurny.com"
+            href="mailto:luca@gurny.de?subject=Erstgespr%C3%A4ch%20via%20lukasgurny.com"
             className="inline-flex items-center rounded-lg bg-accent px-5 py-2.5 text-sm font-medium text-white transition-all hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/25"
           >
-            {t("Hire me", "Mandat anfragen")}
+            {t("Book intro call", "Erstgespräch buchen")}
           </a>
         </motion.div>
       </div>
