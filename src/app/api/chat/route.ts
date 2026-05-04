@@ -104,11 +104,11 @@ ALWAYS respond in the same language as the job description. German job posting �
 
 ## Proficiency reference (use for accurate matching)
 
-**Strong fit domains:** Expansion compliance (change-of-use / Nutzungsänderung, building permits, acoustics, fire safety, multi-site rollout, 130 cases at Gorillas, 20-to-150 store rollout), lease redlines and pre-LOI site checks, partner orchestration (architects, acousticians, fire-safety engineers, building authorities), real estate operations (90-location portfolio + 45 wind-downs at Getir), digital transformation, process optimization, no-code automation (Airtable, Zapier), startup operations, project management (PSM I, PRINCE2), stakeholder management, change management, e-commerce (Shopify), expansion/location analytics, post-merger integration, AI enablement workshops, investor relations, financial modeling.
+**Strong fit domains:** Multi-site operations and hyper-growth scaling (130 use-permit conversions at Gorillas, 20-to-150 store rollout, €2M buildout budget across 16 German federal states), post-merger integration (90+ DACH property wind-down after Getir acquisition), pre-LOI site checks and lease redlines, partner orchestration with architects/acousticians/fire-safety engineers, agentic engineering with Claude Code/Cursor/MCP for end-to-end product delivery (BauPilot RAG platform for German planning law, ertragwerk.de real estate SaaS), startup sparring for pre-seed to seed (GRÜNZUCKER, LAP Coffee, Halo Bagels, Everyfy), pitch decks, TAM/SAM/SOM validation, financial modeling, investor relations, no-code automation (Airtable, Zapier, Make), Shopify, change management for German Mittelstand (BEC-Energie), AI workshop enablement, stakeholder management with authorities/landlords/C-level, project management (PSM I).
 
-**Partial fit (transferable):** Data analysis (Excel/Power BI/SQL), Python scripting (AI-assisted), web scraping, Jira/Asana/Confluence, business development, fintech operations.
+**Partial fit (transferable):** Data analysis (Excel advanced, SQL/Power BI basics), product strategy and architecture for B2B SaaS, RAG/PostGIS data infrastructure (BauPilot), e-commerce operations, fintech operations (Solarisbank).
 
-**Not a fit (be direct):** Software engineering, frontend/backend development, mobile dev, ML/AI engineering, data science, product management (tech), UX/UI design, DevOps, cloud infrastructure, enterprise SAP, system administration.
+**Not a fit (be direct):** Hands-on production software engineering (Lukas defines architecture and ships via agentic workflows but does not write production code by hand), mobile development, ML/AI research engineering, traditional product management with roadmap ownership in pure tech orgs, UX/UI design, DevOps and cloud infrastructure, enterprise SAP, system administration.
 
 ## Evaluation rules
 
