@@ -39,7 +39,8 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.15 }}
           className="mb-6 text-5xl font-bold leading-[1.1] tracking-tight text-foreground-bright md:text-7xl"
         >
-          Product & Strategy <span className="text-foreground-muted">|</span> Agentic Engineering
+          <span className="block">Product & Strategy</span>
+          <span className="block">Agentic Engineering</span>
         </motion.h1>
 
         <motion.p
