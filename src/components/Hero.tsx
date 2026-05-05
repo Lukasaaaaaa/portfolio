@@ -23,28 +23,14 @@ export default function Hero() {
           transition={{ duration: 0.5 }}
           className="mb-8"
         >
-          <div className="relative inline-block">
-            <Image
-              src="/headshot.png"
-              alt="Lukas Gurny"
-              width={120}
-              height={120}
-              className="rounded-full border-2 border-border"
-              priority
-            />
-            <span className="absolute bottom-1 right-1 h-4 w-4 rounded-full border-2 border-background bg-success animate-pulse" />
-          </div>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.1 }}
-          className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-surface px-4 py-1.5"
-        >
-          <span className="text-xs text-foreground-muted">
-            {t("Available for mandates", "Verfügbar für Mandate")} &middot; Berlin
-          </span>
+          <Image
+            src="/headshot.png"
+            alt="Lukas Gurny"
+            width={120}
+            height={120}
+            className="rounded-full border-2 border-border"
+            priority
+          />
         </motion.div>
 
         <motion.h1
