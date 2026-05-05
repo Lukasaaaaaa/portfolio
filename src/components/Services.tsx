@@ -99,12 +99,12 @@ export default function Services() {
             {t("Services", "Was ich mache")}
           </h2>
           <h3 className="mb-4 text-2xl font-bold text-foreground-bright md:text-3xl">
-            {t("What I do", "Was ich mache")}
+            {t("Two streams, one tool", "Zwei Streams, ein Werkzeug")}
           </h3>
           <p className="mb-14 max-w-3xl text-base text-foreground-muted">
             {t(
-              "Two streams, one tool. Senior mandates on day rate and co-builder mandates for founders. What connects them: I deliver with agentic engineering what classical teams deliver in many times the time.",
-              "Zwei Streams, ein Werkzeug. Senior-Mandate im Tagessatz und Co-Builder-Mandate für Founder. Was sie verbindet: ich liefere mit Agentic Engineering, was klassische Teams in der x-fachen Zeit liefern."
+              "Senior mandates on day rate and co-builder mandates for founders. What connects them: I deliver with agentic engineering what classical teams deliver in many times the time.",
+              "Senior-Mandate im Tagessatz und Co-Builder-Mandate für Founder. Was sie verbindet: ich liefere mit Agentic Engineering, was klassische Teams in der x-fachen Zeit liefern."
             )}
           </p>
         </motion.div>
