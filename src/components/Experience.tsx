@@ -11,16 +11,16 @@ export default function Experience() {
     {
       company: t("Self-employed", "Selbstständig"),
       role: t(
-        "Operations Consulting & Agentic Product Building",
-        "Operations Consulting & Agentic Product Building"
+        "Independent Consultant",
+        "Berater"
       ),
       location: "Berlin",
       period: t("Mar 2025 – Present", "Mär 2025 – Heute"),
       logo: "/logo-gruenzucker.png",
       logoAlt: "Grünzucker",
       description: t(
-        "Three parallel streams: multi-site operations for retail, F&B, and fitness operators scaling in Germany; agentic product building of own products; and co-builder mandates for pre-seed to seed founders.",
-        "Selbstständiger Operator mit drei parallelen Streams: Multi-Site Operations für Retail-, F&B- und Fitness-Operatoren in Skalierung, Agentic Product Building eigener Produkte und Co-Builder-Mandate für Pre-Seed- bis Seed-Founder."
+        "Three areas: multi-site operations for retail, F&B, and fitness operators scaling in Germany (playbook from 130 use-permit conversions at Gorillas); startup-sparring co-builder mandates for pre-seed to seed founders; and own products built solo via agentic engineering (BauPilot, ertragwerk.de).",
+        "Drei Bereiche: Multi-Site Operations für Retail-, F&B- und Fitness-Operatoren in Skalierung (Playbook aus 130 Nutzungsänderungen bei Gorillas), Startup-Sparring Co-Builder-Mandate für Pre-Seed- bis Seed-Founder, und eigene Produkte solo gebaut via Agentic Engineering (BauPilot, ertragwerk.de)."
       ),
       points: [
         t(

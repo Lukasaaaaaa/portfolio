@@ -13,8 +13,8 @@ export default function Services() {
       label: t("Stream 1", "Stream 1"),
       title: t("Senior Product & Strategy", "Senior Product & Strategy"),
       tagline: t(
-        "For scale-ups that need a senior operator on demand.",
-        "Für Scale-ups, die einen Senior Operator on-demand brauchen."
+        "For scale-ups that need senior product & strategy on demand.",
+        "Für Scale-ups, die Senior Product & Strategy on demand brauchen."
       ),
       description: t(
         "Scale-ups reach a point where speed decides over growth, but the team isn't yet large enough to make every decision internally. I cover the senior gap on day rate or retainer: product strategy, architecture decisions, roadmap sharpening, go-to-market validation. The hyper-growth proof comes from 26 months at Gorillas and Getir, 130 use-permit conversions, and €2M budget across 16 federal states.",
@@ -49,12 +49,12 @@ export default function Services() {
       label: t("Stream 2", "Stream 2"),
       title: t("Co-builder for founders", "Co-Builder für Founder"),
       tagline: t(
-        "For pre-seed and seed founders who need an operator.",
-        "Für Pre-Seed- und Seed-Founder, die einen Operator brauchen."
+        "For pre-seed and seed founders who need a co-builder at the table.",
+        "Für Pre-Seed- und Seed-Founder, die einen Co-Builder mit am Tisch brauchen."
       ),
       description: t(
-        "You have the idea, the technical knowledge, maybe a prototype. What's missing is everything in between: story, investor materials, numbers, market validation. I'm not the consultant who delivers a slide deck and disappears. I'm the operator who sits at the table until the money is in.",
-        "Du hast die Idee, das technische Wissen, vielleicht einen Prototypen. Was fehlt, ist alles dazwischen: Story, Investoren-Material, Zahlen, Marktvalidierung. Ich bin nicht der Berater, der einen Foliensatz liefert und verschwindet. Ich bin der Operator, der mit am Tisch sitzt, bis das Geld da ist."
+        "You have the idea, the technical knowledge, maybe a prototype. What's missing is everything in between: story, investor materials, numbers, market validation. I don't deliver a slide deck and disappear. I sit at the table until the money is in.",
+        "Du hast die Idee, das technische Wissen, vielleicht einen Prototypen. Was fehlt, ist alles dazwischen: Story, Investoren-Material, Zahlen, Marktvalidierung. Ich liefere keinen Foliensatz und verschwinde. Ich sitze mit am Tisch, bis das Geld da ist."
       ),
       deliverablesTitle: t("What you get", "Was du bekommst"),
       deliverables: [

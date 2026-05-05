@@ -60,7 +60,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.25 }}
-          className="mb-6 text-lg text-accent md:text-xl"
+          className="mb-6 max-w-2xl text-lg text-accent md:text-xl"
         >
           {t(
             "Berlin. Ex-Gorillas. Scaled 20 to 150 stores across DACH. Today I deliver products and strategy with AI agents as workforce.",
@@ -72,11 +72,11 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.35 }}
-          className="mb-10 max-w-xl text-base leading-relaxed"
+          className="mb-10 max-w-2xl text-base leading-relaxed"
         >
           {t(
-            "Three use cases. Scale-ups that need a senior operator for product, strategy, or operations. Pre-seed to seed founders looking for a co-builder for pitch, financial model, and investor relations. Or a complete B2B SaaS that ships to production in two months via agentic engineering.",
-            "Drei Anwendungsfälle. Scale-ups, die einen Senior Operator für Produkt, Strategie oder Operations brauchen. Pre-Seed- bis Seed-Founder, die einen Co-Builder für Pitch, Finanzmodell und Investor Relations suchen. Oder ein vollständiges B2B-SaaS, das mit Agentic Engineering in zwei Monaten in Produktion geht."
+            "Three use cases. Scale-ups that need senior product & strategy on demand. Pre-seed to seed founders looking for a co-builder for pitch, financial model, and investor relations. Or a complete B2B SaaS that ships to production in two months via agentic engineering.",
+            "Drei Anwendungsfälle. Scale-ups, die Senior Product & Strategy on demand brauchen. Pre-Seed- bis Seed-Founder, die einen Co-Builder für Pitch, Finanzmodell und Investor Relations suchen. Oder ein vollständiges B2B-SaaS, das mit Agentic Engineering in zwei Monaten in Produktion geht."
           )}
         </motion.p>
 

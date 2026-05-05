@@ -20,8 +20,8 @@ export default function About() {
           </h2>
           <h3 className="mb-8 text-2xl font-bold text-foreground-bright md:text-3xl">
             {t(
-              "Operator with hyper-growth substance and agentic engineering as the tool",
-              "Operator mit Hyper-Growth-Substanz und Agentic-Engineering-Werkzeug"
+              "Hyper-growth substance plus agentic engineering as the tool",
+              "Hyper-Growth-Substanz plus Agentic-Engineering-Werkzeug"
             )}
           </h3>
         </motion.div>
@@ -50,8 +50,8 @@ export default function About() {
 
             <p>
               {t(
-                "I work in two clearly separated streams. Senior Product & Strategy mandates for scale-ups that need to make decisions and ship faster than an internal team can be built. And co-builder mandates for pre-seed to seed founders who need an operator who tackles pitch deck, financial model, investor relations, and market validation simultaneously, not as an outside consultant but at the table. In parallel I'm doing the M.Sc. in Information Systems & Digital Transformation at the University of Potsdam with focuses on Digital Government, Knowledge Management, Enterprise Architecture, and AI-supported applications. Team player at GC Motzen with handicap 5.",
-                "Ich arbeite in zwei klar getrennten Streams. Senior Product & Strategy Mandate für Scale-ups, die schneller Entscheidungen treffen und ausliefern müssen, als ein internes Team aufgebaut werden kann. Und Co-Builder-Mandate für Pre-Seed- bis Seed-Founder, die einen Operator brauchen, der Pitch Deck, Finanzmodell, Investor Relations und Marktvalidierung gleichzeitig anpackt, nicht als Berater von außen, sondern mit am Tisch. Parallel mache ich den Master in Wirtschaftsinformatik & Digitale Transformation an der Universität Potsdam mit Schwerpunkten Digital Government, Wissensmanagement, Enterprise Architecture und AI-gestützte Anwendungen. Mannschaftsspieler im GC Motzen mit Handicap 5."
+                "I work in two clearly separated streams. Senior Product & Strategy mandates for scale-ups that need to make decisions and ship faster than an internal team can be built. And co-builder mandates for pre-seed to seed founders who need pitch deck, financial model, investor relations, and market validation tackled simultaneously, not as an outside consultant but at the table. In parallel I'm doing the M.Sc. in Information Systems & Digital Transformation at the University of Potsdam with focuses on Digital Government, Knowledge Management, Enterprise Architecture, and AI-supported applications. Team player at GC Motzen with handicap 5.",
+                "Ich arbeite in zwei klar getrennten Streams. Senior Product & Strategy Mandate für Scale-ups, die schneller Entscheidungen treffen und ausliefern müssen, als ein internes Team aufgebaut werden kann. Und Co-Builder-Mandate für Pre-Seed- bis Seed-Founder, bei denen Pitch Deck, Finanzmodell, Investor Relations und Marktvalidierung gleichzeitig angepackt werden, nicht als Berater von außen, sondern mit am Tisch. Parallel mache ich den Master in Wirtschaftsinformatik & Digitale Transformation an der Universität Potsdam mit Schwerpunkten Digital Government, Wissensmanagement, Enterprise Architecture und AI-gestützte Anwendungen. Mannschaftsspieler im GC Motzen mit Handicap 5."
               )}
             </p>
           </div>
