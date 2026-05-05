@@ -60,7 +60,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.25 }}
-          className="mb-6 max-w-2xl text-lg text-accent md:text-xl"
+          className="mb-6 max-w-lg text-lg text-accent md:text-xl"
         >
           {t(
             "Berlin. Ex-Gorillas. Scaled 20 to 150 stores across DACH. Today I deliver products and strategy with AI agents as workforce.",
@@ -72,7 +72,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.35 }}
-          className="mb-10 max-w-2xl text-base leading-relaxed"
+          className="mb-10 max-w-lg text-base leading-relaxed"
         >
           {t(
             "Three use cases. Scale-ups that need senior product & strategy on demand. Pre-seed to seed founders looking for a co-builder for pitch, financial model, and investor relations. Or a complete B2B SaaS that ships to production in two months via agentic engineering.",
