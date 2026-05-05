@@ -108,8 +108,8 @@ export default function Services() {
           <div className="space-y-4 text-sm leading-relaxed text-foreground">
             <p>
               {t(
-                "Claude Code, Cursor, and MCP servers as workforce. BauPilot is a platform with its own PostGIS stack, 50+ OSINT scrapers, and RAG pipeline on Hetzner, built solo in two months. ertragwerk.de has six calculators, 31 city pages, and full German tax logic, built solo in one month. I don't write production code. I make the decisions the agent can't: what gets built, in what order, with what architecture, against what assumptions.",
-                "Claude Code, Cursor und MCP-Server als Workforce. BauPilot ist eine Plattform mit eigenem PostGIS-Stack, 50+ OSINT-Scrapern und RAG-Pipeline auf Hetzner, solo gebaut in zwei Monaten. ertragwerk.de hat sechs Rechner, 31 Städte-Seiten und voll-deutsche Steuerlogik, solo gebaut in einem Monat. Ich schreibe keinen Production-Code. Ich treffe die Entscheidungen, die der Agent nicht treffen kann: Was wird gebaut, in welcher Reihenfolge, mit welcher Architektur, gegen welche Annahmen."
+                "Claude Code, Cursor, and MCP servers as workforce. I don't write production code. I make the decisions the agent can't: what gets built, in what order, with what architecture, against what assumptions.",
+                "Claude Code, Cursor und MCP-Server als Workforce. Ich schreibe keinen Production-Code. Ich treffe die Entscheidungen, die der Agent nicht treffen kann: Was wird gebaut, in welcher Reihenfolge, mit welcher Architektur, gegen welche Annahmen."
               )}
             </p>
           </div>
