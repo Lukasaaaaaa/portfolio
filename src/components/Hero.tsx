@@ -95,10 +95,10 @@ export default function Hero() {
             {t("Download CV", "Lebenslauf herunterladen")}
           </a>
           <a
-            href="mailto:luca@gurny.de?subject=Erstgespr%C3%A4ch%20via%20lukasgurny.com"
+            href="mailto:luca@gurny.de?subject=Anfrage%20via%20lukasgurny.com"
             className="inline-flex items-center rounded-lg bg-accent px-5 py-2.5 text-sm font-medium text-white transition-all hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/25"
           >
-            {t("Book intro call", "Erstgespräch buchen")}
+            {t("Get in touch", "Kontakt aufnehmen")}
           </a>
         </motion.div>
       </div>

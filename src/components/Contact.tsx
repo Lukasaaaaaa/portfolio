@@ -51,8 +51,8 @@ export default function Contact() {
           </h3>
           <p className="mb-10 max-w-md text-base">
             {t(
-              "Open to mandates in multi-site operations, senior product/strategy roles, and co-builder engagements with pre-seed to seed startups.",
-              "Offen für Mandate in Multi-Site Operations, Senior Product/Strategy Rollen und Co-Builder-Engagements bei Pre-Seed- bis Seed-Startups."
+              "Open to new projects and offers.",
+              "Offen für neue Projekte und Angebote."
             )}
           </p>
         </motion.div>
