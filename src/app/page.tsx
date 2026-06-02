@@ -1,9 +1,8 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
-import About from "@/components/About";
 import Services from "@/components/Services";
 import Experience from "@/components/Experience";
-import CaseStudies from "@/components/CaseStudies";
+import SideProjects from "@/components/SideProjects";
 import Skills from "@/components/Skills";
 import FitCheck from "@/components/FitCheck";
 import Contact from "@/components/Contact";
@@ -15,10 +14,9 @@ export default function Home() {
       <Navigation />
       <main>
         <Hero />
-        <About />
         <Services />
         <Experience />
-        <CaseStudies />
+        <SideProjects />
         <Skills />
         <FitCheck />
         <Contact />

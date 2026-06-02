@@ -1,119 +1,83 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { Briefcase, Rocket, Bot } from "lucide-react";
+import { BrainCircuit, Workflow, Rocket } from "lucide-react";
 import { useLanguage } from "@/lib/language-context";
 
 export default function Services() {
   const { t } = useLanguage();
 
-  const streams = [
+  const pillars = [
     {
-      icon: Briefcase,
-      label: t("Stream 1", "Stream 1"),
-      title: t("Senior Product & Strategy", "Senior Product & Strategy"),
+      icon: BrainCircuit,
+      title: t(
+        "AI Strategy & Use-Case Advisory",
+        "KI-Strategie & Use-Case-Beratung"
+      ),
       body: t(
-        "Product strategy, architecture decisions, roadmap sharpening, go-to-market validation, ops audits, reporting for management and investors. Hyper-growth substance from 26 months at Gorillas and Getir, 130 use-permit conversions, €2M budget across 16 federal states.",
-        "Produkt-Strategie, Architektur-Entscheidungen, Roadmap-Schärfung, Go-to-Market-Validierung, Operations-Audits, Reportings für Geschäftsführung und Investoren. Hyper-Growth-Substanz aus 26 Monaten Gorillas und Getir, 130 Nutzungsänderungen und €2M Budget über 16 Bundesländer."
+        "Identification and structured evaluation of AI use cases for mid-market and enterprise. Conception and facilitation of workshops to embed generative AI and AI agents (ChatGPT, Claude) into existing process and sales landscapes. Support for change-management processes during AI adoption.",
+        "Identifikation und strukturierte Bewertung von KI-Anwendungsfällen für Mittelstand und Konzern. Konzeption und Moderation von Workshops zur Einbettung von Generativer KI und AI Agents (ChatGPT, Claude) in bestehende Prozess- und Vertriebslandschaften. Begleitung von Change-Management-Prozessen bei KI-Adoption."
+      ),
+    },
+    {
+      icon: Workflow,
+      title: t(
+        "Process Automation & Digitalization",
+        "Prozessautomatisierung & Digitalisierung"
+      ),
+      body: t(
+        "Conception and implementation of relational databases, workflow automations, and no-code architectures for operational scaling. Focus areas: Airtable, Zapier, Make, Power Automate, BPMN modeling.",
+        "Konzeption und Implementierung relationaler Datenbanken, Workflow-Automatisierungen und No-Code-Architekturen für operative Skalierung. Schwerpunkte: Airtable, Zapier, Make, Power Automate, BPMN-Modellierung."
       ),
     },
     {
       icon: Rocket,
-      label: t("Stream 2", "Stream 2"),
-      title: t("Co-builder for founders", "Co-Builder für Founder"),
+      title: t(
+        "Startup Sparring & Business-Model Validation",
+        "Startup-Sparring & Geschäftsmodell-Validierung"
+      ),
       body: t(
-        "Pitch deck from market problem first, financial model stress-tested for investor questions, TAM/SAM/SOM validation, investor relations and outreach sequence, website. Pre-seed to seed. At the table, not from the outside.",
-        "Pitch Deck vom Marktproblem aus, Finanzmodell stress-getestet für Investor-Fragen, TAM/SAM/SOM-Validierung, Investor Relations und Outreach-Sequenz, Website. Pre-Seed bis Seed. Mit am Tisch, nicht von außen."
+        "Strategic support for founder teams: assessment of business potential, development of targeted use-case portfolios, validation of go-to-market strategies, financial models, and pitch decks for pre-seed and seed rounds.",
+        "Strategische Begleitung von Gründerteams: Bewertung von Business-Potenzialen, Entwicklung zielgerichteter Use-Case-Portfolios, Validierung von Go-to-Market-Strategien, Finanzmodelle und Pitch Decks für Pre-Seed- und Seed-Runden."
       ),
     },
   ];
 
   return (
-    <section id="services" className="px-6 py-28">
+    <section id="services" className="px-6 py-24">
       <div className="mx-auto max-w-5xl">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.5 }}
-        >
-          <h2 className="mb-2 font-mono text-sm text-accent">
-            {t("Services", "Was ich mache")}
+        <div>
+          <h2 className="mb-2 text-sm font-semibold uppercase tracking-widest text-accent2">
+            {t("What I do", "Was ich mache")}
           </h2>
-          <h3 className="mb-4 text-2xl font-bold text-foreground-bright md:text-3xl">
-            {t("Two streams, one tool", "Zwei Streams, ein Werkzeug")}
-          </h3>
-          <p className="mb-14 max-w-2xl text-base text-foreground-muted">
+          <h3 className="mb-12 text-2xl font-bold text-foreground-bright md:text-3xl">
             {t(
-              "Two areas where I combine hyper-growth substance with agentic engineering.",
-              "Zwei Bereiche, in denen ich Hyper-Growth-Substanz mit Agentic Engineering kombiniere."
+              "Three areas of focus",
+              "Drei Schwerpunkte"
             )}
-          </p>
-        </motion.div>
+          </h3>
+        </div>
 
-        <div className="grid gap-6 lg:grid-cols-2">
-          {streams.map((stream, i) => {
-            const Icon = stream.icon;
+        <div className="grid gap-6 lg:grid-cols-3">
+          {pillars.map((pillar) => {
+            const Icon = pillar.icon;
             return (
-              <motion.div
-                key={stream.title}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-100px" }}
-                transition={{ duration: 0.4, delay: i * 0.08 }}
-                className="flex flex-col rounded-xl border border-border bg-surface p-6 transition-all hover:border-border-bright sm:p-7"
+              <div
+                key={pillar.title}
+                className="flex flex-col rounded-xl border border-border bg-surface p-7 transition-colors hover:border-border-bright"
               >
-                <div className="mb-4 flex items-center gap-3">
-                  <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-accent/10 text-accent">
-                    <Icon size={18} />
-                  </div>
-                  <span className="font-mono text-[10px] uppercase tracking-widest text-foreground-muted">
-                    {stream.label}
-                  </span>
+                <div className="mb-5 flex h-10 w-10 items-center justify-center rounded-lg bg-accent/8 text-accent">
+                  <Icon size={20} />
                 </div>
-
                 <h4 className="mb-3 text-lg font-semibold text-foreground-bright">
-                  {stream.title}
+                  {pillar.title}
                 </h4>
-
                 <p className="text-sm leading-relaxed text-foreground">
-                  {stream.body}
+                  {pillar.body}
                 </p>
-              </motion.div>
+              </div>
             );
           })}
         </div>
-
-        {/* Tool block: Agentic Engineering */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.4, delay: 0.2 }}
-          className="mt-6 rounded-xl border border-accent/20 bg-gradient-to-br from-accent/5 to-accent2/5 p-6 sm:p-8"
-        >
-          <div className="mb-4 flex items-center gap-3">
-            <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-accent/15 text-accent">
-              <Bot size={18} />
-            </div>
-            <span className="font-mono text-[10px] uppercase tracking-widest text-foreground-muted">
-              {t("My tool", "Mein Werkzeug")}
-            </span>
-          </div>
-
-          <h4 className="mb-3 text-lg font-semibold text-foreground-bright">
-            {t("Agentic Engineering", "Agentic Engineering")}
-          </h4>
-
-          <div className="space-y-4 text-sm leading-relaxed text-foreground">
-            <p>
-              {t(
-                "Claude Code, Cursor, and MCP servers as workforce. I don't write production code. I make the decisions the agent can't: what gets built, in what order, with what architecture, against what assumptions.",
-                "Claude Code, Cursor und MCP-Server als Workforce. Ich schreibe keinen Production-Code. Ich treffe die Entscheidungen, die der Agent nicht treffen kann: Was wird gebaut, in welcher Reihenfolge, mit welcher Architektur, gegen welche Annahmen."
-              )}
-            </p>
-          </div>
-        </motion.div>
       </div>
     </section>
   );

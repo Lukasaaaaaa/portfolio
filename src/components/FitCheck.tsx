@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
-import { motion } from "framer-motion";
 import {
   ClipboardPaste,
   Loader2,
@@ -40,21 +39,21 @@ interface FollowUpMessage {
 const VERDICT_STYLES = {
   strong_fit: {
     bg: "bg-emerald-500/10",
-    border: "border-emerald-500/20",
-    text: "text-emerald-400",
-    dot: "bg-emerald-400",
+    border: "border-emerald-600/20",
+    text: "text-emerald-700",
+    dot: "bg-emerald-600",
   },
   moderate_fit: {
     bg: "bg-amber-500/10",
-    border: "border-amber-500/20",
-    text: "text-amber-400",
-    dot: "bg-amber-400",
+    border: "border-amber-600/20",
+    text: "text-amber-700",
+    dot: "bg-amber-600",
   },
   weak_fit: {
-    bg: "bg-red-400/10",
-    border: "border-red-400/20",
-    text: "text-red-400",
-    dot: "bg-red-400",
+    bg: "bg-red-500/10",
+    border: "border-red-600/20",
+    text: "text-red-700",
+    dot: "bg-red-600",
   },
 };
 
@@ -65,22 +64,22 @@ export default function FitCheck() {
     match: {
       icon: Check,
       bg: "bg-emerald-500/10",
-      border: "border-emerald-500/20",
-      iconColor: "text-emerald-400",
+      border: "border-emerald-600/20",
+      iconColor: "text-emerald-700",
       label: t("Strong match", "Starke Übereinstimmung"),
     },
     partial: {
       icon: Minus,
       bg: "bg-amber-500/10",
-      border: "border-amber-500/20",
-      iconColor: "text-amber-400",
+      border: "border-amber-600/20",
+      iconColor: "text-amber-700",
       label: t("Partial match", "Teilweise Übereinstimmung"),
     },
     gap: {
       icon: X,
-      bg: "bg-red-400/10",
-      border: "border-red-400/20",
-      iconColor: "text-red-400",
+      bg: "bg-red-500/10",
+      border: "border-red-600/20",
+      iconColor: "text-red-700",
       label: t("Gap", "Lücke"),
     },
   };
@@ -205,19 +204,9 @@ export default function FitCheck() {
   }
 
   return (
-    <section id="fit-check" className="relative px-6 py-28">
-      {/* Background glow */}
-      <div className="pointer-events-none absolute inset-0 overflow-hidden">
-        <div className="absolute left-1/2 top-1/2 h-[600px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent/[0.04] blur-[120px]" />
-      </div>
-
-      <div className="relative mx-auto max-w-4xl">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.5 }}
-        >
+    <section id="fit-check" className="px-6 py-24">
+      <div className="mx-auto max-w-4xl">
+        <div>
           <div className="mb-4 flex justify-center">
             <div className="inline-flex items-center gap-2 rounded-full border border-accent/20 bg-accent/5 px-4 py-1.5">
               <ClipboardPaste size={14} className="text-accent" />
@@ -235,17 +224,11 @@ export default function FitCheck() {
               "Füge eine Stellenbeschreibung ein. Erhalte eine ehrliche Einschätzung, ob ich die richtige Person bin, auch wenn ich es nicht bin."
             )}
           </p>
-        </motion.div>
+        </div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.5, delay: 0.1 }}
-          className="overflow-hidden rounded-2xl border border-accent/20 bg-surface shadow-[0_0_60px_-15px_rgba(76,123,217,0.15)]"
-        >
-          {/* Gradient accent line */}
-          <div className="h-px bg-gradient-to-r from-transparent via-accent/60 to-transparent" />
+        <div className="overflow-hidden rounded-2xl border border-border bg-surface shadow-sm">
+          {/* Accent line */}
+          <div className="h-px bg-gradient-to-r from-transparent via-accent/40 to-transparent" />
           {!result && !rawError ? (
             <div className="p-6">
               <label className="mb-2 block text-xs font-medium text-foreground-muted">
@@ -481,7 +464,7 @@ export default function FitCheck() {
               </div>
             </div>
           ) : null}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

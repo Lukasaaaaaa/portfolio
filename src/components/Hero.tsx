@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { motion } from "framer-motion";
 import { useLanguage } from "@/lib/language-context";
 
 export default function Hero() {
@@ -9,57 +8,46 @@ export default function Hero() {
 
   return (
     <section className="relative flex min-h-screen flex-col items-center justify-center px-6">
-      {/* Gradient orbs */}
-      <div className="pointer-events-none absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 left-1/4 h-96 w-96 rounded-full bg-accent/5 blur-[120px]" />
-        <div className="absolute -bottom-40 right-1/4 h-96 w-96 rounded-full bg-accent2/5 blur-[120px]" />
-      </div>
-
-      <div className="relative max-w-4xl">
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5 }}
-          className="mb-8"
-        >
+      <div className="relative max-w-3xl">
+        <div className="mb-8">
           <Image
             src="/headshot.png"
             alt="Lukas Gurny"
             width={120}
             height={120}
-            className="rounded-full border-2 border-border"
+            className="rounded-full border border-border shadow-sm"
             priority
           />
-        </motion.div>
+        </div>
 
-        <motion.h1
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.15 }}
-          className="mb-6 text-5xl font-bold leading-[1.1] tracking-tight text-foreground-bright md:text-7xl"
-        >
-          <span className="block">Product & Strategy</span>
-          <span className="block">Agentic Engineering</span>
-        </motion.h1>
-
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0.25 }}
-          className="mb-10 max-w-lg text-lg text-accent md:text-xl"
-        >
+        <h1 className="mb-5 text-4xl font-bold leading-[1.1] tracking-tight text-foreground-bright md:text-6xl">
           {t(
-            "Berlin. Ex-Gorillas. Today products and strategy with AI agents as workforce.",
-            "Berlin. Ex-Gorillas. Heute Produkte und Strategie mit AI-Agenten als Workforce."
+            "AI Strategist & Digital Transformation Consultant",
+            "KI-Stratege & Berater für Digitale Transformation"
           )}
-        </motion.p>
+        </h1>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.5 }}
-          className="flex flex-wrap gap-3"
-        >
+        <p className="mb-6 text-base font-medium text-accent2 md:text-lg">
+          {t(
+            "Generative AI · AI Agents · Use-Case Strategy · Process Automation",
+            "Generative KI · KI-Agenten · Use-Case-Strategie · Prozessautomatisierung"
+          )}
+        </p>
+
+        <p className="mb-9 max-w-2xl text-base leading-relaxed text-foreground">
+          {t(
+            "Entrepreneurial AI strategist with proven expertise in the operational scaling and digital transformation of complex business models. Through hands-on experience with agentic AI and process automation, I translate technological potential into structured use cases and validated business cases. As a sparring partner for management, I drive the strategic embedding of AI solutions into existing data and process landscapes.",
+            "Unternehmerisch agierender KI-Stratege mit nachgewiesener Expertise in der operativen Skalierung und digitalen Transformation komplexer Geschäftsmodelle. Durch Hands-on-Erfahrung mit Agentic AI und Prozessautomatisierung übersetze ich technologische Potenziale in strukturierte Use-Cases und validierte Business Cases. Als pragmatischer Sparringspartner für das Management treibe ich die strategische Einbettung von KI-Lösungen in bestehende Daten- und Prozesslandschaften voran."
+          )}
+        </p>
+
+        <div className="flex flex-wrap gap-3">
+          <a
+            href="mailto:luca@gurny.de?subject=Anfrage%20via%20lukasgurny.com"
+            className="inline-flex items-center rounded-lg bg-accent px-5 py-2.5 text-sm font-medium text-white transition-all hover:bg-accent-hover"
+          >
+            {t("Get in touch", "Kontakt")}
+          </a>
           <a
             href="/Lebenslauf_Lukas_Gurny.pdf"
             target="_blank"
@@ -68,15 +56,8 @@ export default function Hero() {
           >
             {t("Download CV", "Lebenslauf herunterladen")}
           </a>
-          <a
-            href="mailto:luca@gurny.de?subject=Anfrage%20via%20lukasgurny.com"
-            className="inline-flex items-center rounded-lg bg-accent px-5 py-2.5 text-sm font-medium text-white transition-all hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/25"
-          >
-            {t("Get in touch", "Kontakt aufnehmen")}
-          </a>
-        </motion.div>
+        </div>
       </div>
-
     </section>
   );
 }

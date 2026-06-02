@@ -44,10 +44,10 @@ export default function Navigation() {
 
           <a
             href="#fit-check"
-            className="inline-flex items-center gap-2 rounded-lg bg-accent px-4 py-1.5 text-xs font-medium text-white transition-all hover:bg-accent-hover hover:shadow-lg hover:shadow-accent/25"
+            className="inline-flex items-center gap-2 rounded-lg bg-accent px-4 py-1.5 text-xs font-medium text-white transition-colors hover:bg-accent-hover"
           >
             <ClipboardCheck size={12} />
-            Fit Check
+            {lang === "de" ? "Fit-Check" : "Fit Check"}
           </a>
         </div>
       </div>

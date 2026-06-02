@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { motion } from "framer-motion";
 import { useLanguage } from "@/lib/language-context";
 
 export default function Experience() {
@@ -9,38 +8,39 @@ export default function Experience() {
 
   const experiences = [
     {
-      company: t("Self-employed", "Selbstständig"),
-      role: t(
-        "Independent Consultant",
-        "Berater"
-      ),
+      company: t("Self-employed", "Selbständig"),
+      role: t("Consultant", "Berater"),
       location: "Berlin",
-      period: t("Mar 2025 – Present", "Mär 2025 – Heute"),
+      period: t("Mar 2025 – Present", "03/2025 – Heute"),
       logo: "/logo-gruenzucker.png",
       logoAlt: "Grünzucker",
       description: t(
-        "Three areas: multi-site operations for retail, F&B, and fitness operators scaling in Germany (playbook from 130 use-permit conversions at Gorillas); startup-sparring co-builder mandates for pre-seed to seed founders; and own products built solo via agentic engineering (BauPilot, ertragwerk.de).",
-        "Drei Bereiche: Multi-Site Operations für Retail-, F&B- und Fitness-Operatoren in Skalierung (Playbook aus 130 Nutzungsänderungen bei Gorillas), Startup-Sparring Co-Builder-Mandate für Pre-Seed- bis Seed-Founder, und eigene Produkte solo gebaut via Agentic Engineering (BauPilot, ertragwerk.de)."
+        "Three focus areas: AI strategy and use-case advisory, process automation, and startup sparring. Delivery with agentic engineering as the tool.",
+        "Drei Schwerpunkte: KI-Strategie und Use-Case-Beratung, Prozessautomatisierung sowie Startup-Sparring. Auslieferung mit Agentic Engineering als Werkzeug."
       ),
       points: [
         t(
-          "Multi-Site Operations: Pre-LOI site checks, lease redlines, end-to-end use-permit conversions. Coordinating architects, acoustics consultants, and fire safety engineers. Playbook from 130 conversions at Gorillas.",
-          "Multi-Site Operations: Pre-LOI Site-Checks, Mietvertrags-Redlines, end-to-end Nutzungsänderungen. Steuerung von Architekten, Schallgutachtern und Brandschutz-Ingenieuren. Playbook aus 130 Nutzungsänderungen bei Gorillas."
+          "AI Strategy: Use-case identification and structured evaluation, workshop facilitation for embedding generative AI and AI agents, change management during AI adoption.",
+          "KI-Strategie: Use-Case-Identifikation und strukturierte Bewertung, Workshop-Moderation zur Einbettung von Generativer KI und AI Agents, Change Management bei KI-Einführungen."
         ),
         t(
-          "Startup Sparring: Co-builder mandates for pre-seed to seed: pitch decks, investor strategy, TAM/SAM/SOM validation, financial models, GTM.",
-          "Startup-Sparring: Co-Builder-Mandate für Pre-Seed bis Seed: Pitch Decks, Investorenstrategie, TAM/SAM/SOM-Validierung, Finanzmodelle, Go-to-Market."
+          "Process Automation: Relational databases, workflow automations, and no-code architectures for operational scaling.",
+          "Prozessautomatisierung: Relationale Datenbanken, Workflow-Automatisierungen und No-Code-Architekturen für operative Skalierung."
         ),
         t(
-          "Selected mandates: GRÜNZUCKER GmbH (biotech, Fraunhofer pipeline partnership), LAP Coffee (site analysis), Halo Bagels (site plus commercial lease advisory), Everyfy (pitch deck and financial model).",
-          "Mandate (Auswahl): GRÜNZUCKER GmbH (Biotech, Fraunhofer-Pipeline-Partnerschaft), LAP Coffee (Standortanalyse), Halo Bagels (Standort plus gewerbliche Mietvertrags-Beratung), Everyfy (Pitch Deck und Finanzmodell)."
+          "Startup Sparring: Pitch decks, financial models, TAM/SAM/SOM validation, and investor relations for pre-seed to seed founders.",
+          "Startup-Sparring: Pitch Decks, Finanzmodelle, TAM/SAM/SOM-Validierung und Investor Relations für Pre-Seed- bis Seed-Founder."
+        ),
+        t(
+          "Selected mandates: GRÜNZUCKER GmbH (biotech, Fraunhofer pipeline partnership), LAP Coffee, Halo Bagels, Everyfy.",
+          "Mandate (Auswahl): GRÜNZUCKER GmbH (Biotech, Fraunhofer-Pipeline-Partnerschaft), LAP Coffee, Halo Bagels, Everyfy."
         ),
       ],
       tags: [
-        "Multi-Site",
+        t("AI Strategy", "KI-Strategie"),
+        t("Process Automation", "Prozessautomatisierung"),
+        "Startup-Sparring",
         "Agentic Engineering",
-        "Pitch Decks",
-        "Investor Relations",
       ],
     },
     {
@@ -50,7 +50,7 @@ export default function Experience() {
         "Projektentwickler, Erneuerbare Energien (DE / PL / FR)"
       ),
       location: "Berlin",
-      period: t("Mar 2024 – Mar 2025", "Mär 2024 – Mär 2025"),
+      period: t("Mar 2024 – Apr 2025", "03/2024 – 04/2025"),
       logo: "/logo-bec-energie.png",
       logoAlt: "BEC-Energie",
       description: t(
@@ -71,8 +71,8 @@ export default function Experience() {
           "Airtable-Datenbank für Projektkoordination aufgebaut, Abstimmungsaufwand um etwa 30 Prozent reduziert. Zweisprachige Unternehmenswebsite (DE/FR) auf Shopify konzipiert und gepflegt."
         ),
         t(
-          "Designed and ran AI workshops for management and operational teams. Established adoption of ChatGPT and Claude in sales and project coordination, where prior tool rollouts had failed without enablement.",
-          "KI-Workshops für Geschäftsführung und operative Teams konzipiert und durchgeführt. Adoption von ChatGPT und Claude in Vertrieb und Projektkoordination etabliert, wo vorherige Tool-Einführungen ohne Begleitung gescheitert waren."
+          "Designed and ran AI workshops for management and operational teams. Established adoption of ChatGPT and Claude in sales and project coordination.",
+          "KI-Workshops für Geschäftsführung und operative Teams konzipiert und durchgeführt. Adoption von ChatGPT und Claude in Vertrieb und Projektkoordination etabliert."
         ),
       ],
       tags: [
@@ -88,11 +88,11 @@ export default function Experience() {
         "Gorillas Technologies GmbH (acquired by Getir)"
       ),
       role: t(
-        "Real Estate Project Manager (Hyper-Growth & Post-Merger Integration)",
-        "Real Estate Project Manager (Hyper-Growth & Post-Merger Integration)"
+        "Expansions Manager (Hyper-Growth & Post-Merger Integration)",
+        "Expansions Manager (Hyper-Growth & Post-Merger Integration)"
       ),
       location: "Berlin",
-      period: t("Jul 2021 – Aug 2023", "Juli 2021 – Aug 2023"),
+      period: t("Jun 2021 – Aug 2023", "06/2021 – 08/2023"),
       logo: "/logo-gorillas.png",
       logoAlt: "Gorillas",
       description: t(
@@ -101,12 +101,12 @@ export default function Experience() {
       ),
       points: [
         t(
-          "Hyper-Growth Scaling (2021–2022): Operationally led scale-up from 20 to 150 stores across DACH. €2M buildout budget. Owned 130 use-permit conversions, building permits, and fire safety compliance across 16 German federal states.",
-          "Hyper-Growth-Skalierung (2021–2022): Skalierung von 20 auf 150 Stores in der DACH-Region operativ verantwortet. €2M Buildout-Budget. Verantwortlich für 130 Nutzungsänderungen, Bauanträge und Brandschutz in 16 Bundesländern."
+          "Hyper-Growth Scaling (2021–2022): Co-supported the scale-up from 20 to 150 stores across DACH through data-driven site analysis and process optimization. Managed a €2M buildout budget and 120 building-permit procedures across 16 German federal states.",
+          "Hyper-Growth-Skalierung (2021–2022): Skalierung von 20 auf 150 Stores in der DACH-Region durch datengetriebene Standortanalysen und Prozessoptimierungen operativ begleitet. €2M Buildout-Budget und 120 Bauantragsverfahren über 16 Bundesländer verantwortet."
         ),
         t(
-          "Post-Merger Integration (2022–2023): Led the wind-down of 90+ properties in DACH after Getir acquisition. Built tracker for team coordination and C-level progress monitoring.",
-          "Post-Merger Integration (2022–2023): Leitung des Projekts zum Abstoß von über 90 Immobilien in der DACH-Region nach Übernahme durch Getir. Aufbau eines Trackers für Teamsteuerung und C-Level-Fortschrittsmonitoring."
+          "Post-Merger Integration (2022–2023): Led the divestment of 45 commercial properties in DACH after the Getir acquisition. Built tracker for team coordination and C-level progress monitoring.",
+          "Post-Merger Integration (2022–2023): Leitung des Divestments von 45 Gewerbeimmobilien in der DACH-Region nach Übernahme durch Getir. Aufbau eines Trackers für Teamsteuerung und C-Level-Fortschrittsmonitoring."
         ),
         t(
           "Portfolio Optimization: Built data rooms and C-level reporting for the real-estate portfolio. Data-driven optimization across store performance, cost, and regulatory compliance.",
@@ -128,7 +128,7 @@ export default function Experience() {
       company: "Brasiventures",
       role: t("Founder, CBD D2C Brand", "Gründer, CBD D2C-Marke"),
       location: "Berlin",
-      period: t("Nov 2020 – Jul 2023", "Nov 2020 – Juli 2023"),
+      period: t("Nov 2020 – Jul 2023", "11/2020 – 07/2023"),
       logo: "/logo-brasiventures.png",
       logoAlt: "Brasiventures",
       description: t(
@@ -163,7 +163,7 @@ export default function Experience() {
         "Werkstudent, Operations & Business Development"
       ),
       location: "Berlin",
-      period: t("Jun 2020 – May 2021", "Jun 2020 – Mai 2021"),
+      period: t("Jun 2020 – May 2021", "06/2020 – 05/2021"),
       logo: "/logo-solarisbank.png",
       logoAlt: "Solarisbank",
       description: t(
@@ -192,19 +192,14 @@ export default function Experience() {
   return (
     <section id="experience" className="px-6 py-28">
       <div className="mx-auto max-w-4xl">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.5 }}
-        >
-          <h2 className="mb-2 font-mono text-sm text-accent">
-            {t("Experience", "Erfahrung")}
+        <div>
+          <h2 className="mb-2 text-sm font-semibold uppercase tracking-widest text-accent2">
+            {t("Experience", "Werdegang")}
           </h2>
           <h3 className="mb-14 text-2xl font-bold text-foreground-bright md:text-3xl">
-            {t("Where I've worked", "Wo ich gearbeitet habe")}
+            {t("Career", "Stationen")}
           </h3>
-        </motion.div>
+        </div>
 
         {/* Timeline layout: Logo | Line | Card */}
         <div className="relative">
@@ -213,13 +208,9 @@ export default function Experience() {
           <div className="absolute left-[5.75rem] top-12 bottom-12 w-px bg-gradient-to-b from-accent/40 via-border-bright to-border sm:left-[7rem]" />
 
           <div className="space-y-10">
-            {experiences.map((exp, i) => (
-              <motion.div
+            {experiences.map((exp) => (
+              <div
                 key={exp.company}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-100px" }}
-                transition={{ duration: 0.5, delay: i * 0.06 }}
                 className="relative flex gap-3 sm:gap-4"
               >
                 {/* Left: Logo + Date */}
@@ -248,10 +239,10 @@ export default function Experience() {
                   {/* Card header */}
                   <div className="px-5 py-4 sm:px-6">
                     <h4 className="text-base font-semibold text-foreground-bright">
-                      {exp.company}
+                      {exp.role}
                     </h4>
                     <p className="mt-0.5 text-sm text-accent">
-                      {exp.role} &middot; {exp.location}
+                      {exp.company} &middot; {exp.location}
                     </p>
                   </div>
 
@@ -285,21 +276,15 @@ export default function Experience() {
                     </div>
                   </div>
                 </div>
-              </motion.div>
+              </div>
             ))}
           </div>
         </div>
 
         {/* Education */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.5 }}
-          className="mt-24"
-        >
-          <h2 className="mb-2 font-mono text-sm text-accent2">
-            {t("Education", "Ausbildung")}
+        <div className="mt-24">
+          <h2 className="mb-2 text-sm font-semibold uppercase tracking-widest text-accent2">
+            {t("Education", "Studium")}
           </h2>
           <h3 className="mb-10 text-2xl font-bold text-foreground-bright md:text-3xl">
             {t("Academic background", "Akademischer Hintergrund")}
@@ -378,7 +363,7 @@ export default function Experience() {
               </p>
             </div>
           </div>
-        </motion.div>
+        </div>
       </div>
     </section>
   );

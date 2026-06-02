@@ -1,22 +1,18 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
 import Providers from "@/components/Providers";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "Lukas Gurny | Senior Operator · Multi-Site Scaling · Agentic Engineering",
+  title:
+    "Lukas Gurny | KI-Stratege & Digital Transformation Consultant Berlin",
   description:
-    "Senior Operator and Product/Strategy Lead in Berlin. Ex-Gorillas: 20 to 150 stores, 130 use-permit conversions, €2M buildout budget. Today building products and operational systems with AI agents as workforce. Two products live: ertragwerk.de and BauPilot.",
+    "KI-Stratege und Berater für Digitale Transformation in Berlin. Generative KI, KI-Agenten, Use-Case-Strategie und Prozessautomatisierung. Hyper-Growth-Substanz aus der Gorillas-Skalierung kombiniert mit Agentic Engineering. Use-Case-Identifikation, Change Management bei KI-Einführung und Startup-Sparring.",
 };
 
 export default function RootLayout({
@@ -27,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="de">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${inter.variable} antialiased`}
       >
         <Providers>{children}</Providers>
       </body>

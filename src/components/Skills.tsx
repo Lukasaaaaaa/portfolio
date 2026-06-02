@@ -1,178 +1,130 @@
 "use client";
 
-import { motion } from "framer-motion";
 import { useLanguage } from "@/lib/language-context";
 
 export default function Skills() {
   const { t } = useLanguage();
 
-  const skillCategories = [
+  const categories = [
     {
-      title: "Agentic Engineering",
+      title: t(
+        "Agentic Engineering & Automation",
+        "Agentic Engineering & Automatisierung"
+      ),
+      description: t(
+        "Using AI to generate SQL and Python code, with validation of the results. Conception and delivery of own AI-augmented MVPs.",
+        "Einsatz von KI zur Generierung von SQL- und Python-Code, Validierung der Ergebnisse. Konzeption und Auslieferung eigener KI-augmentierter MVPs."
+      ),
       skills: [
         "Claude Code",
         "Cursor",
         t("MCP servers", "MCP-Server"),
-        t("Spec-driven development", "Spec-driven Development"),
-        t("Multi-agent orchestration", "Multi-Agent-Orchestrierung"),
-        "Prompt Engineering",
+        t("Multi-agent orchestration", "Multi-Agenten-Orchestrierung"),
       ],
     },
     {
-      title: t("No-Code & Low-Code", "No-Code & Low-Code"),
+      title: t("Process Automation & No-Code", "Prozessautomatisierung & No-Code"),
+      description: null,
       skills: [
+        "BPMN",
+        "Workflow-Mapping",
         "Airtable",
         "Zapier",
         "Make",
+        "Power Automate",
         "Shopify",
-        t("API integrations", "API-Integrationen"),
+        "Webflow",
       ],
     },
     {
-      title: t("Data & Analysis", "Daten & Analyse"),
+      title: t("Data & Analytics", "Daten & Analytics"),
+      description: null,
       skills: [
         t("Excel (advanced)", "Excel (fortgeschritten)"),
-        t("SQL (basics)", "SQL (Grundkenntnisse)"),
-        t("Power BI (basics)", "Power BI (Grundkenntnisse)"),
-        t("Power Automate (basics)", "Power Automate (Grundkenntnisse)"),
+        "SQL",
+        "Python",
+        "Power BI",
+        "Tableau",
+        "Google Analytics",
+        "Targomo",
       ],
     },
     {
       title: t("Methods", "Methoden"),
+      description: null,
       skills: [
         "Scrum (PSM I)",
-        t("Agile project management", "Agiles Projektmanagement"),
-        "BPMN",
-        "OKR",
         "Lean",
-        "Design Thinking",
+        "OKR",
+        "Change Management",
+        "Post-Merger Integration",
+        t(
+          "Stakeholder management in regulated environments",
+          "Stakeholder-Management in regulierten Umfeldern"
+        ),
       ],
     },
     {
-      title: t("Operational Focus", "Operative Schwerpunkte"),
+      title: t("Project & Collaboration Tools", "Projekt- & Kollaborationstools"),
+      description: null,
       skills: [
-        t("Multi-site scaling in hyper-growth", "Multi-Site-Skalierung in Hyper-Growth"),
-        t("Operations Excellence", "Operations Excellence"),
-        t("Digital Transformation", "Digital Transformation"),
-        t("Mid-market change management", "Change Management im Mittelstand"),
-        t("Agentic AI in operational workflows", "Agentic AI in operativen Workflows"),
-        t("Post-merger integration", "Post-Merger Integration"),
-        t("Stakeholder management", "Stakeholder-Management"),
+        "MS Office 365",
+        "SharePoint",
+        "Jira",
+        "Asana",
+        "Confluence",
       ],
     },
     {
       title: t("Languages", "Sprachen"),
+      description: null,
       skills: [
-        t("German (native, C2)", "Deutsch (Muttersprache, C2)"),
-        t("English (full professional, C1)", "Englisch (verhandlungssicher, C1)"),
+        t("German (C2, native)", "Deutsch (C2, Muttersprache)"),
+        t(
+          "English (native / bilingual — Berlin International School, IB Bilingual)",
+          "Englisch (Native / Bilingual — Berlin International School, IB Bilingual)"
+        ),
         t("French (A2)", "Französisch (A2)"),
       ],
     },
   ];
 
   return (
-    <section id="skills" className="px-6 py-28">
+    <section id="skills" className="px-6 py-24">
       <div className="mx-auto max-w-4xl">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.5 }}
-        >
-          <h2 className="mb-2 font-mono text-sm text-accent">
-            {t("Skills", "Skills")}
+        <div>
+          <h2 className="mb-2 text-sm font-semibold uppercase tracking-widest text-accent2">
+            {t("Tools & Methods", "Werkzeuge & Methoden")}
           </h2>
-          <h3 className="mb-14 text-2xl font-bold text-foreground-bright md:text-3xl">
+          <h3 className="mb-12 text-2xl font-bold text-foreground-bright md:text-3xl">
             {t("What I work with", "Womit ich arbeite")}
           </h3>
-        </motion.div>
+        </div>
 
         <div className="grid gap-10 sm:grid-cols-2">
-          {skillCategories.map((category, i) => (
-            <motion.div
-              key={category.title}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-100px" }}
-              transition={{ duration: 0.4, delay: i * 0.08 }}
-            >
-              <h4 className="mb-4 text-xs font-semibold uppercase tracking-widest text-foreground-muted">
+          {categories.map((category) => (
+            <div key={category.title}>
+              <h4 className="mb-3 text-xs font-semibold uppercase tracking-widest text-foreground-muted">
                 {category.title}
               </h4>
+              {category.description ? (
+                <p className="mb-3 text-sm leading-relaxed text-foreground">
+                  {category.description}
+                </p>
+              ) : null}
               <div className="flex flex-wrap gap-2">
                 {category.skills.map((skill) => (
                   <span
                     key={skill}
-                    className="rounded-lg border border-border bg-surface px-3 py-1.5 text-sm transition-all hover:border-accent/30 hover:text-foreground-bright hover:shadow-[0_0_12px_-4px_rgba(76,123,217,0.2)]"
+                    className="rounded-lg border border-border bg-surface px-3 py-1.5 text-sm text-foreground transition-colors hover:border-border-bright"
                   >
                     {skill}
                   </span>
                 ))}
               </div>
-            </motion.div>
+            </div>
           ))}
         </div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.5 }}
-          className="mt-20 border-t border-border pt-14"
-        >
-          <h4 className="mb-8 text-xs font-semibold uppercase tracking-widest text-foreground-muted">
-            {t("Sport", "Sport")}
-          </h4>
-          <div className="grid gap-4 sm:grid-cols-4">
-            {[
-              {
-                emoji: "⛳",
-                title: "Golf",
-                desc: t(
-                  "Handicap 5. Team player at GC Motzen, German Golf Association.",
-                  "Handicap 5. Mannschaftsspieler im GC Motzen, DGV."
-                ),
-              },
-              {
-                emoji: "🥾",
-                title: "Mammutmarsch",
-                desc: t(
-                  "Finisher: 100 km in 24 hours.",
-                  "Absolviert: 100 km in 24 Stunden."
-                ),
-              },
-              {
-                emoji: "🎣",
-                title: t("Fishing", "Angeln"),
-                desc: t(
-                  "Patience and focus.",
-                  "Geduld und Fokus."
-                ),
-              },
-              {
-                emoji: "🍳",
-                title: t("Cooking", "Kochen"),
-                desc: t(
-                  "Process optimization with edible results.",
-                  "Prozessoptimierung mit essbarem Ergebnis."
-                ),
-              },
-            ].map((item) => (
-              <div
-                key={item.title}
-                className="rounded-xl border border-border bg-surface p-5 transition-all hover:border-border-bright"
-              >
-                <p className="mb-2 text-xl">{item.emoji}</p>
-                <p className="text-sm font-medium text-foreground-bright">
-                  {item.title}
-                </p>
-                <p className="mt-1 text-xs leading-relaxed text-foreground-muted">
-                  {item.desc}
-                </p>
-              </div>
-            ))}
-          </div>
-        </motion.div>
       </div>
     </section>
   );

@@ -1,6 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
 import { Mail, Linkedin, Github, MapPin } from "lucide-react";
 import { useLanguage } from "@/lib/language-context";
 
@@ -37,12 +36,7 @@ export default function Contact() {
   return (
     <section id="contact" className="px-6 py-28">
       <div className="mx-auto max-w-4xl">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.5 }}
-        >
+        <div>
           <h2 className="mb-2 font-mono text-sm text-accent">
             {t("Contact", "Kontakt")}
           </h2>
@@ -55,15 +49,9 @@ export default function Contact() {
               "Offen für neue Projekte und Angebote."
             )}
           </p>
-        </motion.div>
+        </div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.5, delay: 0.1 }}
-          className="grid gap-3 sm:grid-cols-2"
-        >
+        <div className="grid gap-3 sm:grid-cols-2">
           {contactLinks.map((link) => {
             const Icon = link.icon;
             const Tag = link.href ? "a" : "div";
@@ -93,7 +81,7 @@ export default function Contact() {
               </Tag>
             );
           })}
-        </motion.div>
+        </div>
       </div>
     </section>
   );
