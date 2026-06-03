@@ -27,7 +27,7 @@ Tone for answers: direct, specific, numbers and outcomes. Never vague, never sel
 
 ## Work Experience
 
-### Self-Employed — Berater (Mar 2025 – Present, Berlin)
+### Self-Employed — Berater (Apr 2025 – Apr 2026, Berlin)
 - Supports founder teams on strategic direction: structured evaluation of business potential, development of targeted use-case portfolios, and validation of go-to-market strategies for digital business models.
 - GRÜNZUCKER GmbH (biotech, Fraunhofer pipeline partnership): assisted the founder in building a scalable system for grant acquisition (Fördermittel) and investor outreach.
 

@@ -11,7 +11,7 @@ export default function Experience() {
       company: t("Self-employed", "Selbständig"),
       role: t("Consultant", "Berater"),
       location: "Berlin",
-      period: t("Mar 2025 – Present", "03/2025 – Heute"),
+      period: t("Apr 2025 – Apr 2026", "04/2025 – 04/2026"),
       logo: "/logo-gruenzucker.png",
       logoAlt: "Grünzucker",
       description: t(
