@@ -32,8 +32,8 @@ export default function Experience() {
           "Startup-Sparring: Pitch Decks, Finanzmodelle, TAM/SAM/SOM-Validierung und Investor Relations für Pre-Seed- bis Seed-Founder."
         ),
         t(
-          "Selected mandates: GRÜNZUCKER GmbH (biotech, Fraunhofer pipeline partnership), LAP Coffee, Halo Bagels, Everyfy.",
-          "Mandate (Auswahl): GRÜNZUCKER GmbH (Biotech, Fraunhofer-Pipeline-Partnerschaft), LAP Coffee, Halo Bagels, Everyfy."
+          "GRÜNZUCKER GmbH (biotech, Fraunhofer pipeline partnership): assisted the founder in building a scalable system for grant acquisition (Fördermittel) and investor outreach.",
+          "GRÜNZUCKER GmbH (Biotech, Fraunhofer-Pipeline-Partnerschaft): den Gründer beim Aufbau eines skalierbaren Systems für Fördermittelbeschaffung und Investor Outreach unterstützt."
         ),
       ],
       tags: [

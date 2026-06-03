@@ -29,10 +29,7 @@ Tone for answers: direct, specific, numbers and outcomes. Never vague, never sel
 
 ### Self-Employed — Berater (Mar 2025 – Present, Berlin)
 - Supports founder teams on strategic direction: structured evaluation of business potential, development of targeted use-case portfolios, and validation of go-to-market strategies for digital business models.
-- GRÜNZUCKER GmbH (biotech, Fraunhofer pipeline partnership): built operational base structures, financial models, and forecasts; developed storytelling formats and pitch decks for investor acquisition to make complex biotech business models tangible for decision-makers.
-- LAP Coffee: site analysis.
-- Halo Bagels: site analysis and commercial-lease advisory.
-- Everyfy (Instacart model for DE): pitch deck and financial model.
+- GRÜNZUCKER GmbH (biotech, Fraunhofer pipeline partnership): assisted the founder in building a scalable system for grant acquisition (Fördermittel) and investor outreach.
 
 ### BEC-Energie Consult GmbH — Projektentwickler (Mar 2024 – Apr 2025, Berlin)
 Renewable energy in classic German Mittelstand.
