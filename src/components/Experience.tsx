@@ -137,10 +137,6 @@ export default function Experience() {
       ),
       points: [
         t(
-          "Solo-built a D2C brand from scratch: product development, packaging, Shopify store, distribution to Berlin kiosks and specialty retail.",
-          "Solo-Aufbau einer D2C-Marke von Null: Produktentwicklung, Verpackung, Shopify-Store, Distribution an Berliner Kioske und Fachhandel."
-        ),
-        t(
           "Six-figure revenue across three years as sole operator.",
           "Sechsstelliger Umsatz über drei Jahre als alleiniger Operator."
         ),
